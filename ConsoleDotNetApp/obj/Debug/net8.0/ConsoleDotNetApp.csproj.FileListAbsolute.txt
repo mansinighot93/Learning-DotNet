@@ -1,0 +1,15 @@
+D:\Learning C#\Learning-DotNet\ConsoleDotNetApp\bin\Debug\net8.0\ConsoleDotNetApp.exe
+D:\Learning C#\Learning-DotNet\ConsoleDotNetApp\bin\Debug\net8.0\ConsoleDotNetApp.deps.json
+D:\Learning C#\Learning-DotNet\ConsoleDotNetApp\bin\Debug\net8.0\ConsoleDotNetApp.runtimeconfig.json
+D:\Learning C#\Learning-DotNet\ConsoleDotNetApp\bin\Debug\net8.0\ConsoleDotNetApp.dll
+D:\Learning C#\Learning-DotNet\ConsoleDotNetApp\bin\Debug\net8.0\ConsoleDotNetApp.pdb
+D:\Learning C#\Learning-DotNet\ConsoleDotNetApp\obj\Debug\net8.0\ConsoleDotNetApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Learning C#\Learning-DotNet\ConsoleDotNetApp\obj\Debug\net8.0\ConsoleDotNetApp.AssemblyInfoInputs.cache
+D:\Learning C#\Learning-DotNet\ConsoleDotNetApp\obj\Debug\net8.0\ConsoleDotNetApp.AssemblyInfo.cs
+D:\Learning C#\Learning-DotNet\ConsoleDotNetApp\obj\Debug\net8.0\ConsoleDotNetApp.csproj.CoreCompileInputs.cache
+D:\Learning C#\Learning-DotNet\ConsoleDotNetApp\obj\Debug\net8.0\ConsoleDotNetApp.sourcelink.json
+D:\Learning C#\Learning-DotNet\ConsoleDotNetApp\obj\Debug\net8.0\ConsoleDotNetApp.dll
+D:\Learning C#\Learning-DotNet\ConsoleDotNetApp\obj\Debug\net8.0\refint\ConsoleDotNetApp.dll
+D:\Learning C#\Learning-DotNet\ConsoleDotNetApp\obj\Debug\net8.0\ConsoleDotNetApp.pdb
+D:\Learning C#\Learning-DotNet\ConsoleDotNetApp\obj\Debug\net8.0\ConsoleDotNetApp.genruntimeconfig.cache
+D:\Learning C#\Learning-DotNet\ConsoleDotNetApp\obj\Debug\net8.0\ref\ConsoleDotNetApp.dll
