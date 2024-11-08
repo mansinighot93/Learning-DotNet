@@ -8,8 +8,9 @@ string company = "Transflower";
 DateTime dateTime = DateTime.Now;
 Person person = new Person();
 Person person1 = new Person("Anaya","Nighot",23);
-Employee employee = new Employee();
-Employee2 emp = new Employee2("Manasi Nighot","manasi.nighot@gmail.com",9561128566);
+Employee employee = new Employee("Manasi","nighot",22,1,20.0,23,30.00);
+
+//Employee2 emp = new Employee2("Manasi Nighot","manasi.nighot@gmail.com",9561128566);
 
 
 Console.WriteLine(company);
@@ -21,4 +22,4 @@ Console.WriteLine("Hello, World!\n");
 person.show();
 person1.show();
 employee.show();
-emp.show();
+//emp.show();

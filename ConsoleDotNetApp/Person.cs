@@ -22,6 +22,7 @@ namespace ConsoleDotNetApp
         }
         public Person(string firstname,string lastname,int age)
         {
+            Console.WriteLine("Person Parametrized Constructor\n");
             this.firstname = firstname;
             this.lastname = lastname;
             this.age = age;
@@ -29,6 +30,7 @@ namespace ConsoleDotNetApp
 
         public void show()
         {
+            Console.WriteLine("Person Show Method\n");
             Console.WriteLine(this.firstname +" ,"+ this.lastname);
         }
     }
