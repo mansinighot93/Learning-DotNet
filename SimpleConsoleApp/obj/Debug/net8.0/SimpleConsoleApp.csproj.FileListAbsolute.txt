@@ -1,0 +1,15 @@
+D:\Learning C#\Learning-DotNet\SimpleConsoleApp\obj\Debug\net8.0\SimpleConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Learning C#\Learning-DotNet\SimpleConsoleApp\obj\Debug\net8.0\SimpleConsoleApp.AssemblyInfoInputs.cache
+D:\Learning C#\Learning-DotNet\SimpleConsoleApp\obj\Debug\net8.0\SimpleConsoleApp.AssemblyInfo.cs
+D:\Learning C#\Learning-DotNet\SimpleConsoleApp\obj\Debug\net8.0\SimpleConsoleApp.csproj.CoreCompileInputs.cache
+D:\Learning C#\Learning-DotNet\SimpleConsoleApp\obj\Debug\net8.0\SimpleConsoleApp.sourcelink.json
+D:\Learning C#\Learning-DotNet\SimpleConsoleApp\bin\Debug\net8.0\SimpleConsoleApp.exe
+D:\Learning C#\Learning-DotNet\SimpleConsoleApp\bin\Debug\net8.0\SimpleConsoleApp.deps.json
+D:\Learning C#\Learning-DotNet\SimpleConsoleApp\bin\Debug\net8.0\SimpleConsoleApp.runtimeconfig.json
+D:\Learning C#\Learning-DotNet\SimpleConsoleApp\bin\Debug\net8.0\SimpleConsoleApp.dll
+D:\Learning C#\Learning-DotNet\SimpleConsoleApp\bin\Debug\net8.0\SimpleConsoleApp.pdb
+D:\Learning C#\Learning-DotNet\SimpleConsoleApp\obj\Debug\net8.0\SimpleConsoleApp.dll
+D:\Learning C#\Learning-DotNet\SimpleConsoleApp\obj\Debug\net8.0\refint\SimpleConsoleApp.dll
+D:\Learning C#\Learning-DotNet\SimpleConsoleApp\obj\Debug\net8.0\SimpleConsoleApp.pdb
+D:\Learning C#\Learning-DotNet\SimpleConsoleApp\obj\Debug\net8.0\SimpleConsoleApp.genruntimeconfig.cache
+D:\Learning C#\Learning-DotNet\SimpleConsoleApp\obj\Debug\net8.0\ref\SimpleConsoleApp.dll
