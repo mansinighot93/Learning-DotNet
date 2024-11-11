@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HelloApp
+namespace Catalog
 {
     public class Product
     {
