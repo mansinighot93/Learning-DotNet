@@ -25,5 +25,9 @@ namespace Banking
         {
             balance = balance - amount;
         }
+        //Always override to convert object state into string
+        public override string ToString() { 
+            return balance.ToString();
+        }
     }
 }

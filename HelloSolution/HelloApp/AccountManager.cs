@@ -28,7 +28,7 @@ namespace Membership
             theCustomer.ContactNumber = contactnumber;
             theCustomer.Location = location;
 
-            theCustomer = null;
+            //theCustomer = null;
 
             if(theCustomer != null)
             {
