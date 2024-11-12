@@ -15,10 +15,10 @@ namespace HelloApp
             Person person = new Person("Manasi","Nighot",bdate);
             Console.WriteLine(person);
 
-            Employee employee = new Employee("Manasi", "Nighot", bdate,2,"Teacher",25000,28);
+            Employee employee = new SalesEmployee("Manasi","Nighot",bdate,2,"Teacher",25000,28,5000);
             float salary = employee.CalculateSalary();
-            Console.WriteLine("Salary : {0}",salary);
-
+            Console.WriteLine("Manasi Nighot : Salary : {0}",salary);
+             
             Console.ReadLine();
         }
     }
