@@ -9,7 +9,7 @@ namespace HR
     public class SalesEmployee : Employee
     {
         public float Incentive { get; set; }
-        public SalesEmployee(string fname,string lname,DateTime bdate,int id,string dept,float bSalary,int daysWorked,float incentive):base(fname,lname,bdate,id,dept,bSalary,daysWorked,incentive)
+        public SalesEmployee(string fname,string lname,DateTime bdate,int id,string dept,float bSalary,int daysWorked,float incentive):base(fname,lname,bdate,id,dept,bSalary,daysWorked)
         {
             this.Incentive = incentive;
         }
