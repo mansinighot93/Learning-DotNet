@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>HelloApp.BoxingUnboxingTest</StartupObject>
+    <StartupObject>HelloApp.ConstReadOnlyTest</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -51,6 +51,7 @@
     <Compile Include="BankTest.cs" />
     <Compile Include="BoxingUnboxingTest.cs" />
     <Compile Include="Cart.cs" />
+    <Compile Include="ConstReadOnlyTest.cs" />
     <Compile Include="Customer.cs" />
     <Compile Include="Employee.cs" />
     <Compile Include="EmployeeTest.cs" />
