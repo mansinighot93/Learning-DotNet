@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HelloApp
+namespace OrderProcessing
 {
-    internal class DeliveryManager
+    public class Class1
     {
     }
 }

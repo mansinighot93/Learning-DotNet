@@ -1,0 +1,2 @@
+D:\Learning C#\Learning-DotNet\HelloSolution\ClassLibraryApp\obj\Debug\ClassLibraryApp.csproj.AssemblyReference.cache
+D:\Learning C#\Learning-DotNet\HelloSolution\ClassLibraryApp\obj\Debug\ClassLibraryApp.csproj.CoreCompileInputs.cache
