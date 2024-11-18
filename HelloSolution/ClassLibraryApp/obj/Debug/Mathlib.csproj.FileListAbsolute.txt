@@ -1,0 +1,6 @@
+D:\Learning C#\Learning-DotNet\HelloSolution\ClassLibraryApp\obj\Debug\Mathlib.csproj.AssemblyReference.cache
+D:\Learning C#\Learning-DotNet\HelloSolution\ClassLibraryApp\obj\Debug\Mathlib.csproj.CoreCompileInputs.cache
+D:\Learning C#\Learning-DotNet\HelloSolution\ClassLibraryApp\bin\Debug\ClassLibraryApp.dll
+D:\Learning C#\Learning-DotNet\HelloSolution\ClassLibraryApp\bin\Debug\ClassLibraryApp.pdb
+D:\Learning C#\Learning-DotNet\HelloSolution\ClassLibraryApp\obj\Debug\ClassLibraryApp.dll
+D:\Learning C#\Learning-DotNet\HelloSolution\ClassLibraryApp\obj\Debug\ClassLibraryApp.pdb

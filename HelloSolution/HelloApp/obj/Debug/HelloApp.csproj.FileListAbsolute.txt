@@ -5,3 +5,8 @@ D:\Learning C#\Learning-DotNet\HelloSolution\HelloApp\obj\Debug\HelloApp.csproj.
 D:\Learning C#\Learning-DotNet\HelloSolution\HelloApp\obj\Debug\HelloApp.csproj.CoreCompileInputs.cache
 D:\Learning C#\Learning-DotNet\HelloSolution\HelloApp\obj\Debug\HelloApp.exe
 D:\Learning C#\Learning-DotNet\HelloSolution\HelloApp\obj\Debug\HelloApp.pdb
+D:\Learning C#\Learning-DotNet\HelloSolution\HelloApp\bin\Debug\ClassLibraryApp.dll
+D:\Learning C#\Learning-DotNet\HelloSolution\HelloApp\bin\Debug\ClassLibraryApp.pdb
+D:\Learning C#\Learning-DotNet\HelloSolution\HelloApp\obj\Debug\HelloApp.csproj.Up2Date
+D:\Learning C#\Learning-DotNet\HelloSolution\HelloApp\bin\Debug\HR.dll
+D:\Learning C#\Learning-DotNet\HelloSolution\HelloApp\bin\Debug\HR.pdb
