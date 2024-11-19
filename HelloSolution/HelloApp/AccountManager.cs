@@ -7,6 +7,17 @@ using System.Threading.Tasks;
 
 namespace Membership
 {
+    //Singleton pattern
+    //allow only one instance of a class to be created
+    //1.define private constructor:
+        //private static class_name _ref = null;
+
+    //2.keep slef refernce as satatic variable to class
+    //3.create instance of class verifying refernce nullability with the help of static method
+        //public static class_name getmanager(){ if(_ref == null)
+        //_ref = new class_name();return _ref;
+        //else{
+        //return _ref;}}
     public static class AccountManager
     {
         public static bool Login(string userName, string password)
