@@ -24,10 +24,10 @@ namespace HelloApp
     {
         static void Main(string[] args)
         {
-            Customer mgr1, mgr2;
-            mgr1 = Customer.GetCustomer();
-            mgr2 = Customer.GetCustomer();
-            Console.WriteLine(mgr1);
+            //Customer mgr1, mgr2;
+           // mgr1 = Customer.GetCustomer();
+           // mgr2 = Customer.GetCustomer();
+           // Console.WriteLine(mgr1);
 
             Product product1 = new Product(1, "Rose", "Valentine Flower", 4500, 20);
             Product product2 = new Product(2, "Gerbera", "Weeding Flower", 450, 10);
@@ -37,12 +37,14 @@ namespace HelloApp
             List<Item> cartItem = new List<Item>();
             DateTime ordDate = DateTime.Now;
             
-            Customer cust1 = Customer.GetCustomer();
+            //Customer cust1 = Customer.GetCustomer();
             Cart cart1 = new Cart();
             cart1.AddToCart(item1);
             Cart cart2 = new Cart();
             cart2.AddToCart(item2);
+            //List<Item>cartItem=cart1.Item;
             // Order theOrder = newPurchaseOrder(1001,ordDate,Customer1,CartItem);
+
             //mgr1.Order.Add(theOrder);
 
             

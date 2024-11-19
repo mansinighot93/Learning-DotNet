@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>HelloApp.ConstReadOnlyTest</StartupObject>
+    <StartupObject>HelloApp.DelegationText</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -53,6 +53,7 @@
     <Compile Include="Cart.cs" />
     <Compile Include="ConstReadOnlyTest.cs" />
     <Compile Include="Customer.cs" />
+    <Compile Include="DelegationText.cs" />
     <Compile Include="EmployeeTest.cs" />
     <Compile Include="Item.cs" />
     <Compile Include="LanguageTest.cs" />
@@ -60,6 +61,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SecurityTest.cs" />
+    <Compile Include="SingletonTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
