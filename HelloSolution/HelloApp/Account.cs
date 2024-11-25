@@ -23,10 +23,13 @@ namespace Banking
         public void Deposite(float amount)
         {
             balance = balance + amount;
+            Monitor();
+
         }
         public void Withdraw(float amount)
         {
             balance = balance - amount;
+            Monitor();
         }
 
         public void Monitor()
