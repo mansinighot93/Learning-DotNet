@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>HelloApp.DelegationText</StartupObject>
+    <StartupObject>HelloApp.EventDemoTest</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -55,6 +55,8 @@
     <Compile Include="Customer.cs" />
     <Compile Include="DelegationText.cs" />
     <Compile Include="EmployeeTest.cs" />
+    <Compile Include="Event.cs" />
+    <Compile Include="EventDemoTest.cs" />
     <Compile Include="Item.cs" />
     <Compile Include="LanguageTest.cs" />
     <Compile Include="Product.cs" />

@@ -6,9 +6,12 @@ using System.Threading.Tasks;
 
 namespace Banking
 {
+    public delegate void AccountHandler();
     public class Account
     {
         private float balance;
+        public event AccountHandler underbalnce;
+        public event AccountHandler overbalnce;
         public float Balance
         {
             get { return balance; }
@@ -24,6 +27,18 @@ namespace Banking
         public void Withdraw(float amount)
         {
             balance = balance - amount;
+        }
+
+        public void Monitor()
+        {
+            if (balance < 5000)
+            {
+                underbalnce();
+            }
+            else if(balance >= 25000)
+            {
+                overbalnce();
+            }
         }
         //Always override to convert object state into string
         public override string ToString() { 
