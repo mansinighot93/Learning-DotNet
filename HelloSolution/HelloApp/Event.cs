@@ -5,7 +5,7 @@ using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Eventhandler
+namespace HelloApp
 {
     
     public delegate void EventHandler();
@@ -14,8 +14,9 @@ namespace Eventhandler
         private float balance;
         public event EventHandler underbalnce;
         public event EventHandler overbalnce; 
-        public void Monitoring()
+        public Event(float balance)
         {
+            this.balance = balance;
             if(balance < 5000)
             {
                 underbalnce();

@@ -3,12 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Eventhandler;
+
 namespace HelloApp
 {
     //Define Delegate
-    //public  delegate void Handler();
-
+    public  delegate void Handler();
     //Delegate at like a function pointer
     //Delegate is a wrapper for the function pointer in C#
     //Delegate always match the signature of those function which would be call as a runtime
@@ -36,8 +35,8 @@ namespace HelloApp
             PayProffesionalTax();
 
             //Late Binding
-            EventHandler operation1 = null;
-            operation1 = new EventHandler(PayIncomeTax);
+            Handler operation1 = null;
+            operation1 = new Handler(PayIncomeTax);
             //operation1();
 
             Handler operation2 = null;
