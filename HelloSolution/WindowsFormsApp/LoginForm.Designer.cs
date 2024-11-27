@@ -238,7 +238,7 @@
             this.button2.TabIndex = 16;
             this.button2.Text = "Cancle";
             this.button2.UseVisualStyleBackColor = true;
-           // this.button2.Click += new System.EventHandler(this.OnCancle);
+            this.button2.Click += new System.EventHandler(this.OnCancle);
             // 
             // button1
             // 

@@ -35,12 +35,12 @@ namespace WindowsFormsApp
                 MessageBox.Show("Invalid User,Please Try Again.!");
             }
         }
-        /*
+        
         private void OnCancle(object sender, EventArgs e)
         {
             this.Close();
         }
-
+        /*
         private void OnFileExit(object sender, EventArgs e)
         {
             this.Close();
