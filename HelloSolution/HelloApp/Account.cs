@@ -32,15 +32,15 @@ namespace Banking
             Monitor();
         }
 
-        public void Monitor()
+        public void Monitor()//observer
         {
             if (balance < 5000)
             {
-                underbalnce();
+                underbalnce();//invoking event
             }
             else if(balance >= 25000)
             {
-                overbalnce();
+                overbalnce();//invoking event
             }
         }
         //Always override to convert object state into string
