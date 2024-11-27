@@ -238,7 +238,7 @@
             this.button2.TabIndex = 16;
             this.button2.Text = "Cancle";
             this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.OnCancle);
+           // this.button2.Click += new System.EventHandler(this.OnCancle);
             // 
             // button1
             // 
@@ -354,7 +354,7 @@
             this.openToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
             this.openToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.openToolStripMenuItem.Text = "&Open";
-            this.openToolStripMenuItem.Click += new System.EventHandler(this.OnOpenFile);
+            //this.openToolStripMenuItem.Click += new System.EventHandler(this.OnOpenFile);
             // 
             // toolStripSeparator
             // 
@@ -375,7 +375,7 @@
             this.saveAsToolStripMenuItem.Name = "saveAsToolStripMenuItem";
             this.saveAsToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.saveAsToolStripMenuItem.Text = "Save &As";
-            this.saveAsToolStripMenuItem.Click += new System.EventHandler(this.OnFileSaveAs);
+            //this.saveAsToolStripMenuItem.Click += new System.EventHandler(this.OnFileSaveAs);
             // 
             // toolStripSeparator1
             // 
@@ -409,7 +409,7 @@
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
             this.exitToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.exitToolStripMenuItem.Text = "E&xit";
-            this.exitToolStripMenuItem.Click += new System.EventHandler(this.OnFileExit);
+           // this.exitToolStripMenuItem.Click += new System.EventHandler(this.OnFileExit);
             // 
             // LoginForm
             // 

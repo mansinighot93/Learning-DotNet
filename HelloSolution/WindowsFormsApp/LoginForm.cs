@@ -20,7 +20,7 @@ namespace WindowsFormsApp
 
         private void OnLogin(object sender, EventArgs e)
         {
-            MessageBox.Show("Button is Click");
+            //MessageBox.Show("Button is Click");
             string userName = this.textBox1.Text;
             string password = this.textBox2.Text;
             bool status;
@@ -35,7 +35,7 @@ namespace WindowsFormsApp
                 MessageBox.Show("Invalid User,Please Try Again.!");
             }
         }
-
+        /*
         private void OnCancle(object sender, EventArgs e)
         {
             this.Close();
@@ -56,6 +56,6 @@ namespace WindowsFormsApp
         {
             SaveFileDialog ofd = new SaveFileDialog();
             ofd.ShowDialog();
-        }
+        }*/
     }
 }

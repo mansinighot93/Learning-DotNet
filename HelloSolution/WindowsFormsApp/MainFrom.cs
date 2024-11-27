@@ -18,6 +18,8 @@ namespace WindowsFormsApp
         public MainFrom()
         {
             InitializeComponent();//Code is wriiten in seperate designer.cs file
+            LoginForm frm = new LoginForm();
+            frm.ShowDialog();
         }
         //Event Handler
         //Developer should focus more on handling events with the help of event handler
