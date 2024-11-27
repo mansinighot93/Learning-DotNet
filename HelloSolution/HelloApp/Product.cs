@@ -17,7 +17,6 @@ namespace Catalog
         //Read only Property
         public int ID
         {
-            set { this.id = value; }
             get { return this.id;}
         }
         public string Title
