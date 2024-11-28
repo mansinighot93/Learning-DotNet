@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>HelloApp.EventDemoTest</StartupObject>
+    <StartupObject>HelloApp.LinqTest</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -59,6 +59,7 @@
     <Compile Include="EventDemoTest.cs" />
     <Compile Include="Item.cs" />
     <Compile Include="LanguageTest.cs" />
+    <Compile Include="LinqTest.cs" />
     <Compile Include="Product.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

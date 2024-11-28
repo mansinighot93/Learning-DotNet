@@ -9,7 +9,7 @@ namespace BLL
 {
     public static class BuissnessManager
     {
-        public static List<Product> GetProducts()
+        public static List<Product> GetAllProducts()
         {
             List<Product> allProducts = new List<Product>();
             allProducts.Add(new Product(id: 1,title: "Gerbera",description: "Wedding Flower", unitPrice: 500,quantity: 12));
@@ -18,6 +18,18 @@ namespace BLL
             allProducts.Add(new Product(id: 4, title: "Aster", description: "Wedding Flower", unitPrice: 20, quantity: 1));
 
             return allProducts;
+        }
+        public static List<Product> GetSoldProducts()
+        {
+            //Apply filter 
+            //Apply some buissness query
+            //LINQ:Language Integrated Query
+            //Var kwyword is dynamic query from C# 
+            List<Product> products = GetAllProducts();
+            var soldOutProducts = from product in products
+                                  where product.Qunatity == 0
+                                  select product;
+            return soldOutProducts as List<Product>;
         }
     }
 }

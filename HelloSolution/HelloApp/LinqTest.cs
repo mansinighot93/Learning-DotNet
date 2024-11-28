@@ -9,11 +9,20 @@ namespace HelloApp
 {
     public class LinqTest
     {
-        List<Product> allProducts = BuissnessManager.GetAllProducts();
-        foreach(Product theProduct in allProducts)
+        static void Main(string[] args)
         {
-            Console.WriteLine(theProduct.Title);
-        }
-        Console.ReadLine();
+            //will act like console UI
+            List<Product> allProducts = BuissnessManager.GetAllProducts();
+            List<Product> allSoldOutProduct = BuissnessManager.GetSoldProduct();
+            foreach (Product theProduct in allProducts)
+            {
+                Console.WriteLine(theProduct.Title);
+            }
+            foreach (Product theProduct in allSoldOutProduct)
+            {
+                Console.WriteLine(theProduct.Title);
+            }
+            Console.ReadLine();
+        }        
     }
 }
