@@ -9,6 +9,24 @@ namespace BLL
 {
     public static class BuissnessManager
     {
+        public static List<Product> GetDataFromDatabase()
+        {
+            List<Product> allProducts = new List<Product>();
+            //Invoke backend data into .NET application 
+            //Needed database connectivity
+            //You need to use:
+            //1.Ado.NET Object Model(JDBC) (Activec Data Object or
+            //2. Entity Framework (Hibernet)
+
+            //Connect to database
+            //Qurey against database using SQL
+            //get resultset from Query Processing
+            //Create List of Products from resultset
+            //return list of products
+
+            return allProducts;
+            
+        }
         public static List<Product> GetAllProducts()
         {
             List<Product> allProducts = new List<Product>();
@@ -19,16 +37,19 @@ namespace BLL
 
             return allProducts;
         }
-        public static List<Product> GetSoldProducts()
+        
+        public static IEnumerable<Product> GetSoldOutProducts()
         {
             //Apply filter 
             //Apply some buissness query
             //LINQ:Language Integrated Query
             //Var kwyword is dynamic query from C# 
             List<Product> products = GetAllProducts();
-            var soldOutProducts = from product in products select product;
-            return soldOutProducts as List<Product>;
-            //return products;
+                var soldOutProducts = from product in products 
+                                      where product.Qunatity == 0
+                                      select product;
+                return soldOutProducts;
         }
     }
 }
+

@@ -64,17 +64,19 @@ namespace HelloApp
             /* same using var keyword
              var allSoldOutProducts = from product in allProducts
                                                       where product.Qunatity == 0
-                                                      select product;*/
+                                                      select product;
 
             IEnumerable<Product> allSoldOutProducts = from product in allProducts
                                                       where product.Qunatity < 5000
-                                                      select product;
+                                                      select product;*/
 
+            IEnumerable<Product> allSoldOutProducts = BuissnessManager.GetSoldOutProducts();
             Console.WriteLine("Show only those product title which are not sold out");
             foreach (Product theProduct in allSoldOutProducts)
             {
                 Console.WriteLine(theProduct.title + "," +theProduct.Qunatity);
             }
+         
             Console.ReadLine();
         }
     }
