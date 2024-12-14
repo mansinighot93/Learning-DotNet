@@ -1,9 +1,9 @@
-﻿using Catalog;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Catalog;
 
 namespace BLL
 {
@@ -26,10 +26,9 @@ namespace BLL
             //LINQ:Language Integrated Query
             //Var kwyword is dynamic query from C# 
             List<Product> products = GetAllProducts();
-            var soldOutProducts = from product in products
-                                  where product.Qunatity == 0
-                                  select product;
-            return soldOutProducts as List<Product>;
+            var soldOutProducts = from product in products select product;
+            //return soldOutProducts as List<Product>;
+            return products;
         }
     }
 }

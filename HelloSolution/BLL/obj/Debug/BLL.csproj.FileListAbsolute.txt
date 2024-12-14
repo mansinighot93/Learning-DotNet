@@ -1,12 +1,9 @@
 D:\Learning C#\Learning-DotNet\HelloSolution\BLL\bin\Debug\BLL.dll
 D:\Learning C#\Learning-DotNet\HelloSolution\BLL\bin\Debug\BLL.pdb
-D:\Learning C#\Learning-DotNet\HelloSolution\BLL\bin\Debug\HelloApp.exe
-D:\Learning C#\Learning-DotNet\HelloSolution\BLL\bin\Debug\HR.dll
-D:\Learning C#\Learning-DotNet\HelloSolution\BLL\bin\Debug\HelloApp.pdb
-D:\Learning C#\Learning-DotNet\HelloSolution\BLL\bin\Debug\HelloApp.exe.config
-D:\Learning C#\Learning-DotNet\HelloSolution\BLL\bin\Debug\HR.pdb
 D:\Learning C#\Learning-DotNet\HelloSolution\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
 D:\Learning C#\Learning-DotNet\HelloSolution\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
 D:\Learning C#\Learning-DotNet\HelloSolution\BLL\obj\Debug\BLL.csproj.Up2Date
 D:\Learning C#\Learning-DotNet\HelloSolution\BLL\obj\Debug\BLL.dll
 D:\Learning C#\Learning-DotNet\HelloSolution\BLL\obj\Debug\BLL.pdb
+D:\Learning C#\Learning-DotNet\HelloSolution\BLL\bin\Debug\Catalog.dll
+D:\Learning C#\Learning-DotNet\HelloSolution\BLL\bin\Debug\Catalog.pdb

@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Catalog
 {
+
     [Serializable]
     public class Product
     {
@@ -18,7 +19,7 @@ namespace Catalog
         //Read only Property
         public int ID
         {
-            get { return this.id;}
+            get { return this.id; }
         }
         public string Title
         {
@@ -32,30 +33,33 @@ namespace Catalog
         }
         public double UnitPrice
         {
-            get { return this.unitPrice;}
-            set { this.unitPrice = value;}
+            get { return this.unitPrice; }
+            set { this.unitPrice = value; }
         }
         public int Qunatity
         {
             get { return this.qunatity; }
-            set { this.qunatity = value;}
+            set { this.qunatity = value; }
         }
 
-        public Product() { 
+        public Product()
+        {
 
         }
-        public Product(int id,string title, string description, double unitPrice,int quantity)
+        public Product(int id, string title, string description, double unitPrice, int quantity)
         {
             this.id = id;
             this.title = title;
             this.description = description;
-            this.unitPrice = unitPrice;  
-            this.qunatity= quantity;
+            this.unitPrice = unitPrice;
+            this.qunatity = quantity;
         }
-        ~Product() { 
-        
+        ~Product()
+        {
+
         }
-        public override string ToString() { 
+        public override string ToString()
+        {
             return this.id + " " + this.title + " " + this.description + " " + this.unitPrice + " " + this.qunatity;
         }
     }

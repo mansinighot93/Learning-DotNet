@@ -13,7 +13,7 @@ namespace HelloApp
         {
             //will act like console UI
             List<Product> allProducts = BuissnessManager.GetAllProducts();
-            List<Product> allSoldOutProduct = BuissnessManager.GetSoldProduct();
+            List<Product> allSoldOutProduct = BuissnessManager.GetSoldProducts();
             foreach (Product theProduct in allProducts)
             {
                 Console.WriteLine(theProduct.Title);

@@ -1,0 +1,6 @@
+D:\Learning C#\Learning-DotNet\HelloSolution\Catalog\bin\Debug\Catalog.dll
+D:\Learning C#\Learning-DotNet\HelloSolution\Catalog\bin\Debug\Catalog.pdb
+D:\Learning C#\Learning-DotNet\HelloSolution\Catalog\obj\Debug\Catalog.csproj.AssemblyReference.cache
+D:\Learning C#\Learning-DotNet\HelloSolution\Catalog\obj\Debug\Catalog.csproj.CoreCompileInputs.cache
+D:\Learning C#\Learning-DotNet\HelloSolution\Catalog\obj\Debug\Catalog.dll
+D:\Learning C#\Learning-DotNet\HelloSolution\Catalog\obj\Debug\Catalog.pdb

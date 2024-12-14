@@ -45,13 +45,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\HelloApp\HelloApp.csproj">
-      <Project>{5bc6e827-3c93-4a66-ae7c-6750f4099da9}</Project>
-      <Name>HelloApp</Name>
-    </ProjectReference>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <ItemGroup>
-    <WCFMetadata Include="Connected Services\" />
+    <ProjectReference Include="..\Catalog\Catalog.csproj">
+      <Project>{a94380ce-d672-4a7c-bfa2-59bc0cb9acad}</Project>
+      <Name>Catalog</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -10,3 +10,7 @@ D:\Learning C#\Learning-DotNet\HelloSolution\HelloApp\bin\Debug\ClassLibraryApp.
 D:\Learning C#\Learning-DotNet\HelloSolution\HelloApp\obj\Debug\HelloApp.csproj.Up2Date
 D:\Learning C#\Learning-DotNet\HelloSolution\HelloApp\bin\Debug\HR.dll
 D:\Learning C#\Learning-DotNet\HelloSolution\HelloApp\bin\Debug\HR.pdb
+D:\Learning C#\Learning-DotNet\HelloSolution\HelloApp\bin\Debug\BLL.dll
+D:\Learning C#\Learning-DotNet\HelloSolution\HelloApp\bin\Debug\Catalog.dll
+D:\Learning C#\Learning-DotNet\HelloSolution\HelloApp\bin\Debug\BLL.pdb
+D:\Learning C#\Learning-DotNet\HelloSolution\HelloApp\bin\Debug\Catalog.pdb
