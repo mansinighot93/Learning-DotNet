@@ -10,6 +10,8 @@ namespace DAL
 {
     public static class CatalogDBManager
     {
+        //CRUD Operation
+        //Read
         public static IEnumerable<Product> GetAllProducts()
         {
             //Invoke backend data into .NET application 
@@ -68,6 +70,30 @@ namespace DAL
                 }
             }
             return allProducts;
+        }
+
+       //Create
+        public static bool Insert(Product theProduct)
+        {
+            //Logic for Insertion
+            bool status = false;
+            return status;
+        }
+
+        //Update
+        public static bool Update(Product theProduct)
+        {
+            //Logic for Updation
+            bool status = false;
+            return status;
+        }
+
+        //Delete
+        public static bool Delete(Product theProduct)
+        {
+            //Logic for Deletion
+            bool status = false;
+            return status;
         }
     }
 }
