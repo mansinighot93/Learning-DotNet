@@ -27,8 +27,8 @@ namespace BLL
             //Var kwyword is dynamic query from C# 
             List<Product> products = GetAllProducts();
             var soldOutProducts = from product in products select product;
-            //return soldOutProducts as List<Product>;
-            return products;
+            return soldOutProducts as List<Product>;
+            //return products;
         }
     }
 }
