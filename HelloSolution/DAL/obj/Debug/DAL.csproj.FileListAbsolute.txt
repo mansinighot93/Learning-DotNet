@@ -1,0 +1,9 @@
+D:\Learning C#\Learning-DotNet\HelloSolution\DAL\bin\Debug\DAL.dll
+D:\Learning C#\Learning-DotNet\HelloSolution\DAL\bin\Debug\DAL.pdb
+D:\Learning C#\Learning-DotNet\HelloSolution\DAL\bin\Debug\Catalog.dll
+D:\Learning C#\Learning-DotNet\HelloSolution\DAL\bin\Debug\Catalog.pdb
+D:\Learning C#\Learning-DotNet\HelloSolution\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\Learning C#\Learning-DotNet\HelloSolution\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\Learning C#\Learning-DotNet\HelloSolution\DAL\obj\Debug\DAL.csproj.Up2Date
+D:\Learning C#\Learning-DotNet\HelloSolution\DAL\obj\Debug\DAL.dll
+D:\Learning C#\Learning-DotNet\HelloSolution\DAL\obj\Debug\DAL.pdb

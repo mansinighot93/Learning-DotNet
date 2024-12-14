@@ -11,11 +11,11 @@ namespace HelloApp
         {
 
             //will act like console UI
-            List<Product> allProducts = BuissnessManager.GetAllProducts();
+            IEnumerable<Product> allProducts = BuissnessManager.GetAllProducts();
             //List<Product> allSoldOutProduct = BuissnessManager.GetSoldProducts();
             foreach (Product theProduct in allProducts)
             {
-                Console.WriteLine(theProduct.Title);
+                Console.WriteLine(theProduct.Title + " " + theProduct.Qunatity);
             }
             /* foreach (Product theProduct in allSoldOutProduct)
              {

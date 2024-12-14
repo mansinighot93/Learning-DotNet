@@ -7,3 +7,5 @@ D:\Learning C#\Learning-DotNet\HelloSolution\BLL\obj\Debug\BLL.dll
 D:\Learning C#\Learning-DotNet\HelloSolution\BLL\obj\Debug\BLL.pdb
 D:\Learning C#\Learning-DotNet\HelloSolution\BLL\bin\Debug\Catalog.dll
 D:\Learning C#\Learning-DotNet\HelloSolution\BLL\bin\Debug\Catalog.pdb
+D:\Learning C#\Learning-DotNet\HelloSolution\BLL\bin\Debug\DAL.dll
+D:\Learning C#\Learning-DotNet\HelloSolution\BLL\bin\Debug\DAL.pdb
