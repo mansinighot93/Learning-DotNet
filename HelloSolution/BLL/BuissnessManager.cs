@@ -14,8 +14,8 @@ namespace BLL
             List<Product> allProducts = new List<Product>();
             allProducts.Add(new Product(id: 1,title: "Gerbera",description: "Wedding Flower", unitPrice: 500,quantity: 12));
             allProducts.Add(new Product(id: 2, title: "Rose", description: "Valentine Flower", unitPrice: 1500, quantity: 32));
-            allProducts.Add(new Product(id: 3, title: "Lotus", description: "Worship Flower", unitPrice: 50, quantity: 3));
-            allProducts.Add(new Product(id: 4, title: "Aster", description: "Wedding Flower", unitPrice: 20, quantity: 1));
+            allProducts.Add(new Product(id: 3, title: "Lotus", description: "Worship Flower", unitPrice: 50, quantity: 0));
+            allProducts.Add(new Product(id: 4, title: "Aster", description: "Wedding Flower", unitPrice: 20, quantity: 0));
 
             return allProducts;
         }
