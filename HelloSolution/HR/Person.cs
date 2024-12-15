@@ -12,7 +12,8 @@ namespace HR
         public int x;
         public int y;
     }
-    public class Person
+    //Deterministic Finalization
+    public class Person:IDisposable
     {
         //Refernces to inherits
         public Person() {
@@ -33,10 +34,23 @@ namespace HR
         public override string ToString() {
             return FirstName + " " + LastName + " " + BirthDate;
         }
+        public void Dispose()
+        {
+            //Deinitializing system resources before object get destroyed
+            //Releasing system resources which where used
+            //database connection
+            //multiple threads
+            //files
+            GC.SuppressFinalize(this);
+        }
 
         ~Person()
         {
-
+            //Deinitializing system resources before object get destroyed
+            //Releasing system resources which where used
+            //database connection
+            //multiple threads
+            //files
         }
     }
 }

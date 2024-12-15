@@ -10,10 +10,18 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            for (int i = 0; i < 5000; i++)
+            //Determinstic Finalization is always handled by garbage collection--->explicitly disposing resources by main thread
+            //Inderministic Finalization ---> calling destructor for releasing resources by GC
+            using (Person thePerson = new Person("Manasi", "Nighot", new DateTime(2003, 06, 21)))
             {
-                Person thePerson = new Person("MAnasi", "Nighot", new DateTime(2003, 06, 21));
-                Console.WriteLine(thePerson);
+                for (int i = 0; i < 5000; i++)
+                {
+                    Console.WriteLine(thePerson);
+                }
+                // GC.SuppressFinalize(thePerson);//blocks calling destructor
+                //GC is Garbage Collection class is singleton
+                // GC.WaitForPendingFinalizers();
+                //  GC.Collect();//make to the request of garbage collector
             }
             Console.ReadLine();
         }
