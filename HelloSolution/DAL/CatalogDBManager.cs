@@ -10,6 +10,8 @@ namespace DAL
 {
     public static class CatalogDBManager
     {
+
+        public static string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=""D:\Learning C#\Learning-DotNet\HelloSolution\HelloApp\Ecommerce.mdf"";Integrated Security=True";
         //CRUD Operation
         //Read
         public static IEnumerable<Product> GetAllProducts()
@@ -22,8 +24,7 @@ namespace DAL
 
             List<Product> allProducts = new List<Product>();
             IDbConnection con = new SqlConnection();
-            con.ConnectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=""D:\Learning C#\Learning-DotNet\HelloSolution\HelloApp\Ecommerce.mdf"";Integrated Security=True";
-            //1.Connect to database
+            con.ConnectionString = connectionString;
             //Qurey against database using SQL
             //get resultset from Query Processing
             //Create List of Products from resultset
@@ -77,7 +78,7 @@ namespace DAL
         {
             List<Product> allProducts = new List<Product>();
             IDbConnection con = new SqlConnection();
-            con.ConnectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=""D:\Learning C#\Learning-DotNet\HelloSolution\HelloApp\Ecommerce.mdf"";Integrated Security=True";
+            con.ConnectionString = connectionString;
             //1.Connect to database
             //Qurey against database using SQL
             //get resultset from Query Processing
@@ -131,6 +132,30 @@ namespace DAL
         {
             //Logic for Insertion
             bool status = false;
+            //using connected data access mode
+            try
+            {
+                IDbConnection con = new SqlConnection();
+                con.ConnectionString = connectionString;
+                IDbCommand cmd = new SqlCommand();
+                string query = "INSERT INTO flowers(ProductID,title,description,price,quantity)" + 
+                               "VALUES(@id,@Title,@Description,@Price,@Quantity)";
+                cmd.CommandText = query;
+                cmd.Parameters.Add(new SqlParameter("@id",theProduct.id));
+                cmd.Parameters.Add(new SqlParameter("@Title", theProduct.Title));
+                cmd.Parameters.Add(new SqlParameter("@Description", theProduct.Description));
+                cmd.Parameters.Add(new SqlParameter("@Price", theProduct.UnitPrice));
+                cmd.Parameters.Add(new SqlParameter("@Quantity", theProduct.Qunatity));
+
+                cmd.ExecuteNonQuery();
+                status = true;
+                if(con.State == ConnectionState.Open)
+                    con.Close();
+            }
+            catch (SqlException exp)
+            {
+                string message = exp.Message;
+            }
             return status;
         }
 
@@ -139,14 +164,55 @@ namespace DAL
         {
             //Logic for Updation
             bool status = false;
+            try
+            {
+                IDbConnection con = new SqlConnection();
+                con.ConnectionString = connectionString;
+                string query = "UPDATE flowers SET title=@Title,description=@Description,price=@Price,quantity=@Quantity" +
+                    "WHERE productID=@id";
+                IDbCommand cmd = new SqlCommand();
+                cmd.CommandText = query;
+                cmd.Parameters.Add(new SqlParameter("@id", theProduct.id));
+                cmd.Parameters.Add(new SqlParameter("@Title", theProduct.Title));
+                cmd.Parameters.Add(new SqlParameter("@Description", theProduct.Description));
+                cmd.Parameters.Add(new SqlParameter("@Price", theProduct.UnitPrice));
+                cmd.Parameters.Add(new SqlParameter("@Quantity", theProduct.Qunatity));
+
+                cmd.ExecuteNonQuery();
+                status = true;
+                if (con.State == ConnectionState.Open)
+                    con.Close();
+            }
+            catch (SqlException exp)
+            {
+                string message = exp.Message;
+            }
             return status;
         }
 
         //Delete
-        public static bool Delete(Product theProduct)
+        public static bool Delete(int productID)
         {
             //Logic for Deletion
             bool status = false;
+            try
+            {
+                IDbConnection con = new SqlConnection();
+                con.ConnectionString = connectionString;
+                IDbCommand cmd = new SqlCommand();
+                string query = "DELETE FROM flowers WHERE productID=@id";
+                cmd.CommandText = query;
+                cmd.Parameters.Add(new SqlParameter("@id", productID));
+                
+                cmd.ExecuteNonQuery();
+                status = true;
+                if (con.State == ConnectionState.Open)
+                    con.Close();
+            }
+            catch (SqlException exp)
+            {
+                string message = exp.Message;
+            }
             return status;
         }
     }
