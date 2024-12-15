@@ -37,6 +37,7 @@ namespace DAL
             
             try
             {
+                //using connected data access of ado.NET
                 con.Open();
                 reader = cmd.ExecuteReader();
                 while (reader.Read())
@@ -68,6 +69,59 @@ namespace DAL
                 {
                     con.Close();
                 }
+            }
+            return allProducts;
+        }
+
+        public static IEnumerable<Product> GetAllProductUsingDisconnected()
+        {
+            List<Product> allProducts = new List<Product>();
+            IDbConnection con = new SqlConnection();
+            con.ConnectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=""D:\Learning C#\Learning-DotNet\HelloSolution\HelloApp\Ecommerce.mdf"";Integrated Security=True";
+            //1.Connect to database
+            //Qurey against database using SQL
+            //get resultset from Query Processing
+            //Create List of Products from resultset
+            //return list of products
+            IDbCommand cmd = new SqlCommand();
+            string query = "SELECT * FROM flowers";
+            cmd.Connection = con;
+            cmd.CommandText = query;
+
+            try
+            {
+                DataSet ds = new DataSet();
+                //Empty DataSet
+                SqlDataAdapter da = new SqlDataAdapter(cmd as SqlCommand);
+                da.Fill(ds);
+                //Data will be filled with results recived from database
+                //Dataset is collection of DataTable object retirved
+                //from database after fill method
+
+                DataTable dt = ds.Tables[0];
+                //DataTable is a collection of DataRow object
+
+                foreach (DataRow dataRow in dt.Rows)
+                {
+                    int id = int.Parse(dataRow["ProductID"].ToString());
+                    string title = dataRow["title"].ToString();
+                    string description = dataRow["description"].ToString();
+                    int price = int.Parse(dataRow["price"].ToString());
+                    int quantity = int.Parse(dataRow["quantity"].ToString());
+
+                    allProducts.Add(new Product()
+                    {
+                        id = id,
+                        Title = title,
+                        Description = description,
+                        UnitPrice = price,
+                        Qunatity = quantity
+                    });
+                }
+            }
+            catch (SqlException exp)
+            {
+                string message = exp.Message;
             }
             return allProducts;
         }
