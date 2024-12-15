@@ -14,6 +14,45 @@ namespace DAL
         public static string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=""D:\Learning C#\Learning-DotNet\HelloSolution\HelloApp\Ecommerce.mdf"";Integrated Security=True";
         //CRUD Operation
         //Read
+        public static bool GetProductByID(int productId)
+        {
+            //Logic for Deletion
+            try
+            {
+                IDbConnection con = new SqlConnection();
+                con.ConnectionString = connectionString;
+                IDbCommand cmd = new SqlCommand();
+                cmd.Connection = con;
+                string query = "SELECT * FROM flowers WHERE productID=@id";
+                cmd.CommandText = query;
+                cmd.Parameters.Add(new SqlParameter("@id", productId));
+                con.Open();
+                IDataReader reader = cmd.ExecuteReader();
+                if (reader.Read())
+                {
+                    int id = int.Parse(reader["ProductID"].ToString());
+                    string title = reader["title"].ToString();
+                    string description = reader["description"].ToString();
+                    int price = int.Parse(reader["price"].ToString());
+                    int quantity = int.Parse(reader["quantity"].ToString());
+                    Product theProduct = new Product
+                    {
+                        id = id,
+                        Title = title,
+                        Description = description,
+                        UnitPrice = price,
+                        Qunatity = quantity
+                    };
+                }
+                if (con.State == ConnectionState.Open)
+                    con.Close();
+            }
+            catch (SqlException exp)
+            {
+                string message = exp.Message;
+            }
+            return theProduct;
+        }
         public static IEnumerable<Product> GetAllProducts()
         {
             //Invoke backend data into .NET application 
@@ -138,6 +177,7 @@ namespace DAL
                 IDbConnection con = new SqlConnection();
                 con.ConnectionString = connectionString;
                 IDbCommand cmd = new SqlCommand();
+                cmd.Connection = con;
                 string query = "INSERT INTO flowers(ProductID,title,description,price,quantity)" + 
                                "VALUES(@id,@Title,@Description,@Price,@Quantity)";
                 cmd.CommandText = query;
@@ -146,7 +186,7 @@ namespace DAL
                 cmd.Parameters.Add(new SqlParameter("@Description", theProduct.Description));
                 cmd.Parameters.Add(new SqlParameter("@Price", theProduct.UnitPrice));
                 cmd.Parameters.Add(new SqlParameter("@Quantity", theProduct.Qunatity));
-
+                con.Open();
                 cmd.ExecuteNonQuery();
                 status = true;
                 if(con.State == ConnectionState.Open)
@@ -171,13 +211,14 @@ namespace DAL
                 string query = "UPDATE flowers SET title=@Title,description=@Description,price=@Price,quantity=@Quantity" +
                     "WHERE productID=@id";
                 IDbCommand cmd = new SqlCommand();
+                cmd.Connection = con;
                 cmd.CommandText = query;
-                cmd.Parameters.Add(new SqlParameter("@id", theProduct.id));
+                cmd.Parameters.Add(new SqlParameter("@id", (int)theProduct.id));
                 cmd.Parameters.Add(new SqlParameter("@Title", theProduct.Title));
                 cmd.Parameters.Add(new SqlParameter("@Description", theProduct.Description));
-                cmd.Parameters.Add(new SqlParameter("@Price", theProduct.UnitPrice));
-                cmd.Parameters.Add(new SqlParameter("@Quantity", theProduct.Qunatity));
-
+                cmd.Parameters.Add(new SqlParameter("@Price", (int)theProduct.UnitPrice));
+                cmd.Parameters.Add(new SqlParameter("@Quantity", (int)theProduct.Qunatity));
+                con.Open();
                 cmd.ExecuteNonQuery();
                 status = true;
                 if (con.State == ConnectionState.Open)
@@ -200,10 +241,11 @@ namespace DAL
                 IDbConnection con = new SqlConnection();
                 con.ConnectionString = connectionString;
                 IDbCommand cmd = new SqlCommand();
+                cmd.Connection = con;
                 string query = "DELETE FROM flowers WHERE productID=@id";
                 cmd.CommandText = query;
                 cmd.Parameters.Add(new SqlParameter("@id", productID));
-                
+                con.Open();
                 cmd.ExecuteNonQuery();
                 status = true;
                 if (con.State == ConnectionState.Open)

@@ -14,6 +14,13 @@ namespace HelloApp
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Database Connectivity Program");
+
+            bool status = false;
+            Product theProduct = BuissnessManager.GetProduct(2);
+            theProduct.UnitPrice = 99;
+            theProduct.Qunatity = 150;
+            status = BuissnessManager.UpdateProduct(theProduct);
+            //status = BuissnessManager.DeleProduct(5);
             IEnumerable<Product> allProducts = BuissnessManager.GetAllProducts();
             foreach (Product product in allProducts)
             {

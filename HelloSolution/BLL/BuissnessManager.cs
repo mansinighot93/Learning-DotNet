@@ -56,6 +56,20 @@ namespace BLL
                                       select product;
                 return soldOutProducts;
         }
+
+        public static Product GetProduct(int id)
+        {
+            return CatalogDBManager.GetProductByID(id);
+        }
+
+        public static bool UpdateProduct(Product theProduct)
+        {
+            return CatalogDBManager.Update(theProduct);
+        }
+        public static bool DeleteProduct(int id)
+        {
+            return CatalogDBManager.Delete(id);
+        }
     }
 }
 
