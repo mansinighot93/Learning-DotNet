@@ -57,7 +57,7 @@ namespace BLL
                 return soldOutProducts;
         }
 
-        public static Product GetProduct(int id)
+        public static bool GetProduct(int id)
         {
             return CatalogDBManager.GetProductByID(id);
         }

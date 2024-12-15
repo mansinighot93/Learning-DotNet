@@ -33,5 +33,10 @@ namespace HR
         public override string ToString() {
             return FirstName + " " + LastName + " " + BirthDate;
         }
+
+        ~Person()
+        {
+
+        }
     }
 }
