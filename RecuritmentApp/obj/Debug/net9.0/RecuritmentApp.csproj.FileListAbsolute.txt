@@ -1,0 +1,15 @@
+D:\Learning C#\Learning-DotNet\RecuritmentApp\obj\Debug\net9.0\RecuritmentApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Learning C#\Learning-DotNet\RecuritmentApp\obj\Debug\net9.0\RecuritmentApp.AssemblyInfoInputs.cache
+D:\Learning C#\Learning-DotNet\RecuritmentApp\obj\Debug\net9.0\RecuritmentApp.AssemblyInfo.cs
+D:\Learning C#\Learning-DotNet\RecuritmentApp\obj\Debug\net9.0\RecuritmentApp.csproj.CoreCompileInputs.cache
+D:\Learning C#\Learning-DotNet\RecuritmentApp\obj\Debug\net9.0\RecuritmentApp.sourcelink.json
+D:\Learning C#\Learning-DotNet\RecuritmentApp\bin\Debug\net9.0\RecuritmentApp.exe
+D:\Learning C#\Learning-DotNet\RecuritmentApp\bin\Debug\net9.0\RecuritmentApp.deps.json
+D:\Learning C#\Learning-DotNet\RecuritmentApp\bin\Debug\net9.0\RecuritmentApp.runtimeconfig.json
+D:\Learning C#\Learning-DotNet\RecuritmentApp\bin\Debug\net9.0\RecuritmentApp.dll
+D:\Learning C#\Learning-DotNet\RecuritmentApp\bin\Debug\net9.0\RecuritmentApp.pdb
+D:\Learning C#\Learning-DotNet\RecuritmentApp\obj\Debug\net9.0\RecuritmentApp.dll
+D:\Learning C#\Learning-DotNet\RecuritmentApp\obj\Debug\net9.0\refint\RecuritmentApp.dll
+D:\Learning C#\Learning-DotNet\RecuritmentApp\obj\Debug\net9.0\RecuritmentApp.pdb
+D:\Learning C#\Learning-DotNet\RecuritmentApp\obj\Debug\net9.0\RecuritmentApp.genruntimeconfig.cache
+D:\Learning C#\Learning-DotNet\RecuritmentApp\obj\Debug\net9.0\ref\RecuritmentApp.dll
