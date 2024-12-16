@@ -1,6 +1,7 @@
 ﻿using System;
 namespace Recuritment
 {
+    //Buissness Entity
     public class Resume
     {
         public string Name{get;set;}
@@ -14,6 +15,7 @@ namespace Recuritment
     }
 
     //Singleton class
+    //Buissness Process Management
     public class JobPortal
     {
         private static JobPortal portal = new JobPortal();
