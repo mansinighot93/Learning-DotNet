@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Qnz1jcdJD036uDD3JFyofRBfHV+jw2UwBOAVDdbnmvQ=",
+  "Hash": "mfjfXhCWgYYZ02zBFiXTRwpAIExn99PU70F1V8U+L/k=",
   "Source": "LearningwebApp",
   "BasePath": "_content/LearningwebApp",
   "Mode": "Default",
@@ -941,12 +941,12 @@
       "OriginalItemSpec": "D:\\Learning C#\\Learning-DotNet\\LearningwebApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "D:\\Learning C#\\Learning-DotNet\\LearningwebApp\\obj\\Debug\\net9.0\\compressed\\piw5zwe235-v99k0ohddg.gz",
+      "Identity": "D:\\Learning C#\\Learning-DotNet\\LearningwebApp\\obj\\Debug\\net9.0\\compressed\\piw5zwe235-mfhu6syjc5.gz",
       "SourceId": "LearningwebApp",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Learning C#\\Learning-DotNet\\LearningwebApp\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/LearningwebApp",
-      "RelativePath": "LearningwebApp#[.{fingerprint=v99k0ohddg}]?.styles.css.gz",
+      "RelativePath": "LearningwebApp#[.{fingerprint=mfhu6syjc5}]?.styles.css.gz",
       "AssetKind": "All",
       "AssetMode": "CurrentProject",
       "AssetRole": "Alternative",
@@ -955,8 +955,8 @@
       "RelatedAsset": "D:\\Learning C#\\Learning-DotNet\\LearningwebApp\\obj\\Debug\\net9.0\\scopedcss\\bundle\\LearningwebApp.styles.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "37euw33wm3",
-      "Integrity": "X98QA6W3cycE25eK292GRry6WsbcNT+JXPrwGNzyih8=",
+      "Fingerprint": "zld00lzpb0",
+      "Integrity": "5ygOQOwILJ5Hh2K1hDJqO+UyEvFzbgrTaq4OwyrDt9k=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\Learning C#\\Learning-DotNet\\LearningwebApp\\obj\\Debug\\net9.0\\scopedcss\\bundle\\LearningwebApp.styles.css"
@@ -1172,12 +1172,12 @@
       "OriginalItemSpec": "D:\\Learning C#\\Learning-DotNet\\LearningwebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "D:\\Learning C#\\Learning-DotNet\\LearningwebApp\\obj\\Debug\\net9.0\\compressed\\uwcx9pejdl-v99k0ohddg.gz",
+      "Identity": "D:\\Learning C#\\Learning-DotNet\\LearningwebApp\\obj\\Debug\\net9.0\\compressed\\uwcx9pejdl-mfhu6syjc5.gz",
       "SourceId": "LearningwebApp",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Learning C#\\Learning-DotNet\\LearningwebApp\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/LearningwebApp",
-      "RelativePath": "LearningwebApp#[.{fingerprint=v99k0ohddg}]!.bundle.scp.css.gz",
+      "RelativePath": "LearningwebApp#[.{fingerprint=mfhu6syjc5}]!.bundle.scp.css.gz",
       "AssetKind": "All",
       "AssetMode": "Reference",
       "AssetRole": "Alternative",
@@ -1186,8 +1186,8 @@
       "RelatedAsset": "D:\\Learning C#\\Learning-DotNet\\LearningwebApp\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\LearningwebApp.bundle.scp.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "37euw33wm3",
-      "Integrity": "X98QA6W3cycE25eK292GRry6WsbcNT+JXPrwGNzyih8=",
+      "Fingerprint": "zld00lzpb0",
+      "Integrity": "5ygOQOwILJ5Hh2K1hDJqO+UyEvFzbgrTaq4OwyrDt9k=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\Learning C#\\Learning-DotNet\\LearningwebApp\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\LearningwebApp.bundle.scp.css"
@@ -1375,8 +1375,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "v99k0ohddg",
-      "Integrity": "8xtEYc1VEDQYBcjtKzFEywsmCvqf6iW41NKkX9crJiE=",
+      "Fingerprint": "mfhu6syjc5",
+      "Integrity": "PrbXHLUgp1qxJWLULVwGY6u9VKYAA3gTnFEGIqClTIc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\Learning C#\\Learning-DotNet\\LearningwebApp\\obj\\Debug\\net9.0\\scopedcss\\bundle\\LearningwebApp.styles.css"
@@ -1396,8 +1396,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "v99k0ohddg",
-      "Integrity": "8xtEYc1VEDQYBcjtKzFEywsmCvqf6iW41NKkX9crJiE=",
+      "Fingerprint": "mfhu6syjc5",
+      "Integrity": "PrbXHLUgp1qxJWLULVwGY6u9VKYAA3gTnFEGIqClTIc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\Learning C#\\Learning-DotNet\\LearningwebApp\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\LearningwebApp.bundle.scp.css"
@@ -3623,12 +3623,12 @@
     },
     {
       "Route": "LearningwebApp.bundle.scp.css",
-      "AssetFile": "D:\\Learning C#\\Learning-DotNet\\LearningwebApp\\obj\\Debug\\net9.0\\compressed\\uwcx9pejdl-v99k0ohddg.gz",
+      "AssetFile": "D:\\Learning C#\\Learning-DotNet\\LearningwebApp\\obj\\Debug\\net9.0\\compressed\\uwcx9pejdl-mfhu6syjc5.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001706484642"
+          "Quality": "0.001730103806"
         }
       ],
       "ResponseHeaders": [
@@ -3638,15 +3638,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "585"
+          "Value": "577"
         },
         {
           "Name": "ETag",
-          "Value": "\"X98QA6W3cycE25eK292GRry6WsbcNT+JXPrwGNzyih8=\""
+          "Value": "\"5ygOQOwILJ5Hh2K1hDJqO+UyEvFzbgrTaq4OwyrDt9k=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 17 Dec 2024 07:34:44 GMT"
+          "Value": "Tue, 17 Dec 2024 17:10:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3666,13 +3666,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"8xtEYc1VEDQYBcjtKzFEywsmCvqf6iW41NKkX9crJiE=\""
+          "Value": "W/\"PrbXHLUgp1qxJWLULVwGY6u9VKYAA3gTnFEGIqClTIc=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-8xtEYc1VEDQYBcjtKzFEywsmCvqf6iW41NKkX9crJiE="
+          "Value": "sha256-PrbXHLUgp1qxJWLULVwGY6u9VKYAA3gTnFEGIqClTIc="
         }
       ]
     },
@@ -3687,7 +3687,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1253"
+          "Value": "1230"
         },
         {
           "Name": "Content-Type",
@@ -3695,11 +3695,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"8xtEYc1VEDQYBcjtKzFEywsmCvqf6iW41NKkX9crJiE=\""
+          "Value": "\"PrbXHLUgp1qxJWLULVwGY6u9VKYAA3gTnFEGIqClTIc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 17 Dec 2024 07:34:44 GMT"
+          "Value": "Tue, 17 Dec 2024 17:10:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3709,13 +3709,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-8xtEYc1VEDQYBcjtKzFEywsmCvqf6iW41NKkX9crJiE="
+          "Value": "sha256-PrbXHLUgp1qxJWLULVwGY6u9VKYAA3gTnFEGIqClTIc="
         }
       ]
     },
     {
       "Route": "LearningwebApp.bundle.scp.css.gz",
-      "AssetFile": "D:\\Learning C#\\Learning-DotNet\\LearningwebApp\\obj\\Debug\\net9.0\\compressed\\uwcx9pejdl-v99k0ohddg.gz",
+      "AssetFile": "D:\\Learning C#\\Learning-DotNet\\LearningwebApp\\obj\\Debug\\net9.0\\compressed\\uwcx9pejdl-mfhu6syjc5.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3724,7 +3724,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "585"
+          "Value": "577"
         },
         {
           "Name": "Content-Type",
@@ -3732,11 +3732,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"X98QA6W3cycE25eK292GRry6WsbcNT+JXPrwGNzyih8=\""
+          "Value": "\"5ygOQOwILJ5Hh2K1hDJqO+UyEvFzbgrTaq4OwyrDt9k=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 17 Dec 2024 07:34:44 GMT"
+          "Value": "Tue, 17 Dec 2024 17:10:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3754,18 +3754,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-X98QA6W3cycE25eK292GRry6WsbcNT+JXPrwGNzyih8="
+          "Value": "sha256-5ygOQOwILJ5Hh2K1hDJqO+UyEvFzbgrTaq4OwyrDt9k="
         }
       ]
     },
     {
-      "Route": "LearningwebApp.styles.css",
-      "AssetFile": "D:\\Learning C#\\Learning-DotNet\\LearningwebApp\\obj\\Debug\\net9.0\\compressed\\piw5zwe235-v99k0ohddg.gz",
+      "Route": "LearningwebApp.mfhu6syjc5.bundle.scp.css",
+      "AssetFile": "D:\\Learning C#\\Learning-DotNet\\LearningwebApp\\obj\\Debug\\net9.0\\compressed\\uwcx9pejdl-mfhu6syjc5.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001706484642"
+          "Quality": "0.001730103806"
         }
       ],
       "ResponseHeaders": [
@@ -3775,152 +3775,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "585"
+          "Value": "577"
         },
         {
           "Name": "ETag",
-          "Value": "\"X98QA6W3cycE25eK292GRry6WsbcNT+JXPrwGNzyih8=\""
+          "Value": "\"5ygOQOwILJ5Hh2K1hDJqO+UyEvFzbgrTaq4OwyrDt9k=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 17 Dec 2024 07:34:44 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"8xtEYc1VEDQYBcjtKzFEywsmCvqf6iW41NKkX9crJiE=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-8xtEYc1VEDQYBcjtKzFEywsmCvqf6iW41NKkX9crJiE="
-        }
-      ]
-    },
-    {
-      "Route": "LearningwebApp.styles.css",
-      "AssetFile": "D:\\Learning C#\\Learning-DotNet\\LearningwebApp\\obj\\Debug\\net9.0\\scopedcss\\bundle\\LearningwebApp.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1253"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"8xtEYc1VEDQYBcjtKzFEywsmCvqf6iW41NKkX9crJiE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 17 Dec 2024 07:34:44 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-8xtEYc1VEDQYBcjtKzFEywsmCvqf6iW41NKkX9crJiE="
-        }
-      ]
-    },
-    {
-      "Route": "LearningwebApp.styles.css.gz",
-      "AssetFile": "D:\\Learning C#\\Learning-DotNet\\LearningwebApp\\obj\\Debug\\net9.0\\compressed\\piw5zwe235-v99k0ohddg.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "585"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"X98QA6W3cycE25eK292GRry6WsbcNT+JXPrwGNzyih8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 17 Dec 2024 07:34:44 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-X98QA6W3cycE25eK292GRry6WsbcNT+JXPrwGNzyih8="
-        }
-      ]
-    },
-    {
-      "Route": "LearningwebApp.v99k0ohddg.bundle.scp.css",
-      "AssetFile": "D:\\Learning C#\\Learning-DotNet\\LearningwebApp\\obj\\Debug\\net9.0\\compressed\\uwcx9pejdl-v99k0ohddg.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.001706484642"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "585"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"X98QA6W3cycE25eK292GRry6WsbcNT+JXPrwGNzyih8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 17 Dec 2024 07:34:44 GMT"
+          "Value": "Tue, 17 Dec 2024 17:10:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3940,13 +3803,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"8xtEYc1VEDQYBcjtKzFEywsmCvqf6iW41NKkX9crJiE=\""
+          "Value": "W/\"PrbXHLUgp1qxJWLULVwGY6u9VKYAA3gTnFEGIqClTIc=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "v99k0ohddg"
+          "Value": "mfhu6syjc5"
         },
         {
           "Name": "label",
@@ -3954,12 +3817,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-8xtEYc1VEDQYBcjtKzFEywsmCvqf6iW41NKkX9crJiE="
+          "Value": "sha256-PrbXHLUgp1qxJWLULVwGY6u9VKYAA3gTnFEGIqClTIc="
         }
       ]
     },
     {
-      "Route": "LearningwebApp.v99k0ohddg.bundle.scp.css",
+      "Route": "LearningwebApp.mfhu6syjc5.bundle.scp.css",
       "AssetFile": "D:\\Learning C#\\Learning-DotNet\\LearningwebApp\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\LearningwebApp.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3969,7 +3832,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1253"
+          "Value": "1230"
         },
         {
           "Name": "Content-Type",
@@ -3977,11 +3840,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"8xtEYc1VEDQYBcjtKzFEywsmCvqf6iW41NKkX9crJiE=\""
+          "Value": "\"PrbXHLUgp1qxJWLULVwGY6u9VKYAA3gTnFEGIqClTIc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 17 Dec 2024 07:34:44 GMT"
+          "Value": "Tue, 17 Dec 2024 17:10:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3991,7 +3854,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "v99k0ohddg"
+          "Value": "mfhu6syjc5"
         },
         {
           "Name": "label",
@@ -3999,13 +3862,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-8xtEYc1VEDQYBcjtKzFEywsmCvqf6iW41NKkX9crJiE="
+          "Value": "sha256-PrbXHLUgp1qxJWLULVwGY6u9VKYAA3gTnFEGIqClTIc="
         }
       ]
     },
     {
-      "Route": "LearningwebApp.v99k0ohddg.bundle.scp.css.gz",
-      "AssetFile": "D:\\Learning C#\\Learning-DotNet\\LearningwebApp\\obj\\Debug\\net9.0\\compressed\\uwcx9pejdl-v99k0ohddg.gz",
+      "Route": "LearningwebApp.mfhu6syjc5.bundle.scp.css.gz",
+      "AssetFile": "D:\\Learning C#\\Learning-DotNet\\LearningwebApp\\obj\\Debug\\net9.0\\compressed\\uwcx9pejdl-mfhu6syjc5.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4014,7 +3877,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "585"
+          "Value": "577"
         },
         {
           "Name": "Content-Type",
@@ -4022,11 +3885,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"X98QA6W3cycE25eK292GRry6WsbcNT+JXPrwGNzyih8=\""
+          "Value": "\"5ygOQOwILJ5Hh2K1hDJqO+UyEvFzbgrTaq4OwyrDt9k=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 17 Dec 2024 07:34:44 GMT"
+          "Value": "Tue, 17 Dec 2024 17:10:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4044,7 +3907,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "v99k0ohddg"
+          "Value": "mfhu6syjc5"
         },
         {
           "Name": "label",
@@ -4052,18 +3915,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-X98QA6W3cycE25eK292GRry6WsbcNT+JXPrwGNzyih8="
+          "Value": "sha256-5ygOQOwILJ5Hh2K1hDJqO+UyEvFzbgrTaq4OwyrDt9k="
         }
       ]
     },
     {
-      "Route": "LearningwebApp.v99k0ohddg.styles.css",
-      "AssetFile": "D:\\Learning C#\\Learning-DotNet\\LearningwebApp\\obj\\Debug\\net9.0\\compressed\\piw5zwe235-v99k0ohddg.gz",
+      "Route": "LearningwebApp.mfhu6syjc5.styles.css",
+      "AssetFile": "D:\\Learning C#\\Learning-DotNet\\LearningwebApp\\obj\\Debug\\net9.0\\compressed\\piw5zwe235-mfhu6syjc5.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001706484642"
+          "Quality": "0.001730103806"
         }
       ],
       "ResponseHeaders": [
@@ -4073,15 +3936,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "585"
+          "Value": "577"
         },
         {
           "Name": "ETag",
-          "Value": "\"X98QA6W3cycE25eK292GRry6WsbcNT+JXPrwGNzyih8=\""
+          "Value": "\"5ygOQOwILJ5Hh2K1hDJqO+UyEvFzbgrTaq4OwyrDt9k=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 17 Dec 2024 07:34:44 GMT"
+          "Value": "Tue, 17 Dec 2024 17:10:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4101,13 +3964,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"8xtEYc1VEDQYBcjtKzFEywsmCvqf6iW41NKkX9crJiE=\""
+          "Value": "W/\"PrbXHLUgp1qxJWLULVwGY6u9VKYAA3gTnFEGIqClTIc=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "v99k0ohddg"
+          "Value": "mfhu6syjc5"
         },
         {
           "Name": "label",
@@ -4115,12 +3978,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-8xtEYc1VEDQYBcjtKzFEywsmCvqf6iW41NKkX9crJiE="
+          "Value": "sha256-PrbXHLUgp1qxJWLULVwGY6u9VKYAA3gTnFEGIqClTIc="
         }
       ]
     },
     {
-      "Route": "LearningwebApp.v99k0ohddg.styles.css",
+      "Route": "LearningwebApp.mfhu6syjc5.styles.css",
       "AssetFile": "D:\\Learning C#\\Learning-DotNet\\LearningwebApp\\obj\\Debug\\net9.0\\scopedcss\\bundle\\LearningwebApp.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -4130,7 +3993,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1253"
+          "Value": "1230"
         },
         {
           "Name": "Content-Type",
@@ -4138,11 +4001,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"8xtEYc1VEDQYBcjtKzFEywsmCvqf6iW41NKkX9crJiE=\""
+          "Value": "\"PrbXHLUgp1qxJWLULVwGY6u9VKYAA3gTnFEGIqClTIc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 17 Dec 2024 07:34:44 GMT"
+          "Value": "Tue, 17 Dec 2024 17:10:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4152,7 +4015,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "v99k0ohddg"
+          "Value": "mfhu6syjc5"
         },
         {
           "Name": "label",
@@ -4160,13 +4023,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-8xtEYc1VEDQYBcjtKzFEywsmCvqf6iW41NKkX9crJiE="
+          "Value": "sha256-PrbXHLUgp1qxJWLULVwGY6u9VKYAA3gTnFEGIqClTIc="
         }
       ]
     },
     {
-      "Route": "LearningwebApp.v99k0ohddg.styles.css.gz",
-      "AssetFile": "D:\\Learning C#\\Learning-DotNet\\LearningwebApp\\obj\\Debug\\net9.0\\compressed\\piw5zwe235-v99k0ohddg.gz",
+      "Route": "LearningwebApp.mfhu6syjc5.styles.css.gz",
+      "AssetFile": "D:\\Learning C#\\Learning-DotNet\\LearningwebApp\\obj\\Debug\\net9.0\\compressed\\piw5zwe235-mfhu6syjc5.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4175,7 +4038,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "585"
+          "Value": "577"
         },
         {
           "Name": "Content-Type",
@@ -4183,11 +4046,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"X98QA6W3cycE25eK292GRry6WsbcNT+JXPrwGNzyih8=\""
+          "Value": "\"5ygOQOwILJ5Hh2K1hDJqO+UyEvFzbgrTaq4OwyrDt9k=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 17 Dec 2024 07:34:44 GMT"
+          "Value": "Tue, 17 Dec 2024 17:10:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4205,7 +4068,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "v99k0ohddg"
+          "Value": "mfhu6syjc5"
         },
         {
           "Name": "label",
@@ -4213,7 +4076,144 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-X98QA6W3cycE25eK292GRry6WsbcNT+JXPrwGNzyih8="
+          "Value": "sha256-5ygOQOwILJ5Hh2K1hDJqO+UyEvFzbgrTaq4OwyrDt9k="
+        }
+      ]
+    },
+    {
+      "Route": "LearningwebApp.styles.css",
+      "AssetFile": "D:\\Learning C#\\Learning-DotNet\\LearningwebApp\\obj\\Debug\\net9.0\\compressed\\piw5zwe235-mfhu6syjc5.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001730103806"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "577"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5ygOQOwILJ5Hh2K1hDJqO+UyEvFzbgrTaq4OwyrDt9k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 17 Dec 2024 17:10:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"PrbXHLUgp1qxJWLULVwGY6u9VKYAA3gTnFEGIqClTIc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PrbXHLUgp1qxJWLULVwGY6u9VKYAA3gTnFEGIqClTIc="
+        }
+      ]
+    },
+    {
+      "Route": "LearningwebApp.styles.css",
+      "AssetFile": "D:\\Learning C#\\Learning-DotNet\\LearningwebApp\\obj\\Debug\\net9.0\\scopedcss\\bundle\\LearningwebApp.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1230"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PrbXHLUgp1qxJWLULVwGY6u9VKYAA3gTnFEGIqClTIc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 17 Dec 2024 17:10:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PrbXHLUgp1qxJWLULVwGY6u9VKYAA3gTnFEGIqClTIc="
+        }
+      ]
+    },
+    {
+      "Route": "LearningwebApp.styles.css.gz",
+      "AssetFile": "D:\\Learning C#\\Learning-DotNet\\LearningwebApp\\obj\\Debug\\net9.0\\compressed\\piw5zwe235-mfhu6syjc5.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "577"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5ygOQOwILJ5Hh2K1hDJqO+UyEvFzbgrTaq4OwyrDt9k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 17 Dec 2024 17:10:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5ygOQOwILJ5Hh2K1hDJqO+UyEvFzbgrTaq4OwyrDt9k="
         }
       ]
     },

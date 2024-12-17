@@ -37,16 +37,16 @@
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"231"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=\u0022"},{"Name":"Last-Modified","Value":"Tue, 17 Dec 2024 07:09:39 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/LearningwebApp/LearningwebApp.bundle.scp.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\LearningwebApp.v99k0ohddg.bundle.scp.css'))</AssetFile>
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\LearningwebApp.mfhu6syjc5.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-8xtEYc1VEDQYBcjtKzFEywsmCvqf6iW41NKkX9crJiE="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1253"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00228xtEYc1VEDQYBcjtKzFEywsmCvqf6iW41NKkX9crJiE=\u0022"},{"Name":"Last-Modified","Value":"Tue, 17 Dec 2024 07:34:44 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-PrbXHLUgp1qxJWLULVwGY6u9VKYAA3gTnFEGIqClTIc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1230"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022PrbXHLUgp1qxJWLULVwGY6u9VKYAA3gTnFEGIqClTIc=\u0022"},{"Name":"Last-Modified","Value":"Tue, 17 Dec 2024 17:10:53 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/LearningwebApp/LearningwebApp.v99k0ohddg.bundle.scp.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\LearningwebApp.v99k0ohddg.bundle.scp.css'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/LearningwebApp/LearningwebApp.mfhu6syjc5.bundle.scp.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\LearningwebApp.mfhu6syjc5.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"v99k0ohddg"},{"Name":"integrity","Value":"sha256-8xtEYc1VEDQYBcjtKzFEywsmCvqf6iW41NKkX9crJiE="},{"Name":"label","Value":"_content/LearningwebApp/LearningwebApp.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1253"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00228xtEYc1VEDQYBcjtKzFEywsmCvqf6iW41NKkX9crJiE=\u0022"},{"Name":"Last-Modified","Value":"Tue, 17 Dec 2024 07:34:44 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"mfhu6syjc5"},{"Name":"integrity","Value":"sha256-PrbXHLUgp1qxJWLULVwGY6u9VKYAA3gTnFEGIqClTIc="},{"Name":"label","Value":"_content/LearningwebApp/LearningwebApp.bundle.scp.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1230"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022PrbXHLUgp1qxJWLULVwGY6u9VKYAA3gTnFEGIqClTIc=\u0022"},{"Name":"Last-Modified","Value":"Tue, 17 Dec 2024 17:10:53 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/LearningwebApp/lib/bootstrap/dist/css/bootstrap-grid.bqjiyaj88i.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\css\bootstrap-grid.css'))</AssetFile>

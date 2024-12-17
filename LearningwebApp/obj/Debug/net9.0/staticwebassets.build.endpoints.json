@@ -3,13 +3,174 @@
   "ManifestType": "Build",
   "Endpoints": [
     {
+      "Route": "LearningwebApp.mfhu6syjc5.styles.css",
+      "AssetFile": "LearningwebApp.styles.css.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001730103806"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "577"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5ygOQOwILJ5Hh2K1hDJqO+UyEvFzbgrTaq4OwyrDt9k=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"PrbXHLUgp1qxJWLULVwGY6u9VKYAA3gTnFEGIqClTIc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 17 Dec 2024 17:10:53 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mfhu6syjc5"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PrbXHLUgp1qxJWLULVwGY6u9VKYAA3gTnFEGIqClTIc="
+        },
+        {
+          "Name": "label",
+          "Value": "LearningwebApp.styles.css"
+        }
+      ]
+    },
+    {
+      "Route": "LearningwebApp.mfhu6syjc5.styles.css",
+      "AssetFile": "LearningwebApp.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1230"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PrbXHLUgp1qxJWLULVwGY6u9VKYAA3gTnFEGIqClTIc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 17 Dec 2024 17:10:53 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mfhu6syjc5"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PrbXHLUgp1qxJWLULVwGY6u9VKYAA3gTnFEGIqClTIc="
+        },
+        {
+          "Name": "label",
+          "Value": "LearningwebApp.styles.css"
+        }
+      ]
+    },
+    {
+      "Route": "LearningwebApp.mfhu6syjc5.styles.css.gz",
+      "AssetFile": "LearningwebApp.styles.css.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "577"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5ygOQOwILJ5Hh2K1hDJqO+UyEvFzbgrTaq4OwyrDt9k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 17 Dec 2024 17:10:53 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mfhu6syjc5"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5ygOQOwILJ5Hh2K1hDJqO+UyEvFzbgrTaq4OwyrDt9k="
+        },
+        {
+          "Name": "label",
+          "Value": "LearningwebApp.styles.css.gz"
+        }
+      ]
+    },
+    {
       "Route": "LearningwebApp.styles.css",
       "AssetFile": "LearningwebApp.styles.css.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001706484642"
+          "Quality": "0.001730103806"
         }
       ],
       "ResponseHeaders": [
@@ -27,7 +188,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "585"
+          "Value": "577"
         },
         {
           "Name": "Content-Type",
@@ -35,15 +196,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"X98QA6W3cycE25eK292GRry6WsbcNT+JXPrwGNzyih8=\""
+          "Value": "\"5ygOQOwILJ5Hh2K1hDJqO+UyEvFzbgrTaq4OwyrDt9k=\""
         },
         {
           "Name": "ETag",
-          "Value": "W/\"8xtEYc1VEDQYBcjtKzFEywsmCvqf6iW41NKkX9crJiE=\""
+          "Value": "W/\"PrbXHLUgp1qxJWLULVwGY6u9VKYAA3gTnFEGIqClTIc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 17 Dec 2024 07:34:44 GMT"
+          "Value": "Tue, 17 Dec 2024 17:10:53 GMT"
         },
         {
           "Name": "Vary",
@@ -53,7 +214,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-8xtEYc1VEDQYBcjtKzFEywsmCvqf6iW41NKkX9crJiE="
+          "Value": "sha256-PrbXHLUgp1qxJWLULVwGY6u9VKYAA3gTnFEGIqClTIc="
         }
       ]
     },
@@ -72,7 +233,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1253"
+          "Value": "1230"
         },
         {
           "Name": "Content-Type",
@@ -80,17 +241,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"8xtEYc1VEDQYBcjtKzFEywsmCvqf6iW41NKkX9crJiE=\""
+          "Value": "\"PrbXHLUgp1qxJWLULVwGY6u9VKYAA3gTnFEGIqClTIc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 17 Dec 2024 07:34:44 GMT"
+          "Value": "Tue, 17 Dec 2024 17:10:53 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-8xtEYc1VEDQYBcjtKzFEywsmCvqf6iW41NKkX9crJiE="
+          "Value": "sha256-PrbXHLUgp1qxJWLULVwGY6u9VKYAA3gTnFEGIqClTIc="
         }
       ]
     },
@@ -113,7 +274,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "585"
+          "Value": "577"
         },
         {
           "Name": "Content-Type",
@@ -121,11 +282,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"X98QA6W3cycE25eK292GRry6WsbcNT+JXPrwGNzyih8=\""
+          "Value": "\"5ygOQOwILJ5Hh2K1hDJqO+UyEvFzbgrTaq4OwyrDt9k=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 17 Dec 2024 07:34:44 GMT"
+          "Value": "Tue, 17 Dec 2024 17:10:53 GMT"
         },
         {
           "Name": "Vary",
@@ -135,168 +296,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-X98QA6W3cycE25eK292GRry6WsbcNT+JXPrwGNzyih8="
-        }
-      ]
-    },
-    {
-      "Route": "LearningwebApp.v99k0ohddg.styles.css",
-      "AssetFile": "LearningwebApp.styles.css.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.001706484642"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "585"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"X98QA6W3cycE25eK292GRry6WsbcNT+JXPrwGNzyih8=\""
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"8xtEYc1VEDQYBcjtKzFEywsmCvqf6iW41NKkX9crJiE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 17 Dec 2024 07:34:44 GMT"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "v99k0ohddg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-8xtEYc1VEDQYBcjtKzFEywsmCvqf6iW41NKkX9crJiE="
-        },
-        {
-          "Name": "label",
-          "Value": "LearningwebApp.styles.css"
-        }
-      ]
-    },
-    {
-      "Route": "LearningwebApp.v99k0ohddg.styles.css",
-      "AssetFile": "LearningwebApp.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1253"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"8xtEYc1VEDQYBcjtKzFEywsmCvqf6iW41NKkX9crJiE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 17 Dec 2024 07:34:44 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "v99k0ohddg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-8xtEYc1VEDQYBcjtKzFEywsmCvqf6iW41NKkX9crJiE="
-        },
-        {
-          "Name": "label",
-          "Value": "LearningwebApp.styles.css"
-        }
-      ]
-    },
-    {
-      "Route": "LearningwebApp.v99k0ohddg.styles.css.gz",
-      "AssetFile": "LearningwebApp.styles.css.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "585"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"X98QA6W3cycE25eK292GRry6WsbcNT+JXPrwGNzyih8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 17 Dec 2024 07:34:44 GMT"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "v99k0ohddg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-X98QA6W3cycE25eK292GRry6WsbcNT+JXPrwGNzyih8="
-        },
-        {
-          "Name": "label",
-          "Value": "LearningwebApp.styles.css.gz"
+          "Value": "sha256-5ygOQOwILJ5Hh2K1hDJqO+UyEvFzbgrTaq4OwyrDt9k="
         }
       ]
     },
