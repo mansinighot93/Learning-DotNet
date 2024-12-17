@@ -5,10 +5,15 @@ a.navbar-brand {
   white-space: normal;
   text-align: center;
   word-break: break-all;
+  color: #cc0000;
+}
+
+nav-item{
+  color:aqua;
 }
 
 a {
-  color: #0077cc;
+  color: #cc0000;
 }
 
 .btn-primary {
@@ -24,14 +29,15 @@ a {
 }
 
 .border-top {
-  border-top: 1px solid #e5e5e5;
+  border-top: 1px solid #27ce18;
 }
 .border-bottom {
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid #020202;
 }
 
 .box-shadow {
-  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+  box-shadow: 0 .25rem .75rem rgba(249, 2, 2, 0.942);
+  background-color: #1861ac;
 }
 
 button.accept-policy {

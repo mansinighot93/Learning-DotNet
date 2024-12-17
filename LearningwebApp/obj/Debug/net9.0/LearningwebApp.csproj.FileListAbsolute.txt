@@ -80,8 +80,6 @@ D:\Learning C#\Learning-DotNet\LearningwebApp\obj\Debug\net9.0\compressed\k8a36r
 D:\Learning C#\Learning-DotNet\LearningwebApp\obj\Debug\net9.0\compressed\rthz7m5lhw-muycvpuwrr.gz
 D:\Learning C#\Learning-DotNet\LearningwebApp\obj\Debug\net9.0\compressed\tjebu9n50b-87fc7y1x7t.gz
 D:\Learning C#\Learning-DotNet\LearningwebApp\obj\Debug\net9.0\compressed\3f95k1zaml-mlv21k5csn.gz
-D:\Learning C#\Learning-DotNet\LearningwebApp\obj\Debug\net9.0\compressed\piw5zwe235-mldm352x8p.gz
-D:\Learning C#\Learning-DotNet\LearningwebApp\obj\Debug\net9.0\compressed\uwcx9pejdl-mldm352x8p.gz
 D:\Learning C#\Learning-DotNet\LearningwebApp\obj\Debug\net9.0\staticwebassets.build.json
 D:\Learning C#\Learning-DotNet\LearningwebApp\obj\Debug\net9.0\staticwebassets.development.json
 D:\Learning C#\Learning-DotNet\LearningwebApp\obj\Debug\net9.0\staticwebassets.build.endpoints.json
@@ -96,3 +94,5 @@ D:\Learning C#\Learning-DotNet\LearningwebApp\obj\Debug\net9.0\refint\Learningwe
 D:\Learning C#\Learning-DotNet\LearningwebApp\obj\Debug\net9.0\LearningwebApp.pdb
 D:\Learning C#\Learning-DotNet\LearningwebApp\obj\Debug\net9.0\LearningwebApp.genruntimeconfig.cache
 D:\Learning C#\Learning-DotNet\LearningwebApp\obj\Debug\net9.0\ref\LearningwebApp.dll
+D:\Learning C#\Learning-DotNet\LearningwebApp\obj\Debug\net9.0\compressed\piw5zwe235-v99k0ohddg.gz
+D:\Learning C#\Learning-DotNet\LearningwebApp\obj\Debug\net9.0\compressed\uwcx9pejdl-v99k0ohddg.gz
