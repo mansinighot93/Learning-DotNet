@@ -15,6 +15,15 @@ public class ProductsController : Controller
 
     public IActionResult Index()
     {
+        List<string> products =new List<string>();
+        products.Add("Lotus");
+        products.Add("Gerbera");
+        products.Add("Rose");
+        products.Add("Marigold");
+        products.Add("Jasmine");
+        products.Add("Carnation");
+
+        ViewData["allProducts"] = products;
         return View();
     }
 
