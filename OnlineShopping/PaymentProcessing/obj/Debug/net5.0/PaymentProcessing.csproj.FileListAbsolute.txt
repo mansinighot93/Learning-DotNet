@@ -10,3 +10,15 @@ D:\TAP\DotnetCore\Day_23\OnlineShopping\PaymentProcessing\obj\Debug\net5.0\Payme
 D:\TAP\DotnetCore\Day_23\OnlineShopping\PaymentProcessing\obj\Debug\net5.0\PaymentProcessing.dll
 D:\TAP\DotnetCore\Day_23\OnlineShopping\PaymentProcessing\obj\Debug\net5.0\ref\PaymentProcessing.dll
 D:\TAP\DotnetCore\Day_23\OnlineShopping\PaymentProcessing\obj\Debug\net5.0\PaymentProcessing.pdb
+D:\Learning C#\Learning-DotNet\OnlineShopping\PaymentProcessing\bin\Debug\net5.0\PaymentProcessing.deps.json
+D:\Learning C#\Learning-DotNet\OnlineShopping\PaymentProcessing\bin\Debug\net5.0\PaymentProcessing.dll
+D:\Learning C#\Learning-DotNet\OnlineShopping\PaymentProcessing\bin\Debug\net5.0\PaymentProcessing.pdb
+D:\Learning C#\Learning-DotNet\OnlineShopping\PaymentProcessing\obj\Debug\net5.0\PaymentProcessing.GeneratedMSBuildEditorConfig.editorconfig
+D:\Learning C#\Learning-DotNet\OnlineShopping\PaymentProcessing\obj\Debug\net5.0\PaymentProcessing.AssemblyInfoInputs.cache
+D:\Learning C#\Learning-DotNet\OnlineShopping\PaymentProcessing\obj\Debug\net5.0\PaymentProcessing.AssemblyInfo.cs
+D:\Learning C#\Learning-DotNet\OnlineShopping\PaymentProcessing\obj\Debug\net5.0\PaymentProcessing.csproj.CoreCompileInputs.cache
+D:\Learning C#\Learning-DotNet\OnlineShopping\PaymentProcessing\obj\Debug\net5.0\PaymentProcessing.sourcelink.json
+D:\Learning C#\Learning-DotNet\OnlineShopping\PaymentProcessing\obj\Debug\net5.0\PaymentProcessing.dll
+D:\Learning C#\Learning-DotNet\OnlineShopping\PaymentProcessing\obj\Debug\net5.0\refint\PaymentProcessing.dll
+D:\Learning C#\Learning-DotNet\OnlineShopping\PaymentProcessing\obj\Debug\net5.0\PaymentProcessing.pdb
+D:\Learning C#\Learning-DotNet\OnlineShopping\PaymentProcessing\obj\Debug\net5.0\ref\PaymentProcessing.dll

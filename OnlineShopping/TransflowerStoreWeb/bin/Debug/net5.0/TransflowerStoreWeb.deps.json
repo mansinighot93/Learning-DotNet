@@ -9,7 +9,15 @@
       "DEBUG",
       "NET",
       "NET5_0",
-      "NETCOREAPP"
+      "NETCOREAPP",
+      "NET5_0_OR_GREATER",
+      "NETCOREAPP1_0_OR_GREATER",
+      "NETCOREAPP1_1_OR_GREATER",
+      "NETCOREAPP2_0_OR_GREATER",
+      "NETCOREAPP2_1_OR_GREATER",
+      "NETCOREAPP2_2_OR_GREATER",
+      "NETCOREAPP3_0_OR_GREATER",
+      "NETCOREAPP3_1_OR_GREATER"
     ],
     "languageVersion": "9.0",
     "platform": "",
@@ -522,7 +530,10 @@
           "MySql.Data": "8.0.23"
         },
         "runtime": {
-          "Banking.dll": {}
+          "Banking.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         },
         "compile": {
           "Banking.dll": {}
@@ -533,7 +544,10 @@
           "MySql.Data": "8.0.23"
         },
         "runtime": {
-          "Catalog.dll": {}
+          "Catalog.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         },
         "compile": {
           "Catalog.dll": {}
@@ -544,7 +558,10 @@
           "MySql.Data": "8.0.23"
         },
         "runtime": {
-          "CRM.dll": {}
+          "CRM.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         },
         "compile": {
           "CRM.dll": {}
@@ -555,7 +572,10 @@
           "MySql.Data": "8.0.23"
         },
         "runtime": {
-          "Membership.dll": {}
+          "Membership.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         },
         "compile": {
           "Membership.dll": {}
@@ -566,7 +586,10 @@
           "MySql.Data": "8.0.23"
         },
         "runtime": {
-          "OrderProcessing.dll": {}
+          "OrderProcessing.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         },
         "compile": {
           "OrderProcessing.dll": {}
@@ -574,7 +597,10 @@
       },
       "PaymentProcessing/1.0.0": {
         "runtime": {
-          "PaymentProcessing.dll": {}
+          "PaymentProcessing.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         },
         "compile": {
           "PaymentProcessing.dll": {}
@@ -582,7 +608,10 @@
       },
       "Shipment/1.0.0": {
         "runtime": {
-          "Shipment.dll": {}
+          "Shipment.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         },
         "compile": {
           "Shipment.dll": {}
@@ -590,7 +619,10 @@
       },
       "ShoppingCart/1.0.0": {
         "runtime": {
-          "ShoppingCart.dll": {}
+          "ShoppingCart.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         },
         "compile": {
           "ShoppingCart.dll": {}

@@ -1,0 +1,513 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\Greenhouse.jpg",
+      "PackagePath": "staticwebassets\\images\\Greenhouse.jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\Greenhouse2.jpg",
+      "PackagePath": "staticwebassets\\images\\Greenhouse2.jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\Greenhouse3.jpg",
+      "PackagePath": "staticwebassets\\images\\Greenhouse3.jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\cloud.jpg",
+      "PackagePath": "staticwebassets\\images\\cloud.jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\flowers.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers.jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\flowers\\Carnation\\Beautifulreminder.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers\\Carnation\\Beautifulreminder.jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\flowers\\Carnation\\Beautyofred.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers\\Carnation\\Beautyofred.jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\flowers\\Carnation\\Colourfulsplash.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers\\Carnation\\Colourfulsplash.jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\flowers\\Carnation\\Deepsetredcarnations.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers\\Carnation\\Deepsetredcarnations.jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\flowers\\Carnation\\Dozencarnations.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers\\Carnation\\Dozencarnations.jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\flowers\\Carnation\\Dozenpinkcarnations.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers\\Carnation\\Dozenpinkcarnations.jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\flowers\\Carnation\\Holidaycarnitions.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers\\Carnation\\Holidaycarnitions.jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\flowers\\Carnation\\Inlovecarnations.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers\\Carnation\\Inlovecarnations.jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\flowers\\Carnation\\Ipressivegerberas.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers\\Carnation\\Ipressivegerberas.jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\flowers\\Carnation\\Loveofcarnations.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers\\Carnation\\Loveofcarnations.jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\flowers\\Carnation\\Mugofhappiness.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers\\Carnation\\Mugofhappiness.jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\flowers\\Carnation\\Newbeginnings.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers\\Carnation\\Newbeginnings.jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\flowers\\Carnation\\Peacefullyenergetic.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers\\Carnation\\Peacefullyenergetic.jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\flowers\\Carnation\\expressivegerberas.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers\\Carnation\\expressivegerberas.jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\flowers\\Carnation\\gerberaspunch.jpeg",
+      "PackagePath": "staticwebassets\\images\\flowers\\Carnation\\gerberaspunch.jpeg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\flowers\\Carnation\\gleamingbunch.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers\\Carnation\\gleamingbunch.jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\flowers\\Carnation\\happybunch.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers\\Carnation\\happybunch.jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\flowers\\Carnation\\happygerbera.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers\\Carnation\\happygerbera.jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\flowers\\Carnation\\hellobeutifull.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers\\Carnation\\hellobeutifull.jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\flowers\\Carnation\\joyfulgerberas.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers\\Carnation\\joyfulgerberas.jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\flowers\\Carnation\\loveinpink.jpeg",
+      "PackagePath": "staticwebassets\\images\\flowers\\Carnation\\loveinpink.jpeg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\flowers\\Gerbera\\Ipressivegerberas.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers\\Gerbera\\Ipressivegerberas.jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\flowers\\Gerbera\\Thumbs.db",
+      "PackagePath": "staticwebassets\\images\\flowers\\Gerbera\\Thumbs.db"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\flowers\\Gerbera\\brightsunshine.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers\\Gerbera\\brightsunshine.jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\flowers\\Gerbera\\cheerfuleight.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers\\Gerbera\\cheerfuleight.jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\flowers\\Gerbera\\colourfulgerberas.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers\\Gerbera\\colourfulgerberas.jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\flowers\\Gerbera\\expressivegerberas.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers\\Gerbera\\expressivegerberas.jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\flowers\\Gerbera\\gerberaspunch.jpeg",
+      "PackagePath": "staticwebassets\\images\\flowers\\Gerbera\\gerberaspunch.jpeg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\flowers\\Gerbera\\gleamingbunch.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers\\Gerbera\\gleamingbunch.jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\flowers\\Gerbera\\happybunch.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers\\Gerbera\\happybunch.jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\flowers\\Gerbera\\happygerbera.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers\\Gerbera\\happygerbera.jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\flowers\\Gerbera\\joyfulgerberas.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers\\Gerbera\\joyfulgerberas.jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\flowers\\Gerbera\\loveinpink.jpeg",
+      "PackagePath": "staticwebassets\\images\\flowers\\Gerbera\\loveinpink.jpeg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\flowers\\Gerbera\\orangehappygerberas.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers\\Gerbera\\orangehappygerberas.jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\flowers\\Gerbera\\pinkbreeze.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers\\Gerbera\\pinkbreeze.jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\flowers\\Gerbera\\pinkgerbera.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers\\Gerbera\\pinkgerbera.jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\flowers\\Gerbera\\pinkwrap.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers\\Gerbera\\pinkwrap.jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\flowers\\Gerbera\\summerfreshwhite.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers\\Gerbera\\summerfreshwhite.jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\flowers\\Gerbera\\sunnybeauties.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers\\Gerbera\\sunnybeauties.jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\flowers\\Gerbera\\sunshinegerberas.jpeg",
+      "PackagePath": "staticwebassets\\images\\flowers\\Gerbera\\sunshinegerberas.jpeg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\flowers\\Lily\\7AsiaticLilies.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers\\Lily\\7AsiaticLilies.jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\flowers\\Lily\\BreathofFreshLilies.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers\\Lily\\BreathofFreshLilies.jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\flowers\\Lily\\BudsofPositivity.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers\\Lily\\BudsofPositivity.jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\flowers\\Lily\\FantasticLilies.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers\\Lily\\FantasticLilies.jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\flowers\\Lily\\HolyBeauties.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers\\Lily\\HolyBeauties.jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\flowers\\Lily\\NaturalBeauty.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers\\Lily\\NaturalBeauty.jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\flowers\\Lily\\PinkLilies.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers\\Lily\\PinkLilies.jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\flowers\\Lily\\PinkLilyPosy.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers\\Lily\\PinkLilyPosy.jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\flowers\\Lily\\RomanceOfLilies.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers\\Lily\\RomanceOfLilies.jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\flowers\\Lily\\RoyalLilies.jpeg",
+      "PackagePath": "staticwebassets\\images\\flowers\\Lily\\RoyalLilies.jpeg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\flowers\\Lily\\ShiningLilies.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers\\Lily\\ShiningLilies.jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\flowers\\Lily\\StarLilies.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers\\Lily\\StarLilies.jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\flowers\\Lily\\SunshineLilies.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers\\Lily\\SunshineLilies.jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\flowers\\Lily\\WhiteLilyLove.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers\\Lily\\WhiteLilyLove.jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\flowers\\Lily\\YellowLilies8XL.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers\\Lily\\YellowLilies8XL.jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\flowers\\Lily\\YellowPinkLilies.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers\\Lily\\YellowPinkLilies.jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\flowers\\Orchid\\DeluxeOrchids.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers\\Orchid\\DeluxeOrchids.jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\flowers\\Orchid\\LoveofOrchids.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers\\Orchid\\LoveofOrchids.jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\flowers\\Orchid\\NobleOrchids.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers\\Orchid\\NobleOrchids.jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\flowers\\Orchid\\OrchidBreeze.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers\\Orchid\\OrchidBreeze.jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\flowers\\Orchid\\OrchidJumbo.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers\\Orchid\\OrchidJumbo.jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\flowers\\Orchid\\OrchidTime.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers\\Orchid\\OrchidTime.jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\flowers\\Orchid\\PurpleAdmiration.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers\\Orchid\\PurpleAdmiration.jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\flowers\\Orchid\\QueensSpecial.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers\\Orchid\\QueensSpecial.jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\flowers\\Orchid\\RoyalBlue.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers\\Orchid\\RoyalBlue.jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\flowers\\Orchid\\True Queen.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers\\Orchid\\True Queen.jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\flowers\\Orchid\\VictorianSurprise.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers\\Orchid\\VictorianSurprise.jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\flowers\\Orchid\\WinterOrchids.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers\\Orchid\\WinterOrchids.jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\flowers\\Rose\\ADozenYellowRoses .jpg",
+      "PackagePath": "staticwebassets\\images\\flowers\\Rose\\ADozenYellowRoses .jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\flowers\\Rose\\Basketperfect.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers\\Rose\\Basketperfect.jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\flowers\\Rose\\EnchantedRoses.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers\\Rose\\EnchantedRoses.jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\flowers\\Rose\\Peach.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers\\Rose\\Peach.jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\flowers\\Rose\\RedRose.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers\\Rose\\RedRose.jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\flowers\\Rose\\RoseCorsage.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers\\Rose\\RoseCorsage.jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\flowers\\Rose\\Rosemail.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers\\Rose\\Rosemail.jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\flowers\\Rose\\White.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers\\Rose\\White.jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\flowers\\Rose\\classyRoses.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers\\Rose\\classyRoses.jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\flowers\\Rose\\passionofrose.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers\\Rose\\passionofrose.jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\flowers\\Rose\\sunnyroses.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers\\Rose\\sunnyroses.jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\flowers\\Rose\\vibrantRoses.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers\\Rose\\vibrantRoses.jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\images\\flowers\\Rose\\vivid roses.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers\\Rose\\vivid roses.jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.TransflowerStoreWeb.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.TransflowerStoreWeb.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.TransflowerStoreWeb.props",
+      "PackagePath": "build\\TransflowerStoreWeb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.TransflowerStoreWeb.props",
+      "PackagePath": "buildMultiTargeting\\TransflowerStoreWeb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.TransflowerStoreWeb.props",
+      "PackagePath": "buildTransitive\\TransflowerStoreWeb.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

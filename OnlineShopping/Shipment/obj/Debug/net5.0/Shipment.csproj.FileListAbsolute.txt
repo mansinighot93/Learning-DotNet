@@ -10,3 +10,15 @@ D:\TAP\DotnetCore\Day_23\OnlineShopping\Shipment\obj\Debug\net5.0\Shipment.cspro
 D:\TAP\DotnetCore\Day_23\OnlineShopping\Shipment\obj\Debug\net5.0\Shipment.dll
 D:\TAP\DotnetCore\Day_23\OnlineShopping\Shipment\obj\Debug\net5.0\ref\Shipment.dll
 D:\TAP\DotnetCore\Day_23\OnlineShopping\Shipment\obj\Debug\net5.0\Shipment.pdb
+D:\Learning C#\Learning-DotNet\OnlineShopping\Shipment\bin\Debug\net5.0\Shipment.deps.json
+D:\Learning C#\Learning-DotNet\OnlineShopping\Shipment\bin\Debug\net5.0\Shipment.dll
+D:\Learning C#\Learning-DotNet\OnlineShopping\Shipment\bin\Debug\net5.0\Shipment.pdb
+D:\Learning C#\Learning-DotNet\OnlineShopping\Shipment\obj\Debug\net5.0\Shipment.GeneratedMSBuildEditorConfig.editorconfig
+D:\Learning C#\Learning-DotNet\OnlineShopping\Shipment\obj\Debug\net5.0\Shipment.AssemblyInfoInputs.cache
+D:\Learning C#\Learning-DotNet\OnlineShopping\Shipment\obj\Debug\net5.0\Shipment.AssemblyInfo.cs
+D:\Learning C#\Learning-DotNet\OnlineShopping\Shipment\obj\Debug\net5.0\Shipment.csproj.CoreCompileInputs.cache
+D:\Learning C#\Learning-DotNet\OnlineShopping\Shipment\obj\Debug\net5.0\Shipment.sourcelink.json
+D:\Learning C#\Learning-DotNet\OnlineShopping\Shipment\obj\Debug\net5.0\Shipment.dll
+D:\Learning C#\Learning-DotNet\OnlineShopping\Shipment\obj\Debug\net5.0\refint\Shipment.dll
+D:\Learning C#\Learning-DotNet\OnlineShopping\Shipment\obj\Debug\net5.0\Shipment.pdb
+D:\Learning C#\Learning-DotNet\OnlineShopping\Shipment\obj\Debug\net5.0\ref\Shipment.dll

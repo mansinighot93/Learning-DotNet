@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Mt0P//gdXEg2rzL07h75S7lZn4MVSDCQHtX7xbvSeZIZhzdbl43FMhZFVn7kdkMYNqS75Ub10FUH9JxIaQsDtw==",
+  "dgSpecHash": "cBy7UAPTLh4=",
   "success": true,
-  "projectFilePath": "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\Shipment\\Shipment.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\Shipment\\Shipment.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\manasi\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\manasi\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\manasi\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

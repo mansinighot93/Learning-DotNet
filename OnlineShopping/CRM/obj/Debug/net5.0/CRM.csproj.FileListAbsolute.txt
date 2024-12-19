@@ -10,3 +10,16 @@ D:\TAP\DotnetCore\Day_23\OnlineShopping\CRM\obj\Debug\net5.0\CRM.csproj.CoreComp
 D:\TAP\DotnetCore\Day_23\OnlineShopping\CRM\obj\Debug\net5.0\CRM.dll
 D:\TAP\DotnetCore\Day_23\OnlineShopping\CRM\obj\Debug\net5.0\ref\CRM.dll
 D:\TAP\DotnetCore\Day_23\OnlineShopping\CRM\obj\Debug\net5.0\CRM.pdb
+D:\Learning C#\Learning-DotNet\OnlineShopping\CRM\bin\Debug\net5.0\CRM.deps.json
+D:\Learning C#\Learning-DotNet\OnlineShopping\CRM\bin\Debug\net5.0\CRM.dll
+D:\Learning C#\Learning-DotNet\OnlineShopping\CRM\bin\Debug\net5.0\CRM.pdb
+D:\Learning C#\Learning-DotNet\OnlineShopping\CRM\obj\Debug\net5.0\CRM.csproj.AssemblyReference.cache
+D:\Learning C#\Learning-DotNet\OnlineShopping\CRM\obj\Debug\net5.0\CRM.GeneratedMSBuildEditorConfig.editorconfig
+D:\Learning C#\Learning-DotNet\OnlineShopping\CRM\obj\Debug\net5.0\CRM.AssemblyInfoInputs.cache
+D:\Learning C#\Learning-DotNet\OnlineShopping\CRM\obj\Debug\net5.0\CRM.AssemblyInfo.cs
+D:\Learning C#\Learning-DotNet\OnlineShopping\CRM\obj\Debug\net5.0\CRM.csproj.CoreCompileInputs.cache
+D:\Learning C#\Learning-DotNet\OnlineShopping\CRM\obj\Debug\net5.0\CRM.sourcelink.json
+D:\Learning C#\Learning-DotNet\OnlineShopping\CRM\obj\Debug\net5.0\CRM.dll
+D:\Learning C#\Learning-DotNet\OnlineShopping\CRM\obj\Debug\net5.0\refint\CRM.dll
+D:\Learning C#\Learning-DotNet\OnlineShopping\CRM\obj\Debug\net5.0\CRM.pdb
+D:\Learning C#\Learning-DotNet\OnlineShopping\CRM\obj\Debug\net5.0\ref\CRM.dll

@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\TransflowerStoreWeb\\TransflowerStoreWeb.csproj": {}
+    "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\TransflowerStoreWeb.csproj": {}
   },
   "projects": {
-    "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\Banking\\Banking.csproj": {
+    "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\Banking\\Banking.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\Banking\\Banking.csproj",
+        "projectUniqueName": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\Banking\\Banking.csproj",
         "projectName": "Banking",
-        "projectPath": "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\Banking\\Banking.csproj",
-        "packagesPath": "C:\\Users\\tfladmin\\.nuget\\packages\\",
-        "outputPath": "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\Banking\\obj\\",
+        "projectPath": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\Banking\\Banking.csproj",
+        "packagesPath": "C:\\Users\\manasi\\.nuget\\packages\\",
+        "outputPath": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\Banking\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\tfladmin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\manasi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -37,7 +38,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net5.0": {
@@ -54,33 +61,49 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\Catalog\\Catalog.csproj": {
+    "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\Catalog\\Catalog.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\Catalog\\Catalog.csproj",
+        "projectUniqueName": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\Catalog\\Catalog.csproj",
         "projectName": "Catalog",
-        "projectPath": "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\Catalog\\Catalog.csproj",
-        "packagesPath": "C:\\Users\\tfladmin\\.nuget\\packages\\",
-        "outputPath": "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\Catalog\\obj\\",
+        "projectPath": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\Catalog\\Catalog.csproj",
+        "packagesPath": "C:\\Users\\manasi\\.nuget\\packages\\",
+        "outputPath": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\Catalog\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\tfladmin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\manasi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -100,7 +123,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net5.0": {
@@ -117,33 +146,49 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\CRM\\CRM.csproj": {
+    "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\CRM\\CRM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\CRM\\CRM.csproj",
+        "projectUniqueName": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\CRM\\CRM.csproj",
         "projectName": "CRM",
-        "projectPath": "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\CRM\\CRM.csproj",
-        "packagesPath": "C:\\Users\\tfladmin\\.nuget\\packages\\",
-        "outputPath": "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\CRM\\obj\\",
+        "projectPath": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\CRM\\CRM.csproj",
+        "packagesPath": "C:\\Users\\manasi\\.nuget\\packages\\",
+        "outputPath": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\CRM\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\tfladmin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\manasi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -163,7 +208,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net5.0": {
@@ -180,33 +231,49 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\Membership\\Membership.csproj": {
+    "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\Membership\\Membership.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\Membership\\Membership.csproj",
+        "projectUniqueName": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\Membership\\Membership.csproj",
         "projectName": "Membership",
-        "projectPath": "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\Membership\\Membership.csproj",
-        "packagesPath": "C:\\Users\\tfladmin\\.nuget\\packages\\",
-        "outputPath": "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\Membership\\obj\\",
+        "projectPath": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\Membership\\Membership.csproj",
+        "packagesPath": "C:\\Users\\manasi\\.nuget\\packages\\",
+        "outputPath": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\Membership\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\tfladmin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\manasi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -226,7 +293,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net5.0": {
@@ -243,33 +316,49 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\OrderProcessing\\OrderProcessing.csproj": {
+    "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\OrderProcessing\\OrderProcessing.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\OrderProcessing\\OrderProcessing.csproj",
+        "projectUniqueName": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\OrderProcessing\\OrderProcessing.csproj",
         "projectName": "OrderProcessing",
-        "projectPath": "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\OrderProcessing\\OrderProcessing.csproj",
-        "packagesPath": "C:\\Users\\tfladmin\\.nuget\\packages\\",
-        "outputPath": "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\OrderProcessing\\obj\\",
+        "projectPath": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\OrderProcessing\\OrderProcessing.csproj",
+        "packagesPath": "C:\\Users\\manasi\\.nuget\\packages\\",
+        "outputPath": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\OrderProcessing\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\tfladmin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\manasi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -289,7 +378,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net5.0": {
@@ -306,33 +401,49 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\PaymentProcessing\\PaymentProcessing.csproj": {
+    "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\PaymentProcessing\\PaymentProcessing.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\PaymentProcessing\\PaymentProcessing.csproj",
+        "projectUniqueName": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\PaymentProcessing\\PaymentProcessing.csproj",
         "projectName": "PaymentProcessing",
-        "projectPath": "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\PaymentProcessing\\PaymentProcessing.csproj",
-        "packagesPath": "C:\\Users\\tfladmin\\.nuget\\packages\\",
-        "outputPath": "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\PaymentProcessing\\obj\\",
+        "projectPath": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\PaymentProcessing\\PaymentProcessing.csproj",
+        "packagesPath": "C:\\Users\\manasi\\.nuget\\packages\\",
+        "outputPath": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\PaymentProcessing\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\tfladmin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\manasi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -352,7 +463,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net5.0": {
@@ -363,33 +480,49 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\Shipment\\Shipment.csproj": {
+    "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\Shipment\\Shipment.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\Shipment\\Shipment.csproj",
+        "projectUniqueName": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\Shipment\\Shipment.csproj",
         "projectName": "Shipment",
-        "projectPath": "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\Shipment\\Shipment.csproj",
-        "packagesPath": "C:\\Users\\tfladmin\\.nuget\\packages\\",
-        "outputPath": "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\Shipment\\obj\\",
+        "projectPath": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\Shipment\\Shipment.csproj",
+        "packagesPath": "C:\\Users\\manasi\\.nuget\\packages\\",
+        "outputPath": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\Shipment\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\tfladmin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\manasi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -409,7 +542,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net5.0": {
@@ -420,33 +559,49 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\ShoppingCart\\ShoppingCart.csproj": {
+    "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\ShoppingCart\\ShoppingCart.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\ShoppingCart\\ShoppingCart.csproj",
+        "projectUniqueName": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\ShoppingCart\\ShoppingCart.csproj",
         "projectName": "ShoppingCart",
-        "projectPath": "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\ShoppingCart\\ShoppingCart.csproj",
-        "packagesPath": "C:\\Users\\tfladmin\\.nuget\\packages\\",
-        "outputPath": "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\ShoppingCart\\obj\\",
+        "projectPath": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\ShoppingCart\\ShoppingCart.csproj",
+        "packagesPath": "C:\\Users\\manasi\\.nuget\\packages\\",
+        "outputPath": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\ShoppingCart\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\tfladmin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\manasi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -466,7 +621,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net5.0": {
@@ -477,69 +638,85 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\TransflowerStoreWeb\\TransflowerStoreWeb.csproj": {
+    "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\TransflowerStoreWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\TransflowerStoreWeb\\TransflowerStoreWeb.csproj",
+        "projectUniqueName": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\TransflowerStoreWeb.csproj",
         "projectName": "TransflowerStoreWeb",
-        "projectPath": "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\TransflowerStoreWeb\\TransflowerStoreWeb.csproj",
-        "packagesPath": "C:\\Users\\tfladmin\\.nuget\\packages\\",
-        "outputPath": "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\TransflowerStoreWeb\\obj\\",
+        "projectPath": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\TransflowerStoreWeb.csproj",
+        "packagesPath": "C:\\Users\\manasi\\.nuget\\packages\\",
+        "outputPath": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\TransflowerStoreWeb\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\tfladmin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\manasi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net9.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net9.0": {
+            "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\Banking\\Banking.csproj": {
-                "projectPath": "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\Banking\\Banking.csproj"
+              "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\Banking\\Banking.csproj": {
+                "projectPath": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\Banking\\Banking.csproj"
               },
-              "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\Catalog\\Catalog.csproj": {
-                "projectPath": "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\Catalog\\Catalog.csproj"
+              "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\Catalog\\Catalog.csproj": {
+                "projectPath": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\Catalog\\Catalog.csproj"
               },
-              "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\CRM\\CRM.csproj": {
-                "projectPath": "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\CRM\\CRM.csproj"
+              "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\CRM\\CRM.csproj": {
+                "projectPath": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\CRM\\CRM.csproj"
               },
-              "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\Membership\\Membership.csproj": {
-                "projectPath": "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\Membership\\Membership.csproj"
+              "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\Membership\\Membership.csproj": {
+                "projectPath": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\Membership\\Membership.csproj"
               },
-              "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\OrderProcessing\\OrderProcessing.csproj": {
-                "projectPath": "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\OrderProcessing\\OrderProcessing.csproj"
+              "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\OrderProcessing\\OrderProcessing.csproj": {
+                "projectPath": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\OrderProcessing\\OrderProcessing.csproj"
               },
-              "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\PaymentProcessing\\PaymentProcessing.csproj": {
-                "projectPath": "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\PaymentProcessing\\PaymentProcessing.csproj"
+              "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\PaymentProcessing\\PaymentProcessing.csproj": {
+                "projectPath": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\PaymentProcessing\\PaymentProcessing.csproj"
               },
-              "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\Shipment\\Shipment.csproj": {
-                "projectPath": "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\Shipment\\Shipment.csproj"
+              "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\Shipment\\Shipment.csproj": {
+                "projectPath": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\Shipment\\Shipment.csproj"
               },
-              "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\ShoppingCart\\ShoppingCart.csproj": {
-                "projectPath": "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\ShoppingCart\\ShoppingCart.csproj"
+              "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\ShoppingCart\\ShoppingCart.csproj": {
+                "projectPath": "D:\\Learning C#\\Learning-DotNet\\OnlineShopping\\ShoppingCart\\ShoppingCart.csproj"
               }
             }
           }
@@ -548,18 +725,25 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net9.0": {
+          "targetAlias": "net9.0",
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -571,7 +755,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

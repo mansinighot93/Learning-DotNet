@@ -10,3 +10,16 @@ D:\TAP\DotnetCore\Day_23\OnlineShopping\Banking\obj\Debug\net5.0\Banking.csproj.
 D:\TAP\DotnetCore\Day_23\OnlineShopping\Banking\obj\Debug\net5.0\Banking.dll
 D:\TAP\DotnetCore\Day_23\OnlineShopping\Banking\obj\Debug\net5.0\ref\Banking.dll
 D:\TAP\DotnetCore\Day_23\OnlineShopping\Banking\obj\Debug\net5.0\Banking.pdb
+D:\Learning C#\Learning-DotNet\OnlineShopping\Banking\bin\Debug\net5.0\Banking.deps.json
+D:\Learning C#\Learning-DotNet\OnlineShopping\Banking\bin\Debug\net5.0\Banking.dll
+D:\Learning C#\Learning-DotNet\OnlineShopping\Banking\bin\Debug\net5.0\Banking.pdb
+D:\Learning C#\Learning-DotNet\OnlineShopping\Banking\obj\Debug\net5.0\Banking.csproj.AssemblyReference.cache
+D:\Learning C#\Learning-DotNet\OnlineShopping\Banking\obj\Debug\net5.0\Banking.GeneratedMSBuildEditorConfig.editorconfig
+D:\Learning C#\Learning-DotNet\OnlineShopping\Banking\obj\Debug\net5.0\Banking.AssemblyInfoInputs.cache
+D:\Learning C#\Learning-DotNet\OnlineShopping\Banking\obj\Debug\net5.0\Banking.AssemblyInfo.cs
+D:\Learning C#\Learning-DotNet\OnlineShopping\Banking\obj\Debug\net5.0\Banking.csproj.CoreCompileInputs.cache
+D:\Learning C#\Learning-DotNet\OnlineShopping\Banking\obj\Debug\net5.0\Banking.sourcelink.json
+D:\Learning C#\Learning-DotNet\OnlineShopping\Banking\obj\Debug\net5.0\Banking.dll
+D:\Learning C#\Learning-DotNet\OnlineShopping\Banking\obj\Debug\net5.0\refint\Banking.dll
+D:\Learning C#\Learning-DotNet\OnlineShopping\Banking\obj\Debug\net5.0\Banking.pdb
+D:\Learning C#\Learning-DotNet\OnlineShopping\Banking\obj\Debug\net5.0\ref\Banking.dll
