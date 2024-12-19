@@ -1,0 +1,12 @@
+D:\TAP\DotnetCore\Day_23\OnlineShopping\Banking\bin\Debug\net5.0\Banking.deps.json
+D:\TAP\DotnetCore\Day_23\OnlineShopping\Banking\bin\Debug\net5.0\Banking.dll
+D:\TAP\DotnetCore\Day_23\OnlineShopping\Banking\bin\Debug\net5.0\ref\Banking.dll
+D:\TAP\DotnetCore\Day_23\OnlineShopping\Banking\bin\Debug\net5.0\Banking.pdb
+D:\TAP\DotnetCore\Day_23\OnlineShopping\Banking\obj\Debug\net5.0\Banking.csprojAssemblyReference.cache
+D:\TAP\DotnetCore\Day_23\OnlineShopping\Banking\obj\Debug\net5.0\Banking.GeneratedMSBuildEditorConfig.editorconfig
+D:\TAP\DotnetCore\Day_23\OnlineShopping\Banking\obj\Debug\net5.0\Banking.AssemblyInfoInputs.cache
+D:\TAP\DotnetCore\Day_23\OnlineShopping\Banking\obj\Debug\net5.0\Banking.AssemblyInfo.cs
+D:\TAP\DotnetCore\Day_23\OnlineShopping\Banking\obj\Debug\net5.0\Banking.csproj.CoreCompileInputs.cache
+D:\TAP\DotnetCore\Day_23\OnlineShopping\Banking\obj\Debug\net5.0\Banking.dll
+D:\TAP\DotnetCore\Day_23\OnlineShopping\Banking\obj\Debug\net5.0\ref\Banking.dll
+D:\TAP\DotnetCore\Day_23\OnlineShopping\Banking\obj\Debug\net5.0\Banking.pdb

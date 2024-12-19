@@ -1,0 +1,12 @@
+D:\TAP\DotnetCore\Day_23\OnlineShopping\ShoppingCart\obj\Debug\net5.0\ShoppingCart.csprojAssemblyReference.cache
+D:\TAP\DotnetCore\Day_23\OnlineShopping\ShoppingCart\obj\Debug\net5.0\ShoppingCart.GeneratedMSBuildEditorConfig.editorconfig
+D:\TAP\DotnetCore\Day_23\OnlineShopping\ShoppingCart\obj\Debug\net5.0\ShoppingCart.AssemblyInfoInputs.cache
+D:\TAP\DotnetCore\Day_23\OnlineShopping\ShoppingCart\obj\Debug\net5.0\ShoppingCart.AssemblyInfo.cs
+D:\TAP\DotnetCore\Day_23\OnlineShopping\ShoppingCart\obj\Debug\net5.0\ShoppingCart.csproj.CoreCompileInputs.cache
+D:\TAP\DotnetCore\Day_23\OnlineShopping\ShoppingCart\bin\Debug\net5.0\ShoppingCart.deps.json
+D:\TAP\DotnetCore\Day_23\OnlineShopping\ShoppingCart\bin\Debug\net5.0\ShoppingCart.dll
+D:\TAP\DotnetCore\Day_23\OnlineShopping\ShoppingCart\bin\Debug\net5.0\ref\ShoppingCart.dll
+D:\TAP\DotnetCore\Day_23\OnlineShopping\ShoppingCart\bin\Debug\net5.0\ShoppingCart.pdb
+D:\TAP\DotnetCore\Day_23\OnlineShopping\ShoppingCart\obj\Debug\net5.0\ShoppingCart.dll
+D:\TAP\DotnetCore\Day_23\OnlineShopping\ShoppingCart\obj\Debug\net5.0\ref\ShoppingCart.dll
+D:\TAP\DotnetCore\Day_23\OnlineShopping\ShoppingCart\obj\Debug\net5.0\ShoppingCart.pdb

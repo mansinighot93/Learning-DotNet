@@ -1,0 +1,12 @@
+D:\TAP\DotnetCore\Day_23\OnlineShopping\OrderProcessing\bin\Debug\net5.0\OrderProcessing.deps.json
+D:\TAP\DotnetCore\Day_23\OnlineShopping\OrderProcessing\bin\Debug\net5.0\OrderProcessing.dll
+D:\TAP\DotnetCore\Day_23\OnlineShopping\OrderProcessing\bin\Debug\net5.0\ref\OrderProcessing.dll
+D:\TAP\DotnetCore\Day_23\OnlineShopping\OrderProcessing\bin\Debug\net5.0\OrderProcessing.pdb
+D:\TAP\DotnetCore\Day_23\OnlineShopping\OrderProcessing\obj\Debug\net5.0\OrderProcessing.csprojAssemblyReference.cache
+D:\TAP\DotnetCore\Day_23\OnlineShopping\OrderProcessing\obj\Debug\net5.0\OrderProcessing.GeneratedMSBuildEditorConfig.editorconfig
+D:\TAP\DotnetCore\Day_23\OnlineShopping\OrderProcessing\obj\Debug\net5.0\OrderProcessing.AssemblyInfoInputs.cache
+D:\TAP\DotnetCore\Day_23\OnlineShopping\OrderProcessing\obj\Debug\net5.0\OrderProcessing.AssemblyInfo.cs
+D:\TAP\DotnetCore\Day_23\OnlineShopping\OrderProcessing\obj\Debug\net5.0\OrderProcessing.csproj.CoreCompileInputs.cache
+D:\TAP\DotnetCore\Day_23\OnlineShopping\OrderProcessing\obj\Debug\net5.0\OrderProcessing.dll
+D:\TAP\DotnetCore\Day_23\OnlineShopping\OrderProcessing\obj\Debug\net5.0\ref\OrderProcessing.dll
+D:\TAP\DotnetCore\Day_23\OnlineShopping\OrderProcessing\obj\Debug\net5.0\OrderProcessing.pdb

@@ -1,0 +1,12 @@
+D:\TAP\DotnetCore\Day_23\OnlineShopping\Catalog\bin\Debug\net5.0\Catalog.deps.json
+D:\TAP\DotnetCore\Day_23\OnlineShopping\Catalog\bin\Debug\net5.0\Catalog.dll
+D:\TAP\DotnetCore\Day_23\OnlineShopping\Catalog\bin\Debug\net5.0\ref\Catalog.dll
+D:\TAP\DotnetCore\Day_23\OnlineShopping\Catalog\bin\Debug\net5.0\Catalog.pdb
+D:\TAP\DotnetCore\Day_23\OnlineShopping\Catalog\obj\Debug\net5.0\Catalog.csprojAssemblyReference.cache
+D:\TAP\DotnetCore\Day_23\OnlineShopping\Catalog\obj\Debug\net5.0\Catalog.GeneratedMSBuildEditorConfig.editorconfig
+D:\TAP\DotnetCore\Day_23\OnlineShopping\Catalog\obj\Debug\net5.0\Catalog.AssemblyInfoInputs.cache
+D:\TAP\DotnetCore\Day_23\OnlineShopping\Catalog\obj\Debug\net5.0\Catalog.AssemblyInfo.cs
+D:\TAP\DotnetCore\Day_23\OnlineShopping\Catalog\obj\Debug\net5.0\Catalog.csproj.CoreCompileInputs.cache
+D:\TAP\DotnetCore\Day_23\OnlineShopping\Catalog\obj\Debug\net5.0\Catalog.dll
+D:\TAP\DotnetCore\Day_23\OnlineShopping\Catalog\obj\Debug\net5.0\ref\Catalog.dll
+D:\TAP\DotnetCore\Day_23\OnlineShopping\Catalog\obj\Debug\net5.0\Catalog.pdb

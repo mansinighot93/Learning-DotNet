@@ -1,0 +1,12 @@
+D:\TAP\DotnetCore\Day_23\OnlineShopping\Shipment\bin\Debug\net5.0\Shipment.deps.json
+D:\TAP\DotnetCore\Day_23\OnlineShopping\Shipment\bin\Debug\net5.0\Shipment.dll
+D:\TAP\DotnetCore\Day_23\OnlineShopping\Shipment\bin\Debug\net5.0\ref\Shipment.dll
+D:\TAP\DotnetCore\Day_23\OnlineShopping\Shipment\bin\Debug\net5.0\Shipment.pdb
+D:\TAP\DotnetCore\Day_23\OnlineShopping\Shipment\obj\Debug\net5.0\Shipment.csprojAssemblyReference.cache
+D:\TAP\DotnetCore\Day_23\OnlineShopping\Shipment\obj\Debug\net5.0\Shipment.GeneratedMSBuildEditorConfig.editorconfig
+D:\TAP\DotnetCore\Day_23\OnlineShopping\Shipment\obj\Debug\net5.0\Shipment.AssemblyInfoInputs.cache
+D:\TAP\DotnetCore\Day_23\OnlineShopping\Shipment\obj\Debug\net5.0\Shipment.AssemblyInfo.cs
+D:\TAP\DotnetCore\Day_23\OnlineShopping\Shipment\obj\Debug\net5.0\Shipment.csproj.CoreCompileInputs.cache
+D:\TAP\DotnetCore\Day_23\OnlineShopping\Shipment\obj\Debug\net5.0\Shipment.dll
+D:\TAP\DotnetCore\Day_23\OnlineShopping\Shipment\obj\Debug\net5.0\ref\Shipment.dll
+D:\TAP\DotnetCore\Day_23\OnlineShopping\Shipment\obj\Debug\net5.0\Shipment.pdb

@@ -1,0 +1,579 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\TransflowerStoreWeb\\TransflowerStoreWeb.csproj": {}
+  },
+  "projects": {
+    "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\Banking\\Banking.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\Banking\\Banking.csproj",
+        "projectName": "Banking",
+        "projectPath": "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\Banking\\Banking.csproj",
+        "packagesPath": "C:\\Users\\tfladmin\\.nuget\\packages\\",
+        "outputPath": "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\Banking\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\tfladmin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.23, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\Catalog\\Catalog.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\Catalog\\Catalog.csproj",
+        "projectName": "Catalog",
+        "projectPath": "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\Catalog\\Catalog.csproj",
+        "packagesPath": "C:\\Users\\tfladmin\\.nuget\\packages\\",
+        "outputPath": "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\Catalog\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\tfladmin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.23, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\CRM\\CRM.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\CRM\\CRM.csproj",
+        "projectName": "CRM",
+        "projectPath": "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\CRM\\CRM.csproj",
+        "packagesPath": "C:\\Users\\tfladmin\\.nuget\\packages\\",
+        "outputPath": "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\CRM\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\tfladmin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.23, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\Membership\\Membership.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\Membership\\Membership.csproj",
+        "projectName": "Membership",
+        "projectPath": "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\Membership\\Membership.csproj",
+        "packagesPath": "C:\\Users\\tfladmin\\.nuget\\packages\\",
+        "outputPath": "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\Membership\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\tfladmin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.23, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\OrderProcessing\\OrderProcessing.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\OrderProcessing\\OrderProcessing.csproj",
+        "projectName": "OrderProcessing",
+        "projectPath": "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\OrderProcessing\\OrderProcessing.csproj",
+        "packagesPath": "C:\\Users\\tfladmin\\.nuget\\packages\\",
+        "outputPath": "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\OrderProcessing\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\tfladmin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.23, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\PaymentProcessing\\PaymentProcessing.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\PaymentProcessing\\PaymentProcessing.csproj",
+        "projectName": "PaymentProcessing",
+        "projectPath": "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\PaymentProcessing\\PaymentProcessing.csproj",
+        "packagesPath": "C:\\Users\\tfladmin\\.nuget\\packages\\",
+        "outputPath": "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\PaymentProcessing\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\tfladmin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\Shipment\\Shipment.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\Shipment\\Shipment.csproj",
+        "projectName": "Shipment",
+        "projectPath": "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\Shipment\\Shipment.csproj",
+        "packagesPath": "C:\\Users\\tfladmin\\.nuget\\packages\\",
+        "outputPath": "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\Shipment\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\tfladmin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\ShoppingCart\\ShoppingCart.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\ShoppingCart\\ShoppingCart.csproj",
+        "projectName": "ShoppingCart",
+        "projectPath": "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\ShoppingCart\\ShoppingCart.csproj",
+        "packagesPath": "C:\\Users\\tfladmin\\.nuget\\packages\\",
+        "outputPath": "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\ShoppingCart\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\tfladmin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\TransflowerStoreWeb\\TransflowerStoreWeb.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\TransflowerStoreWeb\\TransflowerStoreWeb.csproj",
+        "projectName": "TransflowerStoreWeb",
+        "projectPath": "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\TransflowerStoreWeb\\TransflowerStoreWeb.csproj",
+        "packagesPath": "C:\\Users\\tfladmin\\.nuget\\packages\\",
+        "outputPath": "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\TransflowerStoreWeb\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\tfladmin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\Banking\\Banking.csproj": {
+                "projectPath": "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\Banking\\Banking.csproj"
+              },
+              "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\Catalog\\Catalog.csproj": {
+                "projectPath": "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\Catalog\\Catalog.csproj"
+              },
+              "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\CRM\\CRM.csproj": {
+                "projectPath": "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\CRM\\CRM.csproj"
+              },
+              "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\Membership\\Membership.csproj": {
+                "projectPath": "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\Membership\\Membership.csproj"
+              },
+              "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\OrderProcessing\\OrderProcessing.csproj": {
+                "projectPath": "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\OrderProcessing\\OrderProcessing.csproj"
+              },
+              "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\PaymentProcessing\\PaymentProcessing.csproj": {
+                "projectPath": "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\PaymentProcessing\\PaymentProcessing.csproj"
+              },
+              "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\Shipment\\Shipment.csproj": {
+                "projectPath": "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\Shipment\\Shipment.csproj"
+              },
+              "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\ShoppingCart\\ShoppingCart.csproj": {
+                "projectPath": "D:\\TAP\\DotnetCore\\Day_23\\OnlineShopping\\ShoppingCart\\ShoppingCart.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
