@@ -18,6 +18,12 @@ public class AccountsController : Controller
         return View();
     }
 
+    public IActionResult Logout()
+    {
+            return View();
+            
+    }
+
     public IActionResult Register()
     {
         return View();
