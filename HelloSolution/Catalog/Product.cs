@@ -10,49 +10,31 @@ namespace Catalog
     [Serializable]
     public class Product
     {
-        public string title;
-        public string description;
-        public double unitPrice;
-        public int qunatity;
-        public int id;
-
-        //Read only Property
-        public int ID
-        {
-            get { return this.id; }
-        }
-        public string Title
-        {
-            get { return this.title; }
-            set { this.title = value; }
-        }
-        public string Description
-        {
-            get { return this.description; }
-            set { this.description = value; }
-        }
-        public double UnitPrice
-        {
-            get { return this.unitPrice; }
-            set { this.unitPrice = value; }
-        }
-        public int Qunatity
-        {
-            get { return this.qunatity; }
-            set { this.qunatity = value; }
-        }
+        public int Likes { get; set; }
+        public int Id { get; set; }
+        public string Title { get; set; }
+        public string Category { get; set; }
+        public string Description { get; set; }
+        public string ImageUrl { get; set; }
+        public double UnitPrice { get; set; }
+        public int Quantity { get; set; }
 
         public Product()
         {
-
+            this.Id = 2;
+            this.Title = "Honda City";
+            this.Description = "Best Automobile";
+            this.Quantity = 1000;
+            this.UnitPrice = 1000000;
         }
+
         public Product(int id, string title, string description, double unitPrice, int quantity)
         {
-            this.id = id;
-            this.title = title;
-            this.description = description;
-            this.unitPrice = unitPrice;
-            this.qunatity = quantity;
+            this.Id = id;
+            this.Title = title;
+            this.Description = description;
+            this.Quantity = quantity;
+            this.UnitPrice = unitPrice;
         }
         ~Product()
         {
@@ -60,7 +42,7 @@ namespace Catalog
         }
         public override string ToString()
         {
-            return this.id + " " + this.title + " " + this.description + " " + this.unitPrice + " " + this.qunatity;
+            return this.Id + " " + this.Title + " " + this.Description + " " + this.UnitPrice + " " + this.Quantity;
         }
     }
 }

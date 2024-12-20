@@ -30,7 +30,7 @@ namespace BLL
         }
         public static IEnumerable<Product> GetAllProducts()
         {
-            IEnumerable<Product> allProducts = CatalogDBManager.GetAllProductUsingDisconnected();
+            IEnumerable<Product> allProducts = ProductDBManager.GetAllProductUsingDisconnected();
             return allProducts;
 
             #region HardCode Way
@@ -52,23 +52,23 @@ namespace BLL
             //Var kwyword is dynamic query from C# 
             IEnumerable<Product> products = GetAllProducts();
                 var soldOutProducts = from product in products 
-                                      where product.Qunatity == 0
+                                      where product.Quantity == 0
                                       select product;
                 return soldOutProducts;
         }
 
         public static bool GetProduct(int id)
         {
-            return CatalogDBManager.GetProductByID(id);
+            return ProductDBManager.GetProductByID(id);
         }
 
         public static bool UpdateProduct(Product theProduct)
         {
-            return CatalogDBManager.Update(theProduct);
+            return ProductDBManager.Update(theProduct);
         }
         public static bool DeleteProduct(int id)
         {
-            return CatalogDBManager.Delete(id);
+            return ProductDBManager.Delete(id);
         }
     }
 }

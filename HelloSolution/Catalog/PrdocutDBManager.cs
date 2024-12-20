@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 using System.Data;
 using System.Data.SqlClient;
 using Catalog;
-namespace DAL
+using static System.Net.Mime.MediaTypeNames;
+namespace Catlog
 {
-    public static class ProductDBManager
+    public static class PrdocutDBManager
     {
 
         public static string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=""D:\Learning C#\Learning-DotNet\HelloSolution\HelloApp\Ecommerce.mdf"";Integrated Security=True";
@@ -35,7 +36,7 @@ namespace DAL
                     string description = reader["Description"].ToString();
                     float unitPrice = float.Parse(reader["UnitPrice"].ToString());
                     int quantity = int.Parse(reader["Quantity"].ToString());
-                    string image = reader["ImageUrl"].ToString();
+                    string image = reader["ImageUrl"].ToString(); 
                     Product theProduct = new Product
                     {
                         Id = id,
