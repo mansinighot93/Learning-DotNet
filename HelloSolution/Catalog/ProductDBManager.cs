@@ -56,7 +56,7 @@ namespace Catlog
             }
             return theProduct;
         }
-        public static List<Product> GetAllProducts()
+        public static IEnumerable<Product> GetAllProducts()
         {
             //Invoke backend data into .NET application 
             //Needed database connectivity

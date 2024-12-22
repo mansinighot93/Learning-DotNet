@@ -16,7 +16,7 @@ namespace CRM
             List<Customers> customers = new List<Customers>();
             IDbConnection con = new SqlConnection(conString);
             string query = "SELECT * FROM customers";
-            IDbCommand cmd = new SqlCommand(query,con as SqlConnection);
+            IDbCommand cmd = new SqlCommand(query, con as SqlConnection);
             try
             {
                 con.Open();
@@ -38,19 +38,19 @@ namespace CRM
                 }
                 reader.Close();
             }
-            catch(Exception exp)
+            catch (Exception exp)
             {
                 string msg = exp.Message;
             }
             finally
             {
-                if(con.State == ConnectionState.Open)
+                if (con.State == ConnectionState.Open)
                 {
                     con.Close();
                 }
             }
             return customers;
-        } 
+        }
         public static Customers GetById(int customerId)
         {
             Customers theCustomer = null;
@@ -80,7 +80,7 @@ namespace CRM
                 if (con.State == ConnectionState.Open)
                     con.Close();
             }
-            catch(Exception exp)
+            catch (Exception exp)
             {
                 string msg = exp.Message;
             }
