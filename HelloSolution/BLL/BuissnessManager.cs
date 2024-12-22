@@ -26,7 +26,7 @@ namespace BLL
             //return list of products
 
             return allProducts;
-            
+
         }
         public static IEnumerable<Product> GetAllProducts()
         {
@@ -51,10 +51,10 @@ namespace BLL
             //LINQ:Language Integrated Query
             //Var kwyword is dynamic query from C# 
             IEnumerable<Product> products = GetAllProducts();
-                var soldOutProducts = from product in products 
-                                      where product.Quantity == 0
-                                      select product;
-                return soldOutProducts;
+            var soldOutProducts = from product in products
+                                  where product.Quantity == 0
+                                  select product;
+            return soldOutProducts;
         }
 
         public static bool GetProduct(int id)
