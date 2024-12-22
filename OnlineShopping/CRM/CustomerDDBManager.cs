@@ -160,11 +160,11 @@ namespace CRM
                     string query = "INSERT INTO customers (Id,Name, Email, ContactNumber) " +
                                     "VALUES (@Id, @Name, @ContactNumber)";
                     MySqlCommand cmd = new MySqlCommand(query, con);
-                     cmd.Parameters.Add(new MySqlParameter("@Id", customer.Id));
+                    cmd.Parameters.Add(new MySqlParameter("@Id", customer.Id));
                     cmd.Parameters.Add(new MySqlParameter("@Name", customer.Name));
                     cmd.Parameters.Add(new MySqlParameter("@ContactNumber", customer.ContactNumber));
                     cmd.Parameters.Add(new MySqlParameter("@Email", customer.Email));
-                      cmd.ExecuteNonQuery();// DML
+                    cmd.ExecuteNonQuery();// DML
                     if (con.State == ConnectionState.Open)
                         con.Close();
                     status = true;
