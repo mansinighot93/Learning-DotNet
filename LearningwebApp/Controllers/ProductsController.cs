@@ -1,6 +1,7 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using LearningwebApp.Models;
+using Catalog;
 
 namespace LearningwebApp.Controllers;
 
@@ -32,14 +33,42 @@ public class ProductsController : Controller
         return View();
     }
 
+    [httpGet]
+
     public IActionResult Insert()
     {
         return View();
     }
 
-    public IActionResult Update()
+    [HttpPost]
+    public IActionResult Insert(string title,string description,int quantity,double unitprice)
     {
+        Product product = new Product(){
+            Id=78,
+            Title=title,
+            Description=description,
+            Quantity=quantity,
+            UnitPrice=unitprice
+        }
+        ProductManager.Insert(product);
         return View();
+    }
+
+    [httpGet]
+    public IActionResult Update(int id)
+    {
+        //data was transfered to view using ViewData
+        //data was transfered to view using ViewBag
+        //data was transfered to view using model binding
+        Product product = ProductManager.Get(id);
+        return View(product);
+    }
+
+    [httpPost]
+    public IActionResult Update(Product modifiedProduct)
+    {
+        ProductManager.Update(modifiedProduct);
+        return RedirectToAction("index","products");
     }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

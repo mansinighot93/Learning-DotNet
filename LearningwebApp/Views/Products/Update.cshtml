@@ -1,3 +1,11 @@
+@using Catalog;
+@model Product
+
+@{
+    ViewBag.Title = "Update";
+}
+
+<!--
 @{
     ViewData["Title"] = "Update Page";
 }
@@ -9,3 +17,58 @@
     <p>Product Quantity:</p>
     <p>Product Price:</p>
 </div>
+-->
+
+@using(Html.BeginForm())
+{
+    <table>
+        <tr>
+            <td>
+                @Html.LabelFor(model => model.Id,new {htmlattributes = new {@class = "label label-info"}})
+            </td>
+            <td>
+                @Html.EditorFor(model => model.Id,new {htmlattributes = new {@class = "form-control"}})
+            </td>
+        </tr>
+        <tr>
+            <td>
+                @Html.LabelFor(model => model.Title,new {htmlattributes = new {@class = "label label-info"}})
+            </td>
+            <td>
+                @Html.EditorFor(model => model.Title,new {htmlattributes = new {@class = "form-control"}})
+            </td>
+        </tr>
+        <tr>
+            <td>
+                @Html.LabelFor(model => model.ImageURl,new {htmlattributes = new {@class = "label label-info"}})
+            </td>
+            <td>
+                @Html.EditorFor(model => model.ImageURl,new {htmlattributes = new {@class = "form-control"}})
+            </td>
+        </tr>
+        <tr>
+            <td>
+                @Html.LabelFor(model => model.Description,new {htmlattributes = new {@class = "label label-info"}})
+            </td>
+            <td>
+                @Html.EditorFor(model => model.Description,new {htmlattributes = new {@class = "form-control"}})
+            </td>
+        </tr>
+        <tr>
+            <td>
+                @Html.LabelFor(model => model.Quantity,new {htmlattributes = new {@class = "label label-info"}})
+            </td>
+            <td>
+                @Html.EditorFor(model => model.Quantity,new {htmlattributes = new {@class = "form-control"}})
+            </td>
+        </tr>
+        <tr>
+            <td>
+                @Html.LabelFor(model => model.UnitPrice,new {htmlattributes = new {@class = "label label-info"}})
+            </td>
+            <td>
+                @Html.EditorFor(model => model.UnitPrice,new {htmlattributes = new {@class = "form-control"}})
+            </td>
+        </tr>
+    </table>
+}
