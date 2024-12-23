@@ -49,7 +49,7 @@ public class ProductsController : Controller
             Description=description,
             Quantity=quantity,
             UnitPrice=unitprice
-        }
+        };
         ProductManager.Insert(product);
         return View();
     }
