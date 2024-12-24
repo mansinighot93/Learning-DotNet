@@ -1,0 +1,52 @@
+@using Catalog;
+@{
+    ViewBag.Title = "Insert";
+}
+
+@{
+    ViewData["Title"] = "Insert Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Indert Product Details</h1>
+    <hr/>
+    <!--
+    <p>Product Name:</p>
+    <p>Product Category:</p>
+    <p>Product Quantity:</p>
+    <p>Product Price:</p>
+    -->
+</div>
+
+
+<form action="/products/insert" method="POST">
+    <table style="font-family:Arial">
+        <tr>
+            <td><b>Product Title:</b><td>
+            <td><input type="text" name="title"/> </td>
+        </tr>
+
+        <tr>
+            <td><b>ImageURl:</b><td>
+            <td><input type="text" name="image"/> </td>
+        </tr>
+
+        <tr>
+            <td><b>Description:</b><td>
+            <td><input type="text" name="description"/> </td>
+        </tr>
+
+        <tr>
+            <td><b>Unit Price:</b><td>
+            <td><input type="text" name="unitprice"/> </td>
+        </tr>
+
+        <tr>
+            <td><b>Quantity:</b><td>
+            <td><input type="text" name="quantity"/> </td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="Insert"/> </td>
+        </tr>
+    </table>
+</form>

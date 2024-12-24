@@ -1,0 +1,53 @@
+@{
+    ViewData["Title"] = "Product Index Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Product Catalog</h1>
+    <hr/>
+    <ol>
+        <li><a href="/products/details">Gerbera</a></li>
+        <li><a href="/products/details">Rose</a></li>
+        <li><a href="/products/details">Lotus</a></li>
+        <li><a href="/products/details">Jasmine</a></li>
+        <li><a href="/products/details/">Rose</a></li>
+        <li><a href="/products/details/">Gerbera</a></li>
+        <li><a href="/products/details/">Lotus</a></li>
+        <li><a href="/products/details/">Lily</a></li>
+        <li><a href="/products/details/">Marigold</a></li>
+        <li><a href="/products/details/">Carnation</a></li>
+    </ol>
+</div>
+
+
+
+
+@* @{
+    ViewData["Title"] = "Product Index Page";
+}
+
+<div class="text-center">
+
+    <h1 class="display-4">Product Catalog</h1>
+    @{
+        List<string> products = ViewData["allProducts"] as List<string>;
+    }
+    <ol>
+    
+        @foreach(string title in products)
+        {
+            <li><a href="/products/details/">@title</a></li>
+        }
+    
+    <ol>
+        <li><a href="/products/details/">Rose</a></li>
+        <li><a href="/products/details/">Gerbera</a></li>
+        <li><a href="/products/details/">Lotus</a></li>
+        <li><a href="/products/details/">Lily</a></li>
+        <li><a href="/products/details/">Marigold</a></li>
+        <li><a href="/products/details/">Carnation</a></li>
+        
+    </ol>
+    
+</div>*@
+

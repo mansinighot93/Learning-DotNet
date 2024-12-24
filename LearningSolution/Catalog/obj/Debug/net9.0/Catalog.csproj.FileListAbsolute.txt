@@ -1,0 +1,13 @@
+D:\Learning C#\Learning-DotNet\LearningSolution\Catalog\obj\Debug\net9.0\Catalog.GeneratedMSBuildEditorConfig.editorconfig
+D:\Learning C#\Learning-DotNet\LearningSolution\Catalog\obj\Debug\net9.0\Catalog.AssemblyInfoInputs.cache
+D:\Learning C#\Learning-DotNet\LearningSolution\Catalog\obj\Debug\net9.0\Catalog.AssemblyInfo.cs
+D:\Learning C#\Learning-DotNet\LearningSolution\Catalog\obj\Debug\net9.0\Catalog.csproj.CoreCompileInputs.cache
+D:\Learning C#\Learning-DotNet\LearningSolution\Catalog\obj\Debug\net9.0\Catalog.sourcelink.json
+D:\Learning C#\Learning-DotNet\LearningSolution\Catalog\obj\Debug\net9.0\Catalog.csproj.AssemblyReference.cache
+D:\Learning C#\Learning-DotNet\LearningSolution\Catalog\bin\Debug\net9.0\Catalog.deps.json
+D:\Learning C#\Learning-DotNet\LearningSolution\Catalog\bin\Debug\net9.0\Catalog.dll
+D:\Learning C#\Learning-DotNet\LearningSolution\Catalog\bin\Debug\net9.0\Catalog.pdb
+D:\Learning C#\Learning-DotNet\LearningSolution\Catalog\obj\Debug\net9.0\Catalog.dll
+D:\Learning C#\Learning-DotNet\LearningSolution\Catalog\obj\Debug\net9.0\refint\Catalog.dll
+D:\Learning C#\Learning-DotNet\LearningSolution\Catalog\obj\Debug\net9.0\Catalog.pdb
+D:\Learning C#\Learning-DotNet\LearningSolution\Catalog\obj\Debug\net9.0\ref\Catalog.dll
