@@ -110,7 +110,7 @@ namespace Catalog
                 MySqlConnection con = new MySqlConnection(conString);
                 if (con.State == ConnectionState.Closed)
                  con.Open();
-                string query = "DELETE FROM flowers WHERE Id=@ProductId";
+                string query = "DELETE FROM Product WHERE Id=@ProductId";
                 MySqlCommand cmd = new MySqlCommand(query, con);
                 cmd.Parameters.Add(new MySqlParameter("@ProductId", productId)); //Parameterized command handling
                 cmd.ExecuteNonQuery();  // DML Operation
@@ -170,16 +170,21 @@ namespace Catalog
                 {
                     if (con.State == ConnectionState.Closed)
                     con.Open();
-                    string query = "INSERT INTO flowers (Id,Title, Description, ImageUrl, UnitPrice, Quantity) " +
-                        "VALUES (@Id, @Title, @Description, @Image, @UnitPrice, @Quantity)";
+
+                    string query = "INSERT INTO Product (Id,Title, Description, ImageUrl, UnitPrice, Quantity) " +
+                        "VALUES (@Id, @Title, @Description, @ImageUrl, @UnitPrice, @Quantity)";
+
                     MySqlCommand cmd = new MySqlCommand(query, con);
+
                     cmd.Parameters.Add(new MySqlParameter("@Id", product.Id));
                     cmd.Parameters.Add(new MySqlParameter("@Title", product.Title));
                     cmd.Parameters.Add(new MySqlParameter("@Description", product.Description));
-                    cmd.Parameters.Add(new MySqlParameter("@Image", product.ImageUrl));
+                    cmd.Parameters.Add(new MySqlParameter("@ImageUrl", product.ImageUrl));
                     cmd.Parameters.Add(new MySqlParameter("@UnitPrice", product.UnitPrice));
                     cmd.Parameters.Add(new MySqlParameter("@Quantity", product.Quantity));  
+
                     cmd.ExecuteNonQuery();// DML
+
                     if (con.State == ConnectionState.Open)
                         con.Close();
                     status = true;
@@ -187,9 +192,9 @@ namespace Catalog
             }
             catch (MySqlException ex)
             {
-                string message = ex.Message;
+                throw ex;
             }
             return status;
         }
-  }
+    }
 }

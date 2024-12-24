@@ -32,11 +32,11 @@ public class ProductsController : Controller
 
      public IActionResult Delete(int id)
     {  
-        // ProductManager.Delete(id);
+        ProductManager.Delete(id);
         return RedirectToAction("Index");
     }
 
-    //[httpGet]
+    [HttpGet]
 
     public IActionResult Insert()
     {

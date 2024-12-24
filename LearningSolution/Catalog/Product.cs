@@ -29,13 +29,14 @@ namespace Catalog
             this.ImageUrl = "/Images/Gerbera.jpg";
         }
 
-        public Product(int id, string title, string description, double unitPrice, int quantity)
+        public Product(int id, string title, string description, double unitPrice, int quantity,string imageUrl)
         {
             this.Id = id;
             this.Title = title;
             this.Description = description;
             this.Quantity = quantity;
             this.UnitPrice = unitPrice;
+            this.ImageUrl = imageUrl;
         }
         ~Product()
         {
@@ -43,7 +44,7 @@ namespace Catalog
         }
         public override string ToString()
         {
-            return this.Id + " " + this.Title + " " + this.Description + " " + this.UnitPrice + " " + this.Quantity;
+            return this.Id + " " + this.Title + " " + this.Description + " " + this.UnitPrice + " " + this.Quantity + " " + this.ImageUrl;
         }
     }
 }
