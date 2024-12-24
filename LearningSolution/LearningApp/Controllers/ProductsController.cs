@@ -55,7 +55,7 @@ public class ProductsController : Controller
             ImageUrl=imageUrl
         };
         ProductManager.Insert(product);
-        return View();
+        return RedirectToAction("index","products");
     }
 
     [HttpGet]
