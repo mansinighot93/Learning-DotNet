@@ -2,7 +2,7 @@
 @{
     ViewBag.Title = "Insert";
 }
-
+@*
 @{
     ViewData["Title"] = "Insert Page";
 }
@@ -16,11 +16,17 @@
     <p>Product Quantity:</p>
     <p>Product Price:</p>
     -->
-</div>
+</div>*@
 
 
 <form action="/products/insert" method="POST">
     <table style="font-family:Arial">
+
+        <tr>
+            <td><b>Product ID:</b><td>
+            <td><input type="text" name="id"/> </td>
+        </tr>
+
         <tr>
             <td><b>Product Title:</b><td>
             <td><input type="text" name="title"/> </td>

@@ -16,9 +16,11 @@ public class ProductsController : Controller
 
     public IActionResult Index()
     {
+        
         List<Product> allProducts = ProductManager.GetAllProducts();
         ViewData["products"] = allProducts;
         return View();
+    
     }
 
     public IActionResult Details(int id)
@@ -42,20 +44,21 @@ public class ProductsController : Controller
     }
 
     [HttpPost]
-    public IActionResult Insert(string title,string description,int quantity,double unitprice)
+    public IActionResult Insert(int id,string title,string description,int quantity,double unitprice,string imageUrl)
     {
         Product product = new Product(){
-            Id=78,
+            Id=id,
             Title=title,
             Description=description,
             Quantity=quantity,
-            UnitPrice=unitprice
+            UnitPrice=unitprice,
+            ImageUrl=imageUrl
         };
         ProductManager.Insert(product);
         return View();
     }
 
-    //[httpGet]
+    [HttpGet]
     public IActionResult Update(int id)
     {
         //data was transfered to view using ViewData
@@ -65,7 +68,7 @@ public class ProductsController : Controller
         return View(product);
     }
 
-    //[httpPost]
+    [HttpPost]
     public IActionResult Update(Product modifiedProduct)
     {
         ProductManager.Update(modifiedProduct);

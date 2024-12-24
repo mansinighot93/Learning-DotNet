@@ -13,7 +13,7 @@ namespace CRM
     public  static class CustomerDBManager
     {
        
-    public static string conString = @"server=localhost;user=root;database=demodb;password=''";
+    public static string conString = @"server=localhost;user=root;database=learningapp;password='password'";
     public static List<Customers> GetAll() 
         {
             List<Customers> customers = new List<Customers>();

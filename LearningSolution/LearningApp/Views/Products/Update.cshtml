@@ -5,8 +5,7 @@
     ViewBag.Title = "Update";
 }
 
-<!--
-@{
+@*@{
     ViewData["Title"] = "Update Page";
 }
 
@@ -17,7 +16,7 @@
     <p>Product Quantity:</p>
     <p>Product Price:</p>
 </div>
--->
+*@
 
 @using(Html.BeginForm())
 {
@@ -68,6 +67,9 @@
             </td>
             <td>
                 @Html.EditorFor(model => model.UnitPrice,new {htmlattributes = new {@class = "form-control"}})
+            </td>
+            <td>
+            <input type="submit" value="Update Product"/>
             </td>
         </tr>
     </table>

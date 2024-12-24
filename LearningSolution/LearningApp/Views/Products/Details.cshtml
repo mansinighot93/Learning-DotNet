@@ -1,4 +1,4 @@
-@{
+@*@{
     ViewData["Title"] = "Details Page";
 }
 
@@ -12,9 +12,10 @@
     <p>Quantity:4546</p>
     <p>Likes:7K</p>
 </div>
+*@
 
-
-@* <h2>Product Details</h2>
+@using Catalog;
+<h2>Product Details</h2>
 @{
     Product theProduct = ViewData["product"] as Product;
 }
@@ -48,4 +49,4 @@
             @Html.ActionLink("Delete", "Delete", "Products", new { id = theProduct.Id }, "")
         </td>
     </tr>
-</table> *@
+</table>

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "W52OGMJFqYPlSBGPEnOvAAz/7EgQZAq4vBI1Fww5xMo=",
+  "Hash": "sn2oA9vl05us1AKT6wyfFx7sIGigS2r0G0M+cjVvkHc=",
   "Source": "LearningApp",
   "BasePath": "_content/LearningApp",
   "Mode": "Default",
@@ -1443,6 +1443,132 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\Learning C#\\Learning-DotNet\\LearningSolution\\LearningApp\\wwwroot\\Images\\Gerbera.jpg",
+      "SourceId": "LearningApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Learning C#\\Learning-DotNet\\LearningSolution\\LearningApp\\wwwroot\\",
+      "BasePath": "_content/LearningApp",
+      "RelativePath": "Images/Gerbera#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rdf226y1dy",
+      "Integrity": "octHS1VSnuvLmoXLAoKMTsQDGil0IrErr3+Zz4KhF70=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Gerbera.jpg"
+    },
+    {
+      "Identity": "D:\\Learning C#\\Learning-DotNet\\LearningSolution\\LearningApp\\wwwroot\\Images\\Jasmine.jpg",
+      "SourceId": "LearningApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Learning C#\\Learning-DotNet\\LearningSolution\\LearningApp\\wwwroot\\",
+      "BasePath": "_content/LearningApp",
+      "RelativePath": "Images/Jasmine#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qveu96u1eo",
+      "Integrity": "1ke8yZxs9ZE2fhGvpkw5QbHYj1Eb9KrkyJenrclxghk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Jasmine.jpg"
+    },
+    {
+      "Identity": "D:\\Learning C#\\Learning-DotNet\\LearningSolution\\LearningApp\\wwwroot\\Images\\Lily.jpg",
+      "SourceId": "LearningApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Learning C#\\Learning-DotNet\\LearningSolution\\LearningApp\\wwwroot\\",
+      "BasePath": "_content/LearningApp",
+      "RelativePath": "Images/Lily#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "juqxi9gcvv",
+      "Integrity": "1eOz7iyjd0+mrZPJ0h8Kdbd85rSMKq3cZN/l3nmu8MQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Lily.jpg"
+    },
+    {
+      "Identity": "D:\\Learning C#\\Learning-DotNet\\LearningSolution\\LearningApp\\wwwroot\\Images\\Lotus.jpg",
+      "SourceId": "LearningApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Learning C#\\Learning-DotNet\\LearningSolution\\LearningApp\\wwwroot\\",
+      "BasePath": "_content/LearningApp",
+      "RelativePath": "Images/Lotus#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o8eyawxp35",
+      "Integrity": "aGmm1hl/33Kr+djsBJ62PqmRCm+4qBopaL+WVWX4M/Y=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Lotus.jpg"
+    },
+    {
+      "Identity": "D:\\Learning C#\\Learning-DotNet\\LearningSolution\\LearningApp\\wwwroot\\Images\\Marigold.jpg",
+      "SourceId": "LearningApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Learning C#\\Learning-DotNet\\LearningSolution\\LearningApp\\wwwroot\\",
+      "BasePath": "_content/LearningApp",
+      "RelativePath": "Images/Marigold#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5tnenkijk0",
+      "Integrity": "CZcuMlC4fypy+CXsUT5dT7PgUCfJold4dUWEOFDWUF8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Marigold.jpg"
+    },
+    {
+      "Identity": "D:\\Learning C#\\Learning-DotNet\\LearningSolution\\LearningApp\\wwwroot\\Images\\Rose.jpg",
+      "SourceId": "LearningApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Learning C#\\Learning-DotNet\\LearningSolution\\LearningApp\\wwwroot\\",
+      "BasePath": "_content/LearningApp",
+      "RelativePath": "Images/Rose#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4cy6tnk2lf",
+      "Integrity": "VKxrNdgKSp1/BylU7G2Oi3O9MabnP0SCLk66BhjAq8M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Rose.jpg"
     },
     {
       "Identity": "D:\\Learning C#\\Learning-DotNet\\LearningSolution\\LearningApp\\wwwroot\\js\\site.js",
@@ -3320,6 +3446,498 @@
         {
           "Name": "integrity",
           "Value": "sha256-wfFuuYm+Lh6RbCeeiUqxw334b/hIOkp5j9eokGUM1Y0="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Gerbera.jpg",
+      "AssetFile": "D:\\Learning C#\\Learning-DotNet\\LearningSolution\\LearningApp\\wwwroot\\Images\\Gerbera.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12782"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"octHS1VSnuvLmoXLAoKMTsQDGil0IrErr3+Zz4KhF70=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Sep 2024 12:08:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-octHS1VSnuvLmoXLAoKMTsQDGil0IrErr3+Zz4KhF70="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Gerbera.rdf226y1dy.jpg",
+      "AssetFile": "D:\\Learning C#\\Learning-DotNet\\LearningSolution\\LearningApp\\wwwroot\\Images\\Gerbera.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12782"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"octHS1VSnuvLmoXLAoKMTsQDGil0IrErr3+Zz4KhF70=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Sep 2024 12:08:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rdf226y1dy"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/Gerbera.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-octHS1VSnuvLmoXLAoKMTsQDGil0IrErr3+Zz4KhF70="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Jasmine.jpg",
+      "AssetFile": "D:\\Learning C#\\Learning-DotNet\\LearningSolution\\LearningApp\\wwwroot\\Images\\Jasmine.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9924"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1ke8yZxs9ZE2fhGvpkw5QbHYj1Eb9KrkyJenrclxghk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Sep 2024 12:10:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1ke8yZxs9ZE2fhGvpkw5QbHYj1Eb9KrkyJenrclxghk="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Jasmine.qveu96u1eo.jpg",
+      "AssetFile": "D:\\Learning C#\\Learning-DotNet\\LearningSolution\\LearningApp\\wwwroot\\Images\\Jasmine.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9924"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1ke8yZxs9ZE2fhGvpkw5QbHYj1Eb9KrkyJenrclxghk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Sep 2024 12:10:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qveu96u1eo"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/Jasmine.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1ke8yZxs9ZE2fhGvpkw5QbHYj1Eb9KrkyJenrclxghk="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Lily.jpg",
+      "AssetFile": "D:\\Learning C#\\Learning-DotNet\\LearningSolution\\LearningApp\\wwwroot\\Images\\Lily.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "135520"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1eOz7iyjd0+mrZPJ0h8Kdbd85rSMKq3cZN/l3nmu8MQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Sep 2024 12:11:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1eOz7iyjd0+mrZPJ0h8Kdbd85rSMKq3cZN/l3nmu8MQ="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Lily.juqxi9gcvv.jpg",
+      "AssetFile": "D:\\Learning C#\\Learning-DotNet\\LearningSolution\\LearningApp\\wwwroot\\Images\\Lily.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "135520"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1eOz7iyjd0+mrZPJ0h8Kdbd85rSMKq3cZN/l3nmu8MQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Sep 2024 12:11:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "juqxi9gcvv"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/Lily.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1eOz7iyjd0+mrZPJ0h8Kdbd85rSMKq3cZN/l3nmu8MQ="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Lotus.jpg",
+      "AssetFile": "D:\\Learning C#\\Learning-DotNet\\LearningSolution\\LearningApp\\wwwroot\\Images\\Lotus.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "382514"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aGmm1hl/33Kr+djsBJ62PqmRCm+4qBopaL+WVWX4M/Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Sep 2024 12:08:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-aGmm1hl/33Kr+djsBJ62PqmRCm+4qBopaL+WVWX4M/Y="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Lotus.o8eyawxp35.jpg",
+      "AssetFile": "D:\\Learning C#\\Learning-DotNet\\LearningSolution\\LearningApp\\wwwroot\\Images\\Lotus.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "382514"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aGmm1hl/33Kr+djsBJ62PqmRCm+4qBopaL+WVWX4M/Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Sep 2024 12:08:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o8eyawxp35"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/Lotus.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-aGmm1hl/33Kr+djsBJ62PqmRCm+4qBopaL+WVWX4M/Y="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Marigold.5tnenkijk0.jpg",
+      "AssetFile": "D:\\Learning C#\\Learning-DotNet\\LearningSolution\\LearningApp\\wwwroot\\Images\\Marigold.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17653"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CZcuMlC4fypy+CXsUT5dT7PgUCfJold4dUWEOFDWUF8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Sep 2024 12:11:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5tnenkijk0"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/Marigold.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CZcuMlC4fypy+CXsUT5dT7PgUCfJold4dUWEOFDWUF8="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Marigold.jpg",
+      "AssetFile": "D:\\Learning C#\\Learning-DotNet\\LearningSolution\\LearningApp\\wwwroot\\Images\\Marigold.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17653"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CZcuMlC4fypy+CXsUT5dT7PgUCfJold4dUWEOFDWUF8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Sep 2024 12:11:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CZcuMlC4fypy+CXsUT5dT7PgUCfJold4dUWEOFDWUF8="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Rose.4cy6tnk2lf.jpg",
+      "AssetFile": "D:\\Learning C#\\Learning-DotNet\\LearningSolution\\LearningApp\\wwwroot\\Images\\Rose.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9002"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VKxrNdgKSp1/BylU7G2Oi3O9MabnP0SCLk66BhjAq8M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 04 Sep 2024 10:10:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4cy6tnk2lf"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/Rose.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VKxrNdgKSp1/BylU7G2Oi3O9MabnP0SCLk66BhjAq8M="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Rose.jpg",
+      "AssetFile": "D:\\Learning C#\\Learning-DotNet\\LearningSolution\\LearningApp\\wwwroot\\Images\\Rose.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9002"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VKxrNdgKSp1/BylU7G2Oi3O9MabnP0SCLk66BhjAq8M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 04 Sep 2024 10:10:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VKxrNdgKSp1/BylU7G2Oi3O9MabnP0SCLk66BhjAq8M="
         }
       ]
     },

@@ -14,6 +14,7 @@ namespace Catalog
         public static List<Product> GetSoldOutProducts()
         {
             List<Product> products = GetAllProducts();
+            Console.WriteLine(products.Count + "Product Count");
             var soldOutProducts = from prod in products
                                   where prod.Quantity == 0
                                   select prod;
@@ -132,11 +133,10 @@ namespace Catalog
             List<Product> allProducts = ProductDBManager.GetAll();
             return allProducts;
         }
-   
-
-        // CRUD Methods for Entity data processing
+       // CRUD Methods for Entity data processing
         
-        public static bool Insert(Product product){
+        public static bool Insert(Product product)
+        {
 
             bool status=false;
             status=ProductDBManager.Insert(product);
@@ -145,7 +145,7 @@ namespace Catalog
         public static bool Update(Product product){
 
             bool status=false;
-              status=ProductDBManager.Update(product);
+            status=ProductDBManager.Update(product);
             return status;
 
         }

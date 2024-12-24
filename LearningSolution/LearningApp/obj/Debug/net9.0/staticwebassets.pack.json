@@ -5,6 +5,30 @@
       "PackagePath": "staticwebassets\\LearningApp.btvyvq48ay.bundle.scp.css"
     },
     {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\LearningSolution\\LearningApp\\wwwroot\\Images\\Gerbera.jpg",
+      "PackagePath": "staticwebassets\\Images\\Gerbera.jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\LearningSolution\\LearningApp\\wwwroot\\Images\\Jasmine.jpg",
+      "PackagePath": "staticwebassets\\Images\\Jasmine.jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\LearningSolution\\LearningApp\\wwwroot\\Images\\Lily.jpg",
+      "PackagePath": "staticwebassets\\Images\\Lily.jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\LearningSolution\\LearningApp\\wwwroot\\Images\\Lotus.jpg",
+      "PackagePath": "staticwebassets\\Images\\Lotus.jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\LearningSolution\\LearningApp\\wwwroot\\Images\\Marigold.jpg",
+      "PackagePath": "staticwebassets\\Images\\Marigold.jpg"
+    },
+    {
+      "Id": "D:\\Learning C#\\Learning-DotNet\\LearningSolution\\LearningApp\\wwwroot\\Images\\Rose.jpg",
+      "PackagePath": "staticwebassets\\Images\\Rose.jpg"
+    },
+    {
       "Id": "D:\\Learning C#\\Learning-DotNet\\LearningSolution\\LearningApp\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
