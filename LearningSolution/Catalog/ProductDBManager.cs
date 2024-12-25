@@ -57,7 +57,7 @@ namespace Catalog
 
             return products;
         }
-      public static Product Get(int productId)
+        public static Product Get(int productId)
         {
              Product theProduct=null;
             try
@@ -101,8 +101,7 @@ namespace Catalog
             return theProduct;
         }
      
-     
-      public static bool Delete(int productId)
+        public static bool Delete(int productId)
         {
             bool status = false;
             try
@@ -118,13 +117,14 @@ namespace Catalog
                 con.Close();
                 status = true;
             }
-            catch (MySqlException ee) {
+            catch (MySqlException ee) 
+            {
                 string message = ee.Message;
             }
             return status;
         }
 
-       public static bool Update(Product product)
+        public static bool Update(Product product)
         {
             bool status = false;
             try
@@ -161,7 +161,7 @@ namespace Catalog
             return status;
         }
 
-       public static bool Insert(Product product)
+        public static bool Insert(Product product)
         {
             bool status = false;
             try

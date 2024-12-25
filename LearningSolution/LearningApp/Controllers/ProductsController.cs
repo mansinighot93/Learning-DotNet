@@ -26,7 +26,7 @@ public class ProductsController : Controller
     public IActionResult Details(int id)
     {
         Product Product = ProductManager.Get(id);
-        this.ViewData["product"]=Product;
+        this.ViewData["product"] = Product;
         return View();
     }
 
@@ -46,7 +46,8 @@ public class ProductsController : Controller
     [HttpPost]
     public IActionResult Insert(int id,string title,string description,int quantity,double unitprice,string imageUrl)
     {
-        Product product = new Product(){
+        Product product = new Product()
+        {
             Id=id,
             Title=title,
             Description=description,

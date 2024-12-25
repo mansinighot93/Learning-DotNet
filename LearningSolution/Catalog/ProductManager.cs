@@ -126,7 +126,7 @@ namespace Catalog
             allProducts.Add(new Product { Id = 15, Title = "Tulip", Description = "Tulips are the quintessential spring flower and available from January to June.", UnitPrice = 17, Category = "Flower", Quantity = 10000,Likes=4000  });
             */
             allProducts=GetAllProductsFromDatabase();
-             return allProducts;
+            return allProducts;
         }
         public static List<Product> GetAllProductsFromDatabase()
         {
