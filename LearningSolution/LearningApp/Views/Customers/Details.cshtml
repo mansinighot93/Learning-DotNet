@@ -1,0 +1,37 @@
+@using CRM;
+<h2>Customer Details</h2>
+@{
+    Customers theCustomer = ViewData["customer"] as Customers;
+}
+
+<table>
+    <tr>
+        <td><b>Customer Name:</b></td>
+        <td>@theCustomer.Name</td>
+    </tr>
+    <tr>
+        <td><b>Email:</b></td>
+        <td>@theCustomer.Email</td>
+    </tr>
+    <tr>
+        <td><b>Contact Number:</b></td>
+        <td>@theCustomer.ContactNumber</td>
+    </tr>
+    <tr>
+        <td><b>Location:</b></td>
+        <td>@theCustomer.Location</td>
+    </tr>
+    <tr>
+        <td><b>Age:</b></td>
+        <td>@theCustomer.Age</td>
+
+    </tr>
+    <tr>
+        <td>
+            @Html.ActionLink("Update", "Update", "Customers", new { id = theCustomer.Id }, "")
+        </td>
+         <td>
+            @Html.ActionLink("Delete", "Delete", "Customers", new { id = theCustomer.Id }, "")
+        </td>
+    </tr>
+</table>

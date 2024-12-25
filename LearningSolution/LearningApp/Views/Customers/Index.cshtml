@@ -1,0 +1,46 @@
+
+<style>
+        div.gallery {
+            margin: 5px;
+            border: 1px solid #ccc;
+            float: left;
+            width: 180px;
+        }
+
+        div.gallery:hover {
+            border: 1px solid #777;
+        }
+
+        div.gallery img {
+            width: 100%;
+            height: auto;
+        }
+
+        div.desc {
+            padding: 15px;
+            text-align: center;
+        }
+</style>
+
+@using CRM;
+@{
+    ViewData["Title"] = "Customers Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Customer Catalog</h1>
+</div>
+
+<h1>Customer List </h1>
+<hr/>
+<div>
+    @foreach (Customers  cust in ViewData["customer"] as List<Customers>)
+    {
+    <div>
+        <ol>
+            @cust.Name |<a href="/customers/details/@cust.Id">Details</a>
+        </ol>
+    </div>
+    }
+</div>
+

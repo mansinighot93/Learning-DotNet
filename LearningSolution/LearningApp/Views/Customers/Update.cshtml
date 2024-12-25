@@ -1,0 +1,63 @@
+@using CRM;
+@model Customers
+
+@{
+    ViewBag.Title = "Update";
+}
+
+@using(Html.BeginForm())
+{
+    <table>
+        <tr>
+            <td>
+                @Html.LabelFor(model => model.Id,new {htmlattributes = new {@class = "label label-info"}})
+            </td>
+            <td>
+                @Html.EditorFor(model => model.Id,new {htmlattributes = new {@class = "form-control"}})
+            </td>
+        </tr>
+        <tr>
+            <td>
+                @Html.LabelFor(model => model.Name,new {htmlattributes = new {@class = "label label-info"}})
+            </td>
+            <td>
+                @Html.EditorFor(model => model.Name,new {htmlattributes = new {@class = "form-control"}})
+            </td>
+        </tr>
+        <tr>
+            <td>
+                @Html.LabelFor(model => model.ContactNumber,new {htmlattributes = new {@class = "label label-info"}})
+            </td>
+            <td>
+                @Html.EditorFor(model => model.ContactNumber,new {htmlattributes = new {@class = "form-control"}})
+            </td>
+        </tr>
+        <tr>
+            <td>
+                @Html.LabelFor(model => model.Email,new {htmlattributes = new {@class = "label label-info"}})
+            </td>
+            <td>
+                @Html.EditorFor(model => model.Email,new {htmlattributes = new {@class = "form-control"}})
+            </td>
+        </tr>
+        <tr>
+            <td>
+                @Html.LabelFor(model => model.Location,new {htmlattributes = new {@class = "label label-info"}})
+            </td>
+            <td>
+                @Html.EditorFor(model => model.Location,new {htmlattributes = new {@class = "form-control"}})
+            </td>
+        </tr>
+        <tr>
+            <td>
+                @Html.LabelFor(model => model.Age,new {htmlattributes = new {@class = "label label-info"}})
+            </td>
+            <td>
+                @Html.EditorFor(model => model.Age,new {htmlattributes = new {@class = "form-control"}})
+            </td><br/><br/>
+            <td>
+            <input type="submit" value="Update Customer"/>
+            </td>
+        </tr>
+    </table>
+}

@@ -18,7 +18,7 @@ namespace CRM
         {
             List<Customers> customers = new List<Customers>();
             IDbConnection con = new MySqlConnection(conString);
-            string query = "SELECT * FROM customers";
+            string query = "SELECT * FROM Customers";
             IDbCommand cmd = new MySqlCommand(query, con as MySqlConnection);
             try
             {
@@ -29,7 +29,7 @@ namespace CRM
                     int id = int.Parse(reader["Id"].ToString());
                     string name = reader["Name"].ToString();
                     string Email = reader["Email"].ToString();
-                    string contactNumber = reader["ContactNumber"].ToString();
+                    int contactNumber = int.Parse(reader["ContactNumber"].ToString());
                     string location = reader["Location"].ToString();
                     int age = int.Parse(reader["Age"].ToString());
 
@@ -59,7 +59,7 @@ namespace CRM
             return customers;
         }
 
-    public static Customers GetById(int customerId,string emailId)
+    public static Customers GetById(int customerId)
         {
             Customers theCustomer=null;
             try
@@ -81,7 +81,7 @@ namespace CRM
                     int id = int.Parse(reader["Id"].ToString());
                     string name = reader["Name"].ToString();
                     string Email = reader["Email"].ToString();
-                    string contactNumber = reader["ContactNumber"].ToString();
+                    int contactNumber = int.Parse(reader["ContactNumber"].ToString());
                     string location = reader["Location"].ToString();
                     int age = int.Parse(reader["Age"].ToString());
 
@@ -106,6 +106,7 @@ namespace CRM
             }
             return theCustomer;
         }
+
     public static bool Delete(int customerId)
         {
             bool status = false;
@@ -114,7 +115,7 @@ namespace CRM
                 MySqlConnection con = new MySqlConnection(conString);
                 if (con.State == ConnectionState.Closed)
                  con.Open();
-                string query = "DELETE FROM customers WHERE Id=@CustomerId";
+                string query = "DELETE FROM Customers WHERE Id=@CustomerId";
                 MySqlCommand cmd = new MySqlCommand(query, con);
                 cmd.Parameters.Add(new MySqlParameter("@CustomerId", customerId)); //Parameterized command handling
                 cmd.ExecuteNonQuery();  // DML Operation
@@ -137,17 +138,21 @@ namespace CRM
                     if (con.State == ConnectionState.Closed)
                     con.Open();
 
-                    string query = "UPDATE customer SET Name=@Name , Email=@Email, " +
-                                    "ContactNumber=@ContactNumber ,Location=@Location,Age=@Age"  +      "WHERE Id=@Id";
+                    string query = "UPDATE Customers SET Name=@Name , ContactNumber=@ContactNumber, " +
+                        "Email=@Email, Location=@Location, Age=@Age " +
+                        "WHERE Id=@Id";
+
                     MySqlCommand cmd = new MySqlCommand(query, con);
+
                     cmd.Parameters.Add(new MySqlParameter("@Id", customer.Id));
-                    cmd.Parameters.Add(new MySqlParameter("@Title", customer.Name));
-                    cmd.Parameters.Add(new MySqlParameter("@Description", customer.ContactNumber));
-                    cmd.Parameters.Add(new MySqlParameter("@Image", customer.Email));
+                    cmd.Parameters.Add(new MySqlParameter("@Name", customer.Name));
+                    cmd.Parameters.Add(new MySqlParameter("@ContactNumber", customer.ContactNumber));
+                    cmd.Parameters.Add(new MySqlParameter("@Email", customer.Email));
                     cmd.Parameters.Add(new MySqlParameter("@Location", customer.Location));
-                    cmd.Parameters.Add(new MySqlParameter("@Age", customer.Age));
-                    
+                    cmd.Parameters.Add(new MySqlParameter("@Age", customer.Age));   
+
                     cmd.ExecuteNonQuery();  // DML Operation
+
                     if (con.State == ConnectionState.Open)
                         con.Close();
                     status = true;
@@ -155,10 +160,11 @@ namespace CRM
             }
             catch (MySqlException ex)
             {
-                throw ex;
+                string message = ex.Message;
             }
             return status;
         }
+
     public static bool Insert(Customers customer)
         {
             bool status = false;
@@ -168,16 +174,21 @@ namespace CRM
                 {
                     if (con.State == ConnectionState.Closed)
                     con.Open();
-                    string query = "INSERT INTO customers (Id,Name, Email, ContactNumber,Location,Age) " +
-                                    "VALUES (@Id, @Name, @ContactNumber,@Location,@Age)";
+
+                    string query = "INSERT INTO Customers (Id,Name, ContactNumber, Email, Location, Age) " +
+                        "VALUES (@Id, @Name, @ContactNumber, @Email, @Location, @Age)";
+
                     MySqlCommand cmd = new MySqlCommand(query, con);
+
                     cmd.Parameters.Add(new MySqlParameter("@Id", customer.Id));
                     cmd.Parameters.Add(new MySqlParameter("@Name", customer.Name));
                     cmd.Parameters.Add(new MySqlParameter("@ContactNumber", customer.ContactNumber));
                     cmd.Parameters.Add(new MySqlParameter("@Email", customer.Email));
                     cmd.Parameters.Add(new MySqlParameter("@Location", customer.Location));
-                    cmd.Parameters.Add(new MySqlParameter("@Age", customer.Age));
+                    cmd.Parameters.Add(new MySqlParameter("@Age", customer.Age));  
+
                     cmd.ExecuteNonQuery();// DML
+
                     if (con.State == ConnectionState.Open)
                         con.Close();
                     status = true;
@@ -186,9 +197,8 @@ namespace CRM
             catch (MySqlException ex)
             {
                 string message = ex.Message;
-                throw ex;
             }
             return status;
         }
-  }
+    }
 }

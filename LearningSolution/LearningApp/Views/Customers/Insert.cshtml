@@ -1,0 +1,43 @@
+@using CRM;
+@{
+    ViewBag.Title = "Insert";
+}
+
+
+<form action="/customers/insert" method="POST">
+    <table style="font-family:Arial">
+
+        <tr>
+            <td><b>Customer ID:</b><td>
+            <td><input type="text" name="id"/> </td>
+        </tr>
+
+        <tr>
+            <td><b>Customer Name:</b><td>
+            <td><input type="text" name="name"/> </td>
+        </tr>
+
+        <tr>
+            <td><b>Contact Number:</b><td>
+            <td><input type="text" name="contactNumber"/> </td>
+        </tr>
+
+        <tr>
+            <td><b>Email:</b><td>
+            <td><input type="text" name="email"/> </td>
+        </tr>
+
+        <tr>
+            <td><b>Location:</b><td>
+            <td><input type="text" name="location"/> </td>
+        </tr>
+
+        <tr>
+            <td><b>Age:</b><td>
+            <td><input type="text" name="age"/> </td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="Insert"/> </td>
+        </tr>
+    </table>
+</form>

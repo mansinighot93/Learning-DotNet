@@ -156,7 +156,7 @@ namespace Catalog
             }
             catch (MySqlException ex)
             {
-                throw ex;
+                string message = ex.Message;
             }
             return status;
         }

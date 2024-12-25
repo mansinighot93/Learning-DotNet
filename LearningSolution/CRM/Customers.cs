@@ -10,7 +10,7 @@ namespace CRM
     {
         public required int Id { get; set; }
         public required string Name { get; set; }
-        public required string ContactNumber { get; set; }
+        public required int ContactNumber { get; set; }
         public required string Email { get; set; }
         public required string Location { get; set; }
         public required int Age { get; set; }
