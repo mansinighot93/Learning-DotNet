@@ -7,7 +7,6 @@ using System.Collections.Generic;
 
 namespace CRM
 {
-
     // Connected Data Access Object Model
     
     public  static class CustomerDBManager
@@ -127,7 +126,8 @@ namespace CRM
                 string message = ee.Message;
             }
             return status;
-        }   
+        }  
+
     public static bool Update(Customers customer)
         {
             bool status = false;
