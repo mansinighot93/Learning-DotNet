@@ -1,6 +1,6 @@
-D:\Learning C#\Learning-DotNet\HelloSolution\HR\obj\Debug\HR.csproj.AssemblyReference.cache
-D:\Learning C#\Learning-DotNet\HelloSolution\HR\obj\Debug\HR.csproj.CoreCompileInputs.cache
 D:\Learning C#\Learning-DotNet\HelloSolution\HR\bin\Debug\HR.dll
 D:\Learning C#\Learning-DotNet\HelloSolution\HR\bin\Debug\HR.pdb
+D:\Learning C#\Learning-DotNet\HelloSolution\HR\obj\Debug\HR.csproj.AssemblyReference.cache
+D:\Learning C#\Learning-DotNet\HelloSolution\HR\obj\Debug\HR.csproj.CoreCompileInputs.cache
 D:\Learning C#\Learning-DotNet\HelloSolution\HR\obj\Debug\HR.dll
 D:\Learning C#\Learning-DotNet\HelloSolution\HR\obj\Debug\HR.pdb

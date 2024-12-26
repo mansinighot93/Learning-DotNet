@@ -21,12 +21,7 @@ namespace Catalog
 
         public Product()
         {
-            this.Id = 2;
-            this.Title = "Gerbera";
-            this.Description = "Beautiful Flower";
-            this.Quantity = 10;
-            this.UnitPrice = 550;
-            this.ImageUrl = "/Images/Gerbera.jpg";
+            
         }
 
         public Product(int id, string title, string description, double unitPrice, int quantity,string imageUrl)

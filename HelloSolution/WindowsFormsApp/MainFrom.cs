@@ -1,5 +1,4 @@
 ﻿using System;
-using Membership;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -77,11 +76,11 @@ namespace WindowsFormsApp
             //create instance of product based on data recived
             Product theProduct = new Product
             {
-                id = id,
+                Id = id,
                 Title = title,
                 Description = description,
                 UnitPrice = unitprice,
-                Qunatity = quantity
+                Quantity = quantity
             };
             //add product data into list
             this.allProducts.Add(theProduct);
@@ -119,11 +118,11 @@ namespace WindowsFormsApp
         private void Display()
         {
             Product theproduct = allProducts[current];
-            this.textBox1.Text = theproduct.id.ToString();
+            this.textBox1.Text = theproduct.Id.ToString();
             this.textBox2.Text = theproduct.Title.ToString();
             this.textBox3.Text = theproduct.Description.ToString();
             this.textBox4.Text = theproduct.UnitPrice.ToString();
-            this.textBox5.Text = theproduct.Qunatity.ToString();
+            this.textBox5.Text = theproduct.Quantity.ToString();
         }
     }
 }

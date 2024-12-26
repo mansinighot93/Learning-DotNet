@@ -1,0 +1,2 @@
+D:\Learning C#\Learning-DotNet\HelloSolution\CRM\obj\Debug\CRM.csproj.AssemblyReference.cache
+D:\Learning C#\Learning-DotNet\HelloSolution\CRM\obj\Debug\CRM.csproj.CoreCompileInputs.cache

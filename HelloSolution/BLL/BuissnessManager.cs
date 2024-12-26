@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Catalog;
-using DAL;
+
 
 namespace BLL
 {
@@ -30,7 +30,7 @@ namespace BLL
         }
         public static IEnumerable<Product> GetAllProducts()
         {
-            IEnumerable<Product> allProducts = ProductDBManager.GetAllProductUsingDisconnected();
+            IEnumerable<Product> allProducts = ProductDBManager.GetAll();
             return allProducts;
 
             #region HardCode Way
@@ -57,9 +57,9 @@ namespace BLL
             return soldOutProducts;
         }
 
-        public static bool GetProduct(int id)
+        public static Product GetProduct(int id)
         {
-            return ProductDBManager.GetProductByID(id);
+            return ProductDBManager.Get(id);
         }
 
         public static bool UpdateProduct(Product theProduct)

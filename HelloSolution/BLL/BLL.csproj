@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BuissnessManager.cs" />
+    <Compile Include="AccountManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -49,7 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Catalog\Catalog.csproj">
-      <Project>{a94380ce-d672-4a7c-bfa2-59bc0cb9acad}</Project>
+      <Project>{4ba6c160-35fc-4a1f-893e-c40101fbfc26}</Project>
       <Name>Catalog</Name>
     </ProjectReference>
     <ProjectReference Include="..\DAL\DAL.csproj">

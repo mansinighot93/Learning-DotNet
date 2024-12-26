@@ -44,11 +44,5 @@
     <Compile Include="CatalogDBManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Catalog\Catalog.csproj">
-      <Project>{a94380ce-d672-4a7c-bfa2-59bc0cb9acad}</Project>
-      <Name>Catalog</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

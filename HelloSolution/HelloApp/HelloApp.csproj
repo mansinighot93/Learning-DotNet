@@ -12,6 +12,21 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -51,10 +66,7 @@
     <Compile Include="BoxingUnboxingTest.cs" />
     <Compile Include="Cart.cs" />
     <Compile Include="ConstReadOnlyTest.cs" />
-    <Compile Include="AccountManager.cs" />
-    <Compile Include="Customer.cs" />
     <Compile Include="DelegationText.cs" />
-    <Compile Include="Ecommerce.mdf" />
     <Compile Include="EmployeeTest.cs" />
     <Compile Include="Event.cs" />
     <Compile Include="EventDemoTest.cs" />
@@ -70,16 +82,39 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{bf1994b4-f3d3-4bae-a07b-44ca90680b0b}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Catalog\Catalog.csproj">
+      <Project>{4ba6c160-35fc-4a1f-893e-c40101fbfc26}</Project>
+      <Name>Catalog</Name>
+    </ProjectReference>
     <ProjectReference Include="..\HR\HR.csproj">
       <Project>{23e1ca69-20ff-47d0-8239-0b912f3c229f}</Project>
       <Name>HR</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Ecommerce_log.ldf">
-      <DependentUpon>Ecommerce.mdf</DependentUpon>
+    <Content Include="Employee.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Employee_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>Employee.mdf</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

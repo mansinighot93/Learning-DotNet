@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApp1.Program</StartupObject>
+    <StartupObject>ConsoleApp1.GCTest</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />

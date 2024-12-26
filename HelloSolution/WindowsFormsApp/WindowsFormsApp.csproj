@@ -116,5 +116,15 @@
   <ItemGroup>
     <Content Include="mau.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{bf1994b4-f3d3-4bae-a07b-44ca90680b0b}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Catalog\Catalog.csproj">
+      <Project>{4ba6c160-35fc-4a1f-893e-c40101fbfc26}</Project>
+      <Name>Catalog</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
