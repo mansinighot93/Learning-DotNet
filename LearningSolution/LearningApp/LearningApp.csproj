@@ -3,6 +3,7 @@
   <ItemGroup>
     <ProjectReference Include="..\CRM\CRM.csproj" />
     <ProjectReference Include="..\Catalog\Catalog.csproj" />
+    <ProjectReference Include="..\OrderProcessing\OrderProcessing.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
