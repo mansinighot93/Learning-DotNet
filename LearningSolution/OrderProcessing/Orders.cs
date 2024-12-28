@@ -4,9 +4,9 @@ namespace OrderProcessing
 {
     public class Orders
     {
-        public int Id{get;set;}
-        public DateTime OrderDate{get;set;}
-        public string Status{get;set;}
-        public double TotalAmount{get;set;}
+        public required int Id{get;set;}
+        public required DateTime OrderDate{get;set;}
+        public required string Status{get;set;}
+        public required double TotalAmount{get;set;}
     }
 }

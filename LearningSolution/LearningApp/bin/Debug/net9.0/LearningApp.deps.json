@@ -9,7 +9,8 @@
       "LearningApp/1.0.0": {
         "dependencies": {
           "CRM": "1.0.0",
-          "Catalog": "1.0.0"
+          "Catalog": "1.0.0",
+          "OrderProcessing": "1.0.0"
         },
         "runtime": {
           "LearningApp.dll": {}
@@ -547,6 +548,17 @@
             "fileVersion": "1.0.0.0"
           }
         }
+      },
+      "OrderProcessing/1.0.0": {
+        "dependencies": {
+          "MySql.Data": "9.1.0"
+        },
+        "runtime": {
+          "OrderProcessing.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -919,6 +931,11 @@
       "sha512": ""
     },
     "CRM/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OrderProcessing/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
