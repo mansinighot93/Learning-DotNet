@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fkyelzcrFCk=",
+  "dgSpecHash": "ftO0jIzwSQM=",
   "success": true,
-  "projectFilePath": "D:\\Learning C#\\Learning-DotNet\\LearningSolution\\LearningApp\\LearningApp.csproj",
+  "projectFilePath": "D:\\Learning C#\\Learning-DotNet\\LearningSolution\\learningapp\\LearningApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\manasi\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\manasi\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
