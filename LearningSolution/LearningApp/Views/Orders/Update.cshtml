@@ -1,0 +1,49 @@
+@using OrderProcessing;
+@model Orders
+
+@{
+    ViewBag.Title = "Update";
+}
+
+@using(Html.BeginForm())
+{
+    <table>
+        <tr>
+            <td>
+                @Html.LabelFor(model => model.Id,new {htmlattributes = new {@class = "label label-info"}})
+            </td>
+            <td>
+                @Html.EditorFor(model => model.Id,new {htmlattributes = new {@class = "form-control"}})
+            </td>
+        </tr>
+        <tr>
+            <td>
+                @Html.LabelFor(model => model.OrderDate,new {htmlattributes = new {@class = "label label-info"}})
+            </td>
+            <td>
+                @Html.EditorFor(model => model.OrderDate,new {htmlattributes = new {@class = "form-control"}})
+            </td>
+        </tr>
+        <tr>
+            <td>
+                @Html.LabelFor(model => model.Status,new {htmlattributes = new {@class = "label label-info"}})
+            </td>
+            <td>
+                @Html.EditorFor(model => model.Status,new {htmlattributes = new {@class = "form-control"}})
+            </td>
+        </tr>
+        <tr>
+            <td>
+                @Html.LabelFor(model => model.TotalAmount,new {htmlattributes = new {@class = "label label-info"}})
+            </td>
+            <td>
+                @Html.EditorFor(model => model.TotalAmount,new {htmlattributes = new {@class = "form-control"}})
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <input type="submit" value="Update Customer"/>
+            </td>
+        </tr>
+    </table>
+}

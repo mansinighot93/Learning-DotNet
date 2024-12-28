@@ -1,0 +1,46 @@
+
+<style>
+        div.gallery {
+            margin: 5px;
+            border: 1px solid #ccc;
+            float: left;
+            width: 180px;
+        }
+
+        div.gallery:hover {
+            border: 1px solid #777;
+        }
+
+        div.gallery img {
+            width: 100%;
+            height: auto;
+        }
+
+        div.desc {
+            padding: 15px;
+            text-align: center;
+        }
+</style>
+
+@using OrderProcessing;
+@{
+    ViewData["Title"] = "Orders Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Order Catalog</h1>
+</div>
+
+<h1>Orders List </h1>
+<hr/>
+<div>
+    @foreach (Orders  orders in ViewData["Orders"] as List<Orders>)
+    {
+    <div>
+        <ol>
+            @orders.Id |<a href="/orders/details/@orders.Id">Details</a>
+        </ol>
+    </div>
+    }
+</div>
+

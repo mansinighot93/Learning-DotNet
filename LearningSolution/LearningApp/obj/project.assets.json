@@ -911,6 +911,16 @@
         "runtime": {
           "bin/placeholder/CRM.dll": {}
         }
+      },
+      "OrderProcessing/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/OrderProcessing.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OrderProcessing.dll": {}
+        }
       }
     }
   },
@@ -2711,12 +2721,18 @@
       "type": "project",
       "path": "../CRM/CRM.csproj",
       "msbuildProject": "../CRM/CRM.csproj"
+    },
+    "OrderProcessing/1.0.0": {
+      "type": "project",
+      "path": "../OrderProcessing/OrderProcessing.csproj",
+      "msbuildProject": "../OrderProcessing/OrderProcessing.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
       "CRM >= 1.0.0",
-      "Catalog >= 1.0.0"
+      "Catalog >= 1.0.0",
+      "OrderProcessing >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -2756,6 +2772,9 @@
             },
             "D:\\Learning C#\\Learning-DotNet\\LearningSolution\\CRM\\CRM.csproj": {
               "projectPath": "D:\\Learning C#\\Learning-DotNet\\LearningSolution\\CRM\\CRM.csproj"
+            },
+            "D:\\Learning C#\\Learning-DotNet\\LearningSolution\\OrderProcessing\\OrderProcessing.csproj": {
+              "projectPath": "D:\\Learning C#\\Learning-DotNet\\LearningSolution\\OrderProcessing\\OrderProcessing.csproj"
             }
           }
         }

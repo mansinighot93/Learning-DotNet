@@ -1,0 +1,33 @@
+@using OrderProcessing;
+<h2>Customer Details</h2>
+@{
+    Orders theOrder = ViewData["order"] as Orders;
+}
+
+<table>
+    <tr>
+        <td><b>Order ID:</b></td>
+        <td>@theOrder.Id</td>
+    </tr>
+    <tr>
+        <td><b>Order Date:</b></td>
+        <td>@theOrder.OrderDate</td>
+    </tr>
+    <tr>
+        <td><b>Order Status:</b></td>
+        <td>@theOrder.Status</td>
+    </tr>
+    <tr>
+        <td><b>Total Amount:</b></td>
+        <td>@theOrder.TotalAmount</td>
+    </tr>
+
+    <tr>
+        <td>
+            @Html.ActionLink("Update", "Update", "Customers", new { id = theOrder.Id }, "")
+        </td>
+         <td>
+            @Html.ActionLink("Delete", "Delete", "Customers", new { id = theOrder.Id }, "")
+        </td>
+    </tr>
+</table>
