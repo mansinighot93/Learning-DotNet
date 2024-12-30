@@ -16,7 +16,7 @@ public class OrdersController : Controller
 
     public IActionResult Index()
     {
-        List<Orders> allOrders = OrderManager.GetAllOrders();
+        List<Orders> allOrders = OrderManager.GetAllOrder();
         ViewData["orders"] = allOrders;
         return View();
     }
