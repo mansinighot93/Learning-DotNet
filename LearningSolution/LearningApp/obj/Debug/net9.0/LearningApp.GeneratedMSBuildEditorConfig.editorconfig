@@ -20,106 +20,106 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[D:/Learning C\#/Learning-DotNet/LearningSolution/learningapp/Views/Accounts/Forgotpassword.cshtml]
+[D:/Learning C\#/Learning-DotNet/LearningSolution/LearningApp/Views/Accounts/Forgotpassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcRm9yZ290cGFzc3dvcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Learning C\#/Learning-DotNet/LearningSolution/learningapp/Views/Accounts/Login.cshtml]
+[D:/Learning C\#/Learning-DotNet/LearningSolution/LearningApp/Views/Accounts/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Learning C\#/Learning-DotNet/LearningSolution/learningapp/Views/Accounts/Logout.cshtml]
+[D:/Learning C\#/Learning-DotNet/LearningSolution/LearningApp/Views/Accounts/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcTG9nb3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Learning C\#/Learning-DotNet/LearningSolution/learningapp/Views/Accounts/Register.cshtml]
+[D:/Learning C\#/Learning-DotNet/LearningSolution/LearningApp/Views/Accounts/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcUmVnaXN0ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Learning C\#/Learning-DotNet/LearningSolution/learningapp/Views/Customers/Delete.cshtml]
+[D:/Learning C\#/Learning-DotNet/LearningSolution/LearningApp/Views/Customers/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Learning C\#/Learning-DotNet/LearningSolution/learningapp/Views/Customers/Details.cshtml]
+[D:/Learning C\#/Learning-DotNet/LearningSolution/LearningApp/Views/Customers/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Learning C\#/Learning-DotNet/LearningSolution/learningapp/Views/Customers/Index.cshtml]
+[D:/Learning C\#/Learning-DotNet/LearningSolution/LearningApp/Views/Customers/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Learning C\#/Learning-DotNet/LearningSolution/learningapp/Views/Customers/Insert.cshtml]
+[D:/Learning C\#/Learning-DotNet/LearningSolution/LearningApp/Views/Customers/Insert.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXEluc2VydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Learning C\#/Learning-DotNet/LearningSolution/learningapp/Views/Customers/Update.cshtml]
+[D:/Learning C\#/Learning-DotNet/LearningSolution/LearningApp/Views/Customers/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXFVwZGF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Learning C\#/Learning-DotNet/LearningSolution/learningapp/Views/Home/AboutUs.cshtml]
+[D:/Learning C\#/Learning-DotNet/LearningSolution/LearningApp/Views/Home/AboutUs.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dFVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Learning C\#/Learning-DotNet/LearningSolution/learningapp/Views/Home/Index.cshtml]
+[D:/Learning C\#/Learning-DotNet/LearningSolution/LearningApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Learning C\#/Learning-DotNet/LearningSolution/learningapp/Views/Home/Privacy.cshtml]
+[D:/Learning C\#/Learning-DotNet/LearningSolution/LearningApp/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Learning C\#/Learning-DotNet/LearningSolution/learningapp/Views/Orders/Details.cshtml]
+[D:/Learning C\#/Learning-DotNet/LearningSolution/LearningApp/Views/Orders/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Learning C\#/Learning-DotNet/LearningSolution/learningapp/Views/Orders/Index.cshtml]
+[D:/Learning C\#/Learning-DotNet/LearningSolution/LearningApp/Views/Orders/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Learning C\#/Learning-DotNet/LearningSolution/learningapp/Views/Orders/Insert.cshtml]
+[D:/Learning C\#/Learning-DotNet/LearningSolution/LearningApp/Views/Orders/Insert.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXEluc2VydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Learning C\#/Learning-DotNet/LearningSolution/learningapp/Views/Orders/Update.cshtml]
+[D:/Learning C\#/Learning-DotNet/LearningSolution/LearningApp/Views/Orders/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXFVwZGF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Learning C\#/Learning-DotNet/LearningSolution/learningapp/Views/Products/Delete.cshtml]
+[D:/Learning C\#/Learning-DotNet/LearningSolution/LearningApp/Views/Products/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Learning C\#/Learning-DotNet/LearningSolution/learningapp/Views/Products/Details.cshtml]
+[D:/Learning C\#/Learning-DotNet/LearningSolution/LearningApp/Views/Products/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Learning C\#/Learning-DotNet/LearningSolution/learningapp/Views/Products/Index.cshtml]
+[D:/Learning C\#/Learning-DotNet/LearningSolution/LearningApp/Views/Products/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Learning C\#/Learning-DotNet/LearningSolution/learningapp/Views/Products/Insert.cshtml]
+[D:/Learning C\#/Learning-DotNet/LearningSolution/LearningApp/Views/Products/Insert.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcSW5zZXJ0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Learning C\#/Learning-DotNet/LearningSolution/learningapp/Views/Products/Update.cshtml]
+[D:/Learning C\#/Learning-DotNet/LearningSolution/LearningApp/Views/Products/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Learning C\#/Learning-DotNet/LearningSolution/learningapp/Views/Shared/Error.cshtml]
+[D:/Learning C\#/Learning-DotNet/LearningSolution/LearningApp/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Learning C\#/Learning-DotNet/LearningSolution/learningapp/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Learning C\#/Learning-DotNet/LearningSolution/LearningApp/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Learning C\#/Learning-DotNet/LearningSolution/learningapp/Views/_ViewImports.cshtml]
+[D:/Learning C\#/Learning-DotNet/LearningSolution/LearningApp/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Learning C\#/Learning-DotNet/LearningSolution/learningapp/Views/_ViewStart.cshtml]
+[D:/Learning C\#/Learning-DotNet/LearningSolution/LearningApp/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Learning C\#/Learning-DotNet/LearningSolution/learningapp/Views/Shared/_Layout.cshtml]
+[D:/Learning C\#/Learning-DotNet/LearningSolution/LearningApp/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-fwtm3jrh5k
