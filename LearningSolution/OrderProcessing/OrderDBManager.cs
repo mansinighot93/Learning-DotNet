@@ -25,7 +25,7 @@ namespace OrderProcessing
                 while (reader.Read())
                 {
                     int id = int.Parse(reader["Id"].ToString());
-                    DateTime date = DateTime.Parse(reader["OrderTime"].ToString());
+                    DateTime date = DateTime.Parse(reader["OrderDate"].ToString());
                     string status = reader["Status"].ToString();
                     double amount = double.Parse(reader["TotalAmount"].ToString());
 
@@ -66,7 +66,7 @@ namespace OrderProcessing
 
                 if(reader.Read()){
                     int id = int.Parse(reader["Id"].ToString());
-                    DateTime date = DateTime.Parse(reader["OrderTime"].ToString());
+                    DateTime date = DateTime.Parse(reader["OrderDate"].ToString());
                     string status = reader["Status"].ToString();
                     double amount = double.Parse(reader["TotalAmount"].ToString());
 
@@ -114,7 +114,7 @@ namespace OrderProcessing
                 MySqlConnection con = new MySqlConnection(conString);
                 if(con.State == ConnectionState.Closed)
                     con.Open();
-                string query = "UPDATE Orders OrderDate=@OrderDate,Status=@Status,TotalAmount=@TotalAmount" + "WHERE Id=@Id";
+                string query = "UPDATE Orders SET OrderDate=@OrderDate,Status=@Status,TotalAmount=@TotalAmount" + "WHERE Id=@Id";
                 MySqlCommand cmd = new MySqlCommand(query,con);
                 cmd.Parameters.Add(new MySqlParameter("@Id",orders.Id));
                 cmd.Parameters.Add(new MySqlParameter("@OrderDate",orders.OrderDate));
