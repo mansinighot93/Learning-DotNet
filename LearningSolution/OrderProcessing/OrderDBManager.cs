@@ -16,7 +16,7 @@ namespace OrderProcessing
         {
             List<Orders> customers = new List<Orders>();
             IDbConnection con = new MySqlConnection(conString);
-            string query = "SELECT * FROM Customers";
+            string query = "SELECT * FROM Orders";
             IDbCommand cmd = new MySqlCommand(query, con as MySqlConnection);
             try
             {
@@ -110,20 +110,30 @@ namespace OrderProcessing
 
         public static bool Update(Orders orders){
             bool status = false;
-            try{
-                MySqlConnection con = new MySqlConnection(conString);
-                if(con.State == ConnectionState.Closed)
+            try
+            {
+              MySqlConnection con = new MySqlConnection(conString);
+                {
+                    if (con.State == ConnectionState.Closed)
                     con.Open();
-                string query = "UPDATE Orders SET OrderDate=@OrderDate,Status=@Status,TotalAmount=@TotalAmount" + "WHERE Id=@Id";
-                MySqlCommand cmd = new MySqlCommand(query,con);
-                cmd.Parameters.Add(new MySqlParameter("@Id",orders.Id));
-                cmd.Parameters.Add(new MySqlParameter("@OrderDate",orders.OrderDate));
-                cmd.Parameters.Add(new MySqlParameter("@Status",orders.Status));
-                cmd.Parameters.Add(new MySqlParameter("@TotalAmount",orders.TotalAmount));
-                cmd.ExecuteNonQuery();
-                if(con.State == ConnectionState.Open)
-                    con.Close();
-                status=true;
+
+                    string query = "UPDATE Orders SET OrderDate=@OrderDate , Status=@Status, " +
+                        "TotalAmount=@TotalAmount " +
+                        "WHERE Id=@Id";
+
+                    MySqlCommand cmd = new MySqlCommand(query, con);
+
+                    cmd.Parameters.Add(new MySqlParameter("@Id", orders.Id));
+                    cmd.Parameters.Add(new MySqlParameter("@OrderDate", orders.OrderDate));
+                    cmd.Parameters.Add(new MySqlParameter("@Status", orders.Status));
+                    cmd.Parameters.Add(new MySqlParameter("@TotalAmount", orders.TotalAmount));
+                
+                    cmd.ExecuteNonQuery();  // DML Operation
+
+                    if (con.State == ConnectionState.Open)
+                        con.Close();
+                    status = true;
+                }
             }
             catch(MySqlException exp){
                 string message=exp.Message;
