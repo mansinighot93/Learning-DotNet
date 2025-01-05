@@ -5,6 +5,7 @@
     <ProjectReference Include="..\Catalog\Catalog.csproj" />
     <ProjectReference Include="..\OrderProcessing\OrderProcessing.csproj" />
     <ProjectReference Include="..\Membership\Membership.csproj" />
+    <ProjectReference Include="..\PaymentProcessing\PaymentProcessing.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
