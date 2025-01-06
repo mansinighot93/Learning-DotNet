@@ -1,0 +1,13 @@
+D:\Learning C#\Learning-DotNet\LearningSolution\Membership\obj\Debug\net9.0\Membership.GeneratedMSBuildEditorConfig.editorconfig
+D:\Learning C#\Learning-DotNet\LearningSolution\Membership\obj\Debug\net9.0\Membership.AssemblyInfoInputs.cache
+D:\Learning C#\Learning-DotNet\LearningSolution\Membership\obj\Debug\net9.0\Membership.AssemblyInfo.cs
+D:\Learning C#\Learning-DotNet\LearningSolution\Membership\obj\Debug\net9.0\Membership.csproj.CoreCompileInputs.cache
+D:\Learning C#\Learning-DotNet\LearningSolution\Membership\obj\Debug\net9.0\Membership.sourcelink.json
+D:\Learning C#\Learning-DotNet\LearningSolution\Membership\obj\Debug\net9.0\Membership.csproj.AssemblyReference.cache
+D:\Learning C#\Learning-DotNet\LearningSolution\Membership\bin\Debug\net9.0\Membership.deps.json
+D:\Learning C#\Learning-DotNet\LearningSolution\Membership\bin\Debug\net9.0\Membership.dll
+D:\Learning C#\Learning-DotNet\LearningSolution\Membership\bin\Debug\net9.0\Membership.pdb
+D:\Learning C#\Learning-DotNet\LearningSolution\Membership\obj\Debug\net9.0\Membership.dll
+D:\Learning C#\Learning-DotNet\LearningSolution\Membership\obj\Debug\net9.0\refint\Membership.dll
+D:\Learning C#\Learning-DotNet\LearningSolution\Membership\obj\Debug\net9.0\Membership.pdb
+D:\Learning C#\Learning-DotNet\LearningSolution\Membership\obj\Debug\net9.0\ref\Membership.dll

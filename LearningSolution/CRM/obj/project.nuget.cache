@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xBHD0lFFiUA=",
+  "dgSpecHash": "hFTScDLwVQQ=",
   "success": true,
-  "projectFilePath": "D:\\Learning C#\\Learning-DotNet\\learningsolution\\CRM\\CRM.csproj",
+  "projectFilePath": "D:\\Learning C#\\Learning-DotNet\\LearningSolution\\CRM\\CRM.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\manasi\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\manasi\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

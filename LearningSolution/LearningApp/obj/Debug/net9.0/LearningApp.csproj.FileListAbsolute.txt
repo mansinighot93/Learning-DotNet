@@ -155,3 +155,7 @@ D:\Learning C#\Learning-DotNet\LearningSolution\LearningApp\bin\Debug\net9.0\run
 D:\Learning C#\Learning-DotNet\LearningSolution\LearningApp\bin\Debug\net9.0\runtimes\win\lib\net8.0\System.Windows.Extensions.dll
 D:\Learning C#\Learning-DotNet\LearningSolution\LearningApp\bin\Debug\net9.0\OrderProcessing.dll
 D:\Learning C#\Learning-DotNet\LearningSolution\LearningApp\bin\Debug\net9.0\OrderProcessing.pdb
+D:\Learning C#\Learning-DotNet\LearningSolution\learningapp\bin\Debug\net9.0\Membership.dll
+D:\Learning C#\Learning-DotNet\LearningSolution\learningapp\bin\Debug\net9.0\PaymentProcessing.dll
+D:\Learning C#\Learning-DotNet\LearningSolution\learningapp\bin\Debug\net9.0\Membership.pdb
+D:\Learning C#\Learning-DotNet\LearningSolution\learningapp\bin\Debug\net9.0\PaymentProcessing.pdb

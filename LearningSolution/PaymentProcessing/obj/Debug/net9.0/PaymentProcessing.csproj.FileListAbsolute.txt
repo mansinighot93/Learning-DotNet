@@ -1,0 +1,12 @@
+D:\Learning C#\Learning-DotNet\LearningSolution\PaymentProcessing\bin\Debug\net9.0\PaymentProcessing.deps.json
+D:\Learning C#\Learning-DotNet\LearningSolution\PaymentProcessing\bin\Debug\net9.0\PaymentProcessing.dll
+D:\Learning C#\Learning-DotNet\LearningSolution\PaymentProcessing\bin\Debug\net9.0\PaymentProcessing.pdb
+D:\Learning C#\Learning-DotNet\LearningSolution\PaymentProcessing\obj\Debug\net9.0\PaymentProcessing.GeneratedMSBuildEditorConfig.editorconfig
+D:\Learning C#\Learning-DotNet\LearningSolution\PaymentProcessing\obj\Debug\net9.0\PaymentProcessing.AssemblyInfoInputs.cache
+D:\Learning C#\Learning-DotNet\LearningSolution\PaymentProcessing\obj\Debug\net9.0\PaymentProcessing.AssemblyInfo.cs
+D:\Learning C#\Learning-DotNet\LearningSolution\PaymentProcessing\obj\Debug\net9.0\PaymentProcessing.csproj.CoreCompileInputs.cache
+D:\Learning C#\Learning-DotNet\LearningSolution\PaymentProcessing\obj\Debug\net9.0\PaymentProcessing.sourcelink.json
+D:\Learning C#\Learning-DotNet\LearningSolution\PaymentProcessing\obj\Debug\net9.0\PaymentProcessing.dll
+D:\Learning C#\Learning-DotNet\LearningSolution\PaymentProcessing\obj\Debug\net9.0\refint\PaymentProcessing.dll
+D:\Learning C#\Learning-DotNet\LearningSolution\PaymentProcessing\obj\Debug\net9.0\PaymentProcessing.pdb
+D:\Learning C#\Learning-DotNet\LearningSolution\PaymentProcessing\obj\Debug\net9.0\ref\PaymentProcessing.dll

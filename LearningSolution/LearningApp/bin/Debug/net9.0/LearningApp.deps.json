@@ -10,7 +10,10 @@
         "dependencies": {
           "CRM": "1.0.0",
           "Catalog": "1.0.0",
-          "OrderProcessing": "1.0.0"
+          "Membership": "1.0.0",
+          "MySql.Data": "9.1.0",
+          "OrderProcessing": "1.0.0",
+          "PaymentProcessing": "1.0.0"
         },
         "runtime": {
           "LearningApp.dll": {}
@@ -549,12 +552,31 @@
           }
         }
       },
+      "Membership/1.0.0": {
+        "dependencies": {
+          "MySql.Data": "9.1.0"
+        },
+        "runtime": {
+          "Membership.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "OrderProcessing/1.0.0": {
         "dependencies": {
           "MySql.Data": "9.1.0"
         },
         "runtime": {
           "OrderProcessing.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "PaymentProcessing/1.0.0": {
+        "runtime": {
+          "PaymentProcessing.dll": {
             "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -935,7 +957,17 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Membership/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "OrderProcessing/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PaymentProcessing/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

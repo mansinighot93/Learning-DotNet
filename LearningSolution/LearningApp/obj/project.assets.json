@@ -912,6 +912,19 @@
           "bin/placeholder/CRM.dll": {}
         }
       },
+      "Membership/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "MySql.Data": "9.1.0"
+        },
+        "compile": {
+          "bin/placeholder/Membership.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Membership.dll": {}
+        }
+      },
       "OrderProcessing/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
@@ -923,6 +936,16 @@
         },
         "runtime": {
           "bin/placeholder/OrderProcessing.dll": {}
+        }
+      },
+      "PaymentProcessing/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/PaymentProcessing.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PaymentProcessing.dll": {}
         }
       }
     }
@@ -2725,17 +2748,30 @@
       "path": "../CRM/CRM.csproj",
       "msbuildProject": "../CRM/CRM.csproj"
     },
+    "Membership/1.0.0": {
+      "type": "project",
+      "path": "../Membership/Membership.csproj",
+      "msbuildProject": "../Membership/Membership.csproj"
+    },
     "OrderProcessing/1.0.0": {
       "type": "project",
       "path": "../OrderProcessing/OrderProcessing.csproj",
       "msbuildProject": "../OrderProcessing/OrderProcessing.csproj"
+    },
+    "PaymentProcessing/1.0.0": {
+      "type": "project",
+      "path": "../PaymentProcessing/PaymentProcessing.csproj",
+      "msbuildProject": "../PaymentProcessing/PaymentProcessing.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
       "CRM >= 1.0.0",
       "Catalog >= 1.0.0",
-      "OrderProcessing >= 1.0.0"
+      "Membership >= 1.0.0",
+      "MySql.Data >= 9.1.0",
+      "OrderProcessing >= 1.0.0",
+      "PaymentProcessing >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -2745,11 +2781,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Learning C#\\Learning-DotNet\\learningsolution\\learningapp\\LearningApp.csproj",
+      "projectUniqueName": "D:\\Learning C#\\Learning-DotNet\\LearningSolution\\learningapp\\LearningApp.csproj",
       "projectName": "LearningApp",
-      "projectPath": "D:\\Learning C#\\Learning-DotNet\\learningsolution\\learningapp\\LearningApp.csproj",
+      "projectPath": "D:\\Learning C#\\Learning-DotNet\\LearningSolution\\learningapp\\LearningApp.csproj",
       "packagesPath": "C:\\Users\\manasi\\.nuget\\packages\\",
-      "outputPath": "D:\\Learning C#\\Learning-DotNet\\learningsolution\\learningapp\\obj\\",
+      "outputPath": "D:\\Learning C#\\Learning-DotNet\\LearningSolution\\learningapp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2770,14 +2806,20 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "D:\\Learning C#\\Learning-DotNet\\learningsolution\\Catalog\\Catalog.csproj": {
-              "projectPath": "D:\\Learning C#\\Learning-DotNet\\learningsolution\\Catalog\\Catalog.csproj"
+            "D:\\Learning C#\\Learning-DotNet\\LearningSolution\\Catalog\\Catalog.csproj": {
+              "projectPath": "D:\\Learning C#\\Learning-DotNet\\LearningSolution\\Catalog\\Catalog.csproj"
             },
-            "D:\\Learning C#\\Learning-DotNet\\learningsolution\\CRM\\CRM.csproj": {
-              "projectPath": "D:\\Learning C#\\Learning-DotNet\\learningsolution\\CRM\\CRM.csproj"
+            "D:\\Learning C#\\Learning-DotNet\\LearningSolution\\CRM\\CRM.csproj": {
+              "projectPath": "D:\\Learning C#\\Learning-DotNet\\LearningSolution\\CRM\\CRM.csproj"
             },
-            "D:\\Learning C#\\Learning-DotNet\\learningsolution\\OrderProcessing\\OrderProcessing.csproj": {
-              "projectPath": "D:\\Learning C#\\Learning-DotNet\\learningsolution\\OrderProcessing\\OrderProcessing.csproj"
+            "D:\\Learning C#\\Learning-DotNet\\LearningSolution\\Membership\\Membership.csproj": {
+              "projectPath": "D:\\Learning C#\\Learning-DotNet\\LearningSolution\\Membership\\Membership.csproj"
+            },
+            "D:\\Learning C#\\Learning-DotNet\\LearningSolution\\OrderProcessing\\OrderProcessing.csproj": {
+              "projectPath": "D:\\Learning C#\\Learning-DotNet\\LearningSolution\\OrderProcessing\\OrderProcessing.csproj"
+            },
+            "D:\\Learning C#\\Learning-DotNet\\LearningSolution\\PaymentProcessing\\PaymentProcessing.csproj": {
+              "projectPath": "D:\\Learning C#\\Learning-DotNet\\LearningSolution\\PaymentProcessing\\PaymentProcessing.csproj"
             }
           }
         }
@@ -2797,6 +2839,12 @@
     "frameworks": {
       "net9.0": {
         "targetAlias": "net9.0",
+        "dependencies": {
+          "MySql.Data": {
+            "target": "Package",
+            "version": "[9.1.0, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
