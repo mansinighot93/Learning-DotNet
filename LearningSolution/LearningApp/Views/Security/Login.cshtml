@@ -1,0 +1,23 @@
+@using Membership;
+@{
+    ViewBag.Title = "Login";
+}
+
+<form action="/security/login" method="POST">
+    <table style="font-family:Arial">
+
+        <tr>
+            <td><b>User Name:</b><td>
+            <td><input type="text" name="username"/> </td>
+        </tr>
+
+        <tr>
+            <td><b>Password:</b><td>
+            <td><input type="password" name="password"/> </td>
+        </tr>
+        <br/><br/>
+        <tr>
+            <td><input type="submit" value="Login"/> </td>
+        </tr>
+    </table>
+</form>
