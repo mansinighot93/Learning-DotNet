@@ -1,6 +1,7 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using LearningApp.Models;
+using Membership;
 
 namespace LearningApp.Controllers;
 
@@ -13,8 +14,9 @@ public class SecurityController : Controller
         _logger = logger;
     }
 
-    public IActionResult Login()
+    public IActionResult Login(string username, string password)
     {
+        SecurityManager.Validate(username,password);
         return View();
     }
 
