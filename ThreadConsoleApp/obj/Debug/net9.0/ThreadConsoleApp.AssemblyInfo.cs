@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ThreadConsoleApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0bd78d934b650adb230d377737771c6914a7e9d4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c9320983a157a3d7ae3c4959369fc5f683541568")]
 [assembly: System.Reflection.AssemblyProductAttribute("ThreadConsoleApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ThreadConsoleApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
