@@ -16,14 +16,14 @@ public class HomeController : Controller
     public IActionResult Index()
     {
         Thread theThread=Thread.CurrentThread;
-        Console.WriteLine("/default: " + theThread.ManagedThreadId);
+        Console.WriteLine("/Index: " + theThread.ManagedThreadId);
         return View();
     }
 
     public IActionResult Privacy()
     {
         Thread theThread=Thread.CurrentThread;
-        Console.WriteLine("/default: " + theThread.ManagedThreadId);
+        Console.WriteLine("/Privacy: " + theThread.ManagedThreadId);
         return View();
     }
 
