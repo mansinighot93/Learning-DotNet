@@ -1,0 +1,15 @@
+D:\Learning C#\Learning-DotNet\ThreadTask\SimpleTaskApp\bin\Debug\net9.0\SimpleTaskApp.exe
+D:\Learning C#\Learning-DotNet\ThreadTask\SimpleTaskApp\bin\Debug\net9.0\SimpleTaskApp.deps.json
+D:\Learning C#\Learning-DotNet\ThreadTask\SimpleTaskApp\bin\Debug\net9.0\SimpleTaskApp.runtimeconfig.json
+D:\Learning C#\Learning-DotNet\ThreadTask\SimpleTaskApp\bin\Debug\net9.0\SimpleTaskApp.dll
+D:\Learning C#\Learning-DotNet\ThreadTask\SimpleTaskApp\bin\Debug\net9.0\SimpleTaskApp.pdb
+D:\Learning C#\Learning-DotNet\ThreadTask\SimpleTaskApp\obj\Debug\net9.0\SimpleTaskApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Learning C#\Learning-DotNet\ThreadTask\SimpleTaskApp\obj\Debug\net9.0\SimpleTaskApp.AssemblyInfoInputs.cache
+D:\Learning C#\Learning-DotNet\ThreadTask\SimpleTaskApp\obj\Debug\net9.0\SimpleTaskApp.AssemblyInfo.cs
+D:\Learning C#\Learning-DotNet\ThreadTask\SimpleTaskApp\obj\Debug\net9.0\SimpleTaskApp.csproj.CoreCompileInputs.cache
+D:\Learning C#\Learning-DotNet\ThreadTask\SimpleTaskApp\obj\Debug\net9.0\SimpleTaskApp.sourcelink.json
+D:\Learning C#\Learning-DotNet\ThreadTask\SimpleTaskApp\obj\Debug\net9.0\SimpleTaskApp.dll
+D:\Learning C#\Learning-DotNet\ThreadTask\SimpleTaskApp\obj\Debug\net9.0\refint\SimpleTaskApp.dll
+D:\Learning C#\Learning-DotNet\ThreadTask\SimpleTaskApp\obj\Debug\net9.0\SimpleTaskApp.pdb
+D:\Learning C#\Learning-DotNet\ThreadTask\SimpleTaskApp\obj\Debug\net9.0\SimpleTaskApp.genruntimeconfig.cache
+D:\Learning C#\Learning-DotNet\ThreadTask\SimpleTaskApp\obj\Debug\net9.0\ref\SimpleTaskApp.dll
