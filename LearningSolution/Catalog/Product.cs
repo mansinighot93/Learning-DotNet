@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Catalog
 {
 
-    [Serializable]
+    [Serializable] // Serializable is a process which can be covert a be objects 
     public class Product
     {
         public int Likes { get; set; }
