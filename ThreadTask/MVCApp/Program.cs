@@ -21,6 +21,17 @@ app.UseAuthorization();
 app.MapStaticAssets();
 
 app.MapControllerRoute(
+    name: "CropDetails",
+    pattern: "farms/{farmName}/greenhouse/{unitNo}/crop/{cropName}",
+    defaults: new {controller = "Farms",action = "CropDetails"}
+    );
+
+app.MapControllerRoute(
+    name: "GreenhouseDetails",
+    pattern: "farms/{farmName}/greenhouse/{unitNo}",
+    defaults: new {controller = "Farms", action = "GreenhouseDetails"}
+    );
+app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}")
     .WithStaticAssets();
