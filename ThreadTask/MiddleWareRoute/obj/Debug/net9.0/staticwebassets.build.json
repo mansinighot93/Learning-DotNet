@@ -1,0 +1,362 @@
+{
+  "Version": 1,
+  "Hash": "ULUlnm/zgUl07bZnFiKG7wbneug5XkiNEfCQBkN0/pQ=",
+  "Source": "MiddleWareRoute",
+  "BasePath": "_content/MiddleWareRoute",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "MiddleWareRoute\\wwwroot",
+      "Source": "MiddleWareRoute",
+      "ContentRoot": "D:\\Learning C#\\Learning-DotNet\\ThreadTask\\middlewareroute\\wwwroot\\",
+      "BasePath": "_content/MiddleWareRoute",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Learning C#\\Learning-DotNet\\ThreadTask\\middlewareroute\\obj\\Debug\\net9.0\\compressed\\lfd6ymc1al-mlb94ph6p6.gz",
+      "SourceId": "MiddleWareRoute",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Learning C#\\Learning-DotNet\\ThreadTask\\middlewareroute\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/MiddleWareRoute",
+      "RelativePath": "HTML/Index#[.{fingerprint=mlb94ph6p6}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\Learning C#\\Learning-DotNet\\ThreadTask\\middlewareroute\\wwwroot\\HTML\\Index.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "g5p3n254do",
+      "Integrity": "7E5Z6AwV7ZbHJKBxgy0MJgO4gVO1aX2NCHtBmG8cvAo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\Learning C#\\Learning-DotNet\\ThreadTask\\middlewareroute\\wwwroot\\HTML\\Index.html"
+    },
+    {
+      "Identity": "D:\\Learning C#\\Learning-DotNet\\ThreadTask\\middlewareroute\\wwwroot\\HTML\\Index.html",
+      "SourceId": "MiddleWareRoute",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Learning C#\\Learning-DotNet\\ThreadTask\\middlewareroute\\wwwroot\\",
+      "BasePath": "_content/MiddleWareRoute",
+      "RelativePath": "HTML/Index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mlb94ph6p6",
+      "Integrity": "BkWCIw1osfD2aiL8iAIxp2rINsnJNh6dG7YSJ+M+9yE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\HTML\\Index.html"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "HTML/Index.html",
+      "AssetFile": "D:\\Learning C#\\Learning-DotNet\\ThreadTask\\middlewareroute\\obj\\Debug\\net9.0\\compressed\\lfd6ymc1al-mlb94ph6p6.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.008474576271"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "117"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7E5Z6AwV7ZbHJKBxgy0MJgO4gVO1aX2NCHtBmG8cvAo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 14 Jan 2025 14:53:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"BkWCIw1osfD2aiL8iAIxp2rINsnJNh6dG7YSJ+M+9yE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BkWCIw1osfD2aiL8iAIxp2rINsnJNh6dG7YSJ+M+9yE="
+        }
+      ]
+    },
+    {
+      "Route": "HTML/Index.html",
+      "AssetFile": "D:\\Learning C#\\Learning-DotNet\\ThreadTask\\middlewareroute\\wwwroot\\HTML\\Index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "185"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BkWCIw1osfD2aiL8iAIxp2rINsnJNh6dG7YSJ+M+9yE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 14 Jan 2025 14:53:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BkWCIw1osfD2aiL8iAIxp2rINsnJNh6dG7YSJ+M+9yE="
+        }
+      ]
+    },
+    {
+      "Route": "HTML/Index.html.gz",
+      "AssetFile": "D:\\Learning C#\\Learning-DotNet\\ThreadTask\\middlewareroute\\obj\\Debug\\net9.0\\compressed\\lfd6ymc1al-mlb94ph6p6.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "117"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7E5Z6AwV7ZbHJKBxgy0MJgO4gVO1aX2NCHtBmG8cvAo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 14 Jan 2025 14:53:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7E5Z6AwV7ZbHJKBxgy0MJgO4gVO1aX2NCHtBmG8cvAo="
+        }
+      ]
+    },
+    {
+      "Route": "HTML/Index.mlb94ph6p6.html",
+      "AssetFile": "D:\\Learning C#\\Learning-DotNet\\ThreadTask\\middlewareroute\\obj\\Debug\\net9.0\\compressed\\lfd6ymc1al-mlb94ph6p6.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.008474576271"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "117"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7E5Z6AwV7ZbHJKBxgy0MJgO4gVO1aX2NCHtBmG8cvAo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 14 Jan 2025 14:53:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"BkWCIw1osfD2aiL8iAIxp2rINsnJNh6dG7YSJ+M+9yE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mlb94ph6p6"
+        },
+        {
+          "Name": "label",
+          "Value": "HTML/Index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BkWCIw1osfD2aiL8iAIxp2rINsnJNh6dG7YSJ+M+9yE="
+        }
+      ]
+    },
+    {
+      "Route": "HTML/Index.mlb94ph6p6.html",
+      "AssetFile": "D:\\Learning C#\\Learning-DotNet\\ThreadTask\\middlewareroute\\wwwroot\\HTML\\Index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "185"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BkWCIw1osfD2aiL8iAIxp2rINsnJNh6dG7YSJ+M+9yE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 14 Jan 2025 14:53:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mlb94ph6p6"
+        },
+        {
+          "Name": "label",
+          "Value": "HTML/Index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BkWCIw1osfD2aiL8iAIxp2rINsnJNh6dG7YSJ+M+9yE="
+        }
+      ]
+    },
+    {
+      "Route": "HTML/Index.mlb94ph6p6.html.gz",
+      "AssetFile": "D:\\Learning C#\\Learning-DotNet\\ThreadTask\\middlewareroute\\obj\\Debug\\net9.0\\compressed\\lfd6ymc1al-mlb94ph6p6.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "117"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7E5Z6AwV7ZbHJKBxgy0MJgO4gVO1aX2NCHtBmG8cvAo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 14 Jan 2025 14:53:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mlb94ph6p6"
+        },
+        {
+          "Name": "label",
+          "Value": "HTML/Index.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7E5Z6AwV7ZbHJKBxgy0MJgO4gVO1aX2NCHtBmG8cvAo="
+        }
+      ]
+    }
+  ]
+}
