@@ -1,0 +1,8 @@
+D:\Learning C#\Learning-DotNet\ThreadTask\DependencyInjectionApp\obj\Debug\net9.0\DependencyInjectionApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Learning C#\Learning-DotNet\ThreadTask\DependencyInjectionApp\obj\Debug\net9.0\DependencyInjectionApp.AssemblyInfoInputs.cache
+D:\Learning C#\Learning-DotNet\ThreadTask\DependencyInjectionApp\obj\Debug\net9.0\DependencyInjectionApp.AssemblyInfo.cs
+D:\Learning C#\Learning-DotNet\ThreadTask\DependencyInjectionApp\obj\Debug\net9.0\DependencyInjectionApp.csproj.CoreCompileInputs.cache
+D:\Learning C#\Learning-DotNet\ThreadTask\DependencyInjectionApp\obj\Debug\net9.0\DependencyInjectionApp.MvcApplicationPartsAssemblyInfo.cache
+D:\Learning C#\Learning-DotNet\ThreadTask\DependencyInjectionApp\obj\Debug\net9.0\DependencyInjectionApp.RazorAssemblyInfo.cache
+D:\Learning C#\Learning-DotNet\ThreadTask\DependencyInjectionApp\obj\Debug\net9.0\DependencyInjectionApp.RazorAssemblyInfo.cs
+D:\Learning C#\Learning-DotNet\ThreadTask\DependencyInjectionApp\obj\Debug\net9.0\DependencyInjectionApp.sourcelink.json
