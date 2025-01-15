@@ -14,12 +14,14 @@ if (!app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
 app.UseRouting();
 
 app.UseAuthorization();
 
 app.MapStaticAssets();
 
+//Custom Routes
 app.MapControllerRoute(
     name: "CropDetails",
     pattern: "farms/{farmName}/greenhouse/{unitNo}/crop/{cropName}",
@@ -31,10 +33,10 @@ app.MapControllerRoute(
     pattern: "farms/{farmName}/greenhouse/{unitNo}",
     defaults: new {controller = "Farms", action = "GreenhouseDetails"}
     );
+
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}")
     .WithStaticAssets();
-
 
 app.Run();
