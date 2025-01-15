@@ -10,7 +10,7 @@ namespace MiddleWareRoute
         {
             app.Use(async (context, next) =>
             {
-                await context.Response.WriteAsync("First Middleware");
+                await context.Response.WriteAsync(" <h1>First Middleware</h1> ");
                 await next();
             });
         }
@@ -18,7 +18,7 @@ namespace MiddleWareRoute
         {
             app.Use(async (context, next) =>
             {
-                await context.Response.WriteAsync("Second Middleware");
+                await context.Response.WriteAsync(" <h2>Second Middleware</h2> ");
                 await next();
             });
         }
@@ -26,7 +26,7 @@ namespace MiddleWareRoute
         {
             app.Run(async context =>
             {
-                await context.Response.WriteAsync("Last Middleware");
+                await context.Response.WriteAsync(" <ol><li>Programming Language</li><li>C# Projects</li></ol> ");
             });
         }
     }  
