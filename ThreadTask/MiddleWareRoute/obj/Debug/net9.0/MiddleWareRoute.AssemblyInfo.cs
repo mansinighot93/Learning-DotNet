@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MiddleWareRoute")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aca43769b9351470518d494bb4aa2d2ed11b5ff7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+06f183d73f9e6e79ec11110da296a42297690f43")]
 [assembly: System.Reflection.AssemblyProductAttribute("MiddleWareRoute")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MiddleWareRoute")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
