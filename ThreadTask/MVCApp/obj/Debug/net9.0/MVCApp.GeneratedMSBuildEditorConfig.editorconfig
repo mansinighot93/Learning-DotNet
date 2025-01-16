@@ -9,69 +9,69 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MVCApp
 build_property.RootNamespace = MVCApp
-build_property.ProjectDir = D:\Learning C#\Learning-DotNet\ThreadTask\MVCApp\
+build_property.ProjectDir = d:\Learning C#\Learning-DotNet\ThreadTask\MVCApp\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Learning C#\Learning-DotNet\ThreadTask\MVCApp
+build_property.MSBuildProjectDirectory = d:\Learning C#\Learning-DotNet\ThreadTask\MVCApp
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[D:/Learning C\#/Learning-DotNet/ThreadTask/MVCApp/Views/Farms/CropDateDetails.cshtml]
+[d:/Learning C\#/Learning-DotNet/ThreadTask/MVCApp/Views/Farms/CropDateDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFybXNcQ3JvcERhdGVEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Learning C\#/Learning-DotNet/ThreadTask/MVCApp/Views/Farms/CropDetails.cshtml]
+[d:/Learning C\#/Learning-DotNet/ThreadTask/MVCApp/Views/Farms/CropDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFybXNcQ3JvcERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Learning C\#/Learning-DotNet/ThreadTask/MVCApp/Views/Farms/GreenhouseDetails.cshtml]
+[d:/Learning C\#/Learning-DotNet/ThreadTask/MVCApp/Views/Farms/GreenhouseDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFybXNcR3JlZW5ob3VzZURldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Learning C\#/Learning-DotNet/ThreadTask/MVCApp/Views/Home/Index.cshtml]
+[d:/Learning C\#/Learning-DotNet/ThreadTask/MVCApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Learning C\#/Learning-DotNet/ThreadTask/MVCApp/Views/Home/Privacy.cshtml]
+[d:/Learning C\#/Learning-DotNet/ThreadTask/MVCApp/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Learning C\#/Learning-DotNet/ThreadTask/MVCApp/Views/Products/Delete.cshtml]
+[d:/Learning C\#/Learning-DotNet/ThreadTask/MVCApp/Views/Products/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Learning C\#/Learning-DotNet/ThreadTask/MVCApp/Views/Products/Details.cshtml]
+[d:/Learning C\#/Learning-DotNet/ThreadTask/MVCApp/Views/Products/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Learning C\#/Learning-DotNet/ThreadTask/MVCApp/Views/Products/Insert.cshtml]
+[d:/Learning C\#/Learning-DotNet/ThreadTask/MVCApp/Views/Products/Insert.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcSW5zZXJ0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Learning C\#/Learning-DotNet/ThreadTask/MVCApp/Views/Products/Update.cshtml]
+[d:/Learning C\#/Learning-DotNet/ThreadTask/MVCApp/Views/Products/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Learning C\#/Learning-DotNet/ThreadTask/MVCApp/Views/Shared/Error.cshtml]
+[d:/Learning C\#/Learning-DotNet/ThreadTask/MVCApp/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Learning C\#/Learning-DotNet/ThreadTask/MVCApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+[d:/Learning C\#/Learning-DotNet/ThreadTask/MVCApp/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Learning C\#/Learning-DotNet/ThreadTask/MVCApp/Views/_ViewImports.cshtml]
+[d:/Learning C\#/Learning-DotNet/ThreadTask/MVCApp/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Learning C\#/Learning-DotNet/ThreadTask/MVCApp/Views/_ViewStart.cshtml]
+[d:/Learning C\#/Learning-DotNet/ThreadTask/MVCApp/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Learning C\#/Learning-DotNet/ThreadTask/MVCApp/Views/Shared/_Layout.cshtml]
+[d:/Learning C\#/Learning-DotNet/ThreadTask/MVCApp/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-m9pgagwe8q
