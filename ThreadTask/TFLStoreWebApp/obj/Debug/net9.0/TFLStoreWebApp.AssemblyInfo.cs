@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TFLStoreWebApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7ae4181ed2b2ab755034b3e564f20c05b5c594aa")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+06f183d73f9e6e79ec11110da296a42297690f43")]
 [assembly: System.Reflection.AssemblyProductAttribute("TFLStoreWebApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TFLStoreWebApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
