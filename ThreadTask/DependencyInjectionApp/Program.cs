@@ -3,19 +3,14 @@ using DependencyInjectionApp.Services;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddTransient<IHelloWorldService,HelloWorldService>();
+builder.Services.AddTransient<IProductCatalogService, ProductCatalogService>();
+//builder.Services.AddSingleton<IHelloWorldService,HelloWorldService>();
+//builder.Services.AddSingleton<IProductCatalogService, ProductCatalogService>();
+
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
-
-public IConfiguration Configuration { get; }
-
-void ConfigureServices(IServiceCollection services)
-{
-    services.AddSingleton<IHelloWorldService,HelloWorldService>();
-    services.AddSingleton<IProductCatalogService, ProductCatalogService>();
-
-    services.AddControllersWithViews();
-}
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {

@@ -7,26 +7,26 @@ namespace DependencyInjectionApp.Controllers;
 
 public class HomeController : Controller
 {
-    private readonly IHelloWorldService _hellowolrdservices;
+    private readonly IHelloWorldService _hellowolrdservice;
     private readonly IProductCatalogService _productcatalogservice;
 
-    public HomeController(IHelloWorldService hellowolrdservices,IProductCatalogService productcatalogservice)
+    public HomeController(IHelloWorldService hellowolrdservice,IProductCatalogService productcatalogservice)
     {
-        this._hellowolrdservices = hellowolrdservices;
+        this._hellowolrdservice = hellowolrdservice;
         this._productcatalogservice = productcatalogservice;
     }
 
     public IActionResult Index()
     {
-        string message = this.IHelloWorldService.SayHello();
+        string message = this._hellowolrdservice.SayHello();
         ViewData["message"] = message;
-        bool status = this.IProductCatalogService.Insert();
+        bool status = this._productcatalogservice.Insert();
         return View();
     }
 
     public IActionResult Privacy()
     {
-        string message = this.IHelloWorldService.SayHello();
+        string message = this._hellowolrdservice.SayHello();
         ViewData["message"] = message;
         return View();
     }
