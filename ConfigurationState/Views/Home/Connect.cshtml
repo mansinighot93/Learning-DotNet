@@ -1,0 +1,15 @@
+
+@using System.Collections.Generic;
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Connection Strings</h1>
+</div>
+@{
+    List<string> connectionStrings=ViewData["connectionStrings"]as List<string>;
+    foreach(string connectionString in connectionStrings){
+        <p>@connectionString</p>
+    }
+}
