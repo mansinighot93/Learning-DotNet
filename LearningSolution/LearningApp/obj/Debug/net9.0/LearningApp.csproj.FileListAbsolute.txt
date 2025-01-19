@@ -159,3 +159,5 @@ D:\Learning C#\Learning-DotNet\LearningSolution\learningapp\bin\Debug\net9.0\Mem
 D:\Learning C#\Learning-DotNet\LearningSolution\learningapp\bin\Debug\net9.0\PaymentProcessing.dll
 D:\Learning C#\Learning-DotNet\LearningSolution\learningapp\bin\Debug\net9.0\Membership.pdb
 D:\Learning C#\Learning-DotNet\LearningSolution\learningapp\bin\Debug\net9.0\PaymentProcessing.pdb
+D:\Learning C#\Learning-DotNet\LearningSolution\LearningApp\bin\Debug\net9.0\ShoppingCart.dll
+D:\Learning C#\Learning-DotNet\LearningSolution\LearningApp\bin\Debug\net9.0\ShoppingCart.pdb

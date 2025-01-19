@@ -13,7 +13,8 @@
           "Membership": "1.0.0",
           "MySql.Data": "9.1.0",
           "OrderProcessing": "1.0.0",
-          "PaymentProcessing": "1.0.0"
+          "PaymentProcessing": "1.0.0",
+          "ShoppingCart": "1.0.0"
         },
         "runtime": {
           "LearningApp.dll": {}
@@ -581,6 +582,14 @@
             "fileVersion": "1.0.0.0"
           }
         }
+      },
+      "ShoppingCart/1.0.0": {
+        "runtime": {
+          "ShoppingCart.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -968,6 +977,11 @@
       "sha512": ""
     },
     "PaymentProcessing/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ShoppingCart/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

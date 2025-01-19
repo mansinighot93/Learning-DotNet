@@ -1,0 +1,12 @@
+D:\Learning C#\Learning-DotNet\LearningSolution\ShoppingCart\bin\Debug\net9.0\ShoppingCart.deps.json
+D:\Learning C#\Learning-DotNet\LearningSolution\ShoppingCart\bin\Debug\net9.0\ShoppingCart.dll
+D:\Learning C#\Learning-DotNet\LearningSolution\ShoppingCart\bin\Debug\net9.0\ShoppingCart.pdb
+D:\Learning C#\Learning-DotNet\LearningSolution\ShoppingCart\obj\Debug\net9.0\ShoppingCart.GeneratedMSBuildEditorConfig.editorconfig
+D:\Learning C#\Learning-DotNet\LearningSolution\ShoppingCart\obj\Debug\net9.0\ShoppingCart.AssemblyInfoInputs.cache
+D:\Learning C#\Learning-DotNet\LearningSolution\ShoppingCart\obj\Debug\net9.0\ShoppingCart.AssemblyInfo.cs
+D:\Learning C#\Learning-DotNet\LearningSolution\ShoppingCart\obj\Debug\net9.0\ShoppingCart.csproj.CoreCompileInputs.cache
+D:\Learning C#\Learning-DotNet\LearningSolution\ShoppingCart\obj\Debug\net9.0\ShoppingCart.sourcelink.json
+D:\Learning C#\Learning-DotNet\LearningSolution\ShoppingCart\obj\Debug\net9.0\ShoppingCart.dll
+D:\Learning C#\Learning-DotNet\LearningSolution\ShoppingCart\obj\Debug\net9.0\refint\ShoppingCart.dll
+D:\Learning C#\Learning-DotNet\LearningSolution\ShoppingCart\obj\Debug\net9.0\ShoppingCart.pdb
+D:\Learning C#\Learning-DotNet\LearningSolution\ShoppingCart\obj\Debug\net9.0\ref\ShoppingCart.dll

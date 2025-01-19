@@ -947,6 +947,16 @@
         "runtime": {
           "bin/placeholder/PaymentProcessing.dll": {}
         }
+      },
+      "ShoppingCart/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/ShoppingCart.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ShoppingCart.dll": {}
+        }
       }
     }
   },
@@ -2762,6 +2772,11 @@
       "type": "project",
       "path": "../PaymentProcessing/PaymentProcessing.csproj",
       "msbuildProject": "../PaymentProcessing/PaymentProcessing.csproj"
+    },
+    "ShoppingCart/1.0.0": {
+      "type": "project",
+      "path": "../ShoppingCart/ShoppingCart.csproj",
+      "msbuildProject": "../ShoppingCart/ShoppingCart.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -2771,7 +2786,8 @@
       "Membership >= 1.0.0",
       "MySql.Data >= 9.1.0",
       "OrderProcessing >= 1.0.0",
-      "PaymentProcessing >= 1.0.0"
+      "PaymentProcessing >= 1.0.0",
+      "ShoppingCart >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -2781,11 +2797,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Learning C#\\Learning-DotNet\\LearningSolution\\learningapp\\LearningApp.csproj",
+      "projectUniqueName": "D:\\Learning C#\\Learning-DotNet\\LearningSolution\\LearningApp\\LearningApp.csproj",
       "projectName": "LearningApp",
-      "projectPath": "D:\\Learning C#\\Learning-DotNet\\LearningSolution\\learningapp\\LearningApp.csproj",
+      "projectPath": "D:\\Learning C#\\Learning-DotNet\\LearningSolution\\LearningApp\\LearningApp.csproj",
       "packagesPath": "C:\\Users\\manasi\\.nuget\\packages\\",
-      "outputPath": "D:\\Learning C#\\Learning-DotNet\\LearningSolution\\learningapp\\obj\\",
+      "outputPath": "D:\\Learning C#\\Learning-DotNet\\LearningSolution\\LearningApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2820,6 +2836,9 @@
             },
             "D:\\Learning C#\\Learning-DotNet\\LearningSolution\\PaymentProcessing\\PaymentProcessing.csproj": {
               "projectPath": "D:\\Learning C#\\Learning-DotNet\\LearningSolution\\PaymentProcessing\\PaymentProcessing.csproj"
+            },
+            "D:\\Learning C#\\Learning-DotNet\\LearningSolution\\ShoppingCart\\ShoppingCart.csproj": {
+              "projectPath": "D:\\Learning C#\\Learning-DotNet\\LearningSolution\\ShoppingCart\\ShoppingCart.csproj"
             }
           }
         }
