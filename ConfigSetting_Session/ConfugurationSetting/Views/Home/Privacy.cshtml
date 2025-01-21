@@ -1,0 +1,19 @@
+﻿@using ConfugurationSetting.Controllers;
+
+
+@{
+    ViewData["Title"] = "Privacy Policy";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>@ViewBag.data</p>
+<hr/>
+<hr/>
+<p>Session Data</p>
+<hr/>
+@{
+    Cart theCart = ViewData["cart"] as Cart;
+    foreach(string items in theCart.Items){
+        <p>@items</p>
+    }
+}

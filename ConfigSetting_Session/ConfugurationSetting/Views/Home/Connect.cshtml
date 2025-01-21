@@ -1,0 +1,17 @@
+@using System.Collections.Generic;
+
+@{
+    ViewData["Title"] = "Configuration Setting Page";
+}
+
+<div>
+    <h1>Configuration Setting</h1>
+</div>
+@{
+    List<string> connectionStrings = ViewData["connectionStrings"] as List<string>;
+
+        foreach(string conString in connectionStrings)
+        {
+            <p>@conString</p>
+        }
+}
