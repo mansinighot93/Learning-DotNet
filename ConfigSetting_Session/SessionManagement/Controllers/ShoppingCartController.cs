@@ -16,6 +16,12 @@ namespace SessionManagement.Controllers
         }
         public IActionResult Index(){  
             Cart theCart= SessionHelper.GetObjectFromJson<Cart>(HttpContext.Session, "cart");
+            if (theCart == null)
+            {
+                theCart = new Cart();
+                theCart.Items = new List<Item>(); // Ensure Items is initialized
+            }
+ 
             return View(theCart);
         }
 
@@ -31,14 +37,19 @@ namespace SessionManagement.Controllers
         [HttpPost]
         public IActionResult Add(Item newItem){  
             Cart theCart= SessionHelper.GetObjectFromJson<Cart>(HttpContext.Session, "cart");
-            theCart.Item.Add(newItem);
+            if (theCart == null)
+            {
+                theCart = new Cart();
+                theCart.Items = new List<Item>(); // Ensure Items is initialized
+            }
+            theCart.Items.Add(newItem);
             SessionHelper.SetObjectAsJson(HttpContext.Session, "cart", theCart);
             return RedirectToAction("Index","shoppingcart");
         }  
         public IActionResult  Remove(int  id){  
             Cart theCart= SessionHelper.GetObjectFromJson<Cart>(HttpContext.Session, "cart");  
-            var found = theCart.Item.Find(x => x.theFlower.ID == id);
-            if(found != null) theCart.Item.Remove(found);
+            var found = theCart.Items.Find(x => x.theFlower.ID == id);
+            if(found != null) theCart.Items.Remove(found);
             SessionHelper.SetObjectAsJson(HttpContext.Session, "cart", theCart);        
             return RedirectToAction("Index","ShoppingCart");
         }          

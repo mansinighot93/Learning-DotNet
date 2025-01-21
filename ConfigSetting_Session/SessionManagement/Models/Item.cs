@@ -5,6 +5,7 @@ namespace SessionManagement.Models
     [Serializable] 
     public class Item
     {
+        public int Id { get; set; }
        //public int ProductID{get;set;}
        public Flower theFlower{get;set;}
        //public int ID{get;set;}
