@@ -2,28 +2,28 @@
   "version": 3,
   "targets": {
     "net9.0": {
-      "core/1.0.0": {
+      "Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "compile": {
-          "bin/placeholder/core.dll": {}
+          "bin/placeholder/Core.dll": {}
         },
         "runtime": {
-          "bin/placeholder/core.dll": {}
+          "bin/placeholder/Core.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "core/1.0.0": {
+    "Core/1.0.0": {
       "type": "project",
-      "path": "../core/core.csproj",
-      "msbuildProject": "../core/core.csproj"
+      "path": "../Core/Core.csproj",
+      "msbuildProject": "../Core/Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
-      "core >= 1.0.0"
+      "Core >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -33,11 +33,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\Learning C#\\Learning-DotNet\\ThreadTask\\RepositorySolution\\webapp\\webapp.csproj",
-      "projectName": "webapp",
-      "projectPath": "d:\\Learning C#\\Learning-DotNet\\ThreadTask\\RepositorySolution\\webapp\\webapp.csproj",
+      "projectUniqueName": "D:\\Learning C#\\Learning-DotNet\\ThreadTask\\RepositorySolution\\WebApp\\WebApp.csproj",
+      "projectName": "WebApp",
+      "projectPath": "D:\\Learning C#\\Learning-DotNet\\ThreadTask\\RepositorySolution\\WebApp\\WebApp.csproj",
       "packagesPath": "C:\\Users\\manasi\\.nuget\\packages\\",
-      "outputPath": "d:\\Learning C#\\Learning-DotNet\\ThreadTask\\RepositorySolution\\webapp\\obj\\",
+      "outputPath": "D:\\Learning C#\\Learning-DotNet\\ThreadTask\\RepositorySolution\\WebApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -58,8 +58,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "d:\\Learning C#\\Learning-DotNet\\ThreadTask\\RepositorySolution\\core\\core.csproj": {
-              "projectPath": "d:\\Learning C#\\Learning-DotNet\\ThreadTask\\RepositorySolution\\core\\core.csproj"
+            "D:\\Learning C#\\Learning-DotNet\\ThreadTask\\RepositorySolution\\Core\\Core.csproj": {
+              "projectPath": "D:\\Learning C#\\Learning-DotNet\\ThreadTask\\RepositorySolution\\Core\\Core.csproj"
             }
           }
         }
