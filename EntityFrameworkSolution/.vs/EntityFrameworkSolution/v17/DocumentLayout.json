@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Learning C#\\Learning-DotNet\\EntityFrameworkSolution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Learning C#\\Learning-DotNet\\EntityFrameworkSolution\\EStoreWebApp\\EStoreWebApp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EStoreWebApp\\EStoreWebApp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EStoreWebApp.csproj",
+              "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\EntityFrameworkSolution\\EStoreWebApp\\EStoreWebApp.csproj",
+              "RelativeDocumentMoniker": "EStoreWebApp\\EStoreWebApp.csproj",
+              "ToolTip": "D:\\Learning C#\\Learning-DotNet\\EntityFrameworkSolution\\EStoreWebApp\\EStoreWebApp.csproj",
+              "RelativeToolTip": "EStoreWebApp\\EStoreWebApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-23T05:53:13.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

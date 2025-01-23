@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 namespace EStoreWebApp
 {
     public class DBManager : IDBManager

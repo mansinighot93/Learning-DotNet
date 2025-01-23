@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using Pomelo.EntityFrameworkCore.MySql.Infrastructure;
 
 namespace EStoreWebApp
 {
@@ -8,8 +9,11 @@ namespace EStoreWebApp
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             string conString = "server=localhost;database=learningapp;user=root;password='password'";
-            optionsBuilder.UseMySQL(conString);
-        }
+            optionsBuilder.UseMySql(
+                conString,
+            ServerVersion.AutoDetect(conString) // Auto-detects the MySQL server version
+        );
+        }        
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);

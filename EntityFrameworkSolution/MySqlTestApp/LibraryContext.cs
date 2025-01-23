@@ -7,10 +7,13 @@ namespace MySqlTestApp
     {
         public DbSet<Book> Book{get;set;}
         public DbSet<Publisher> Publisher{get;set;}
-        protected override void OnConfiguring(DbContextOptionsBuilder optionBuilder)
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             string conString = "server=localhost;database=learningapp;user=root;password='password'";
-            optionBuilder.UseMySQL(conString);
+            optionsBuilder.UseMySql(
+                conString,
+            ServerVersion.AutoDetect(conString) // Auto-detects the MySQL server version
+        );
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
