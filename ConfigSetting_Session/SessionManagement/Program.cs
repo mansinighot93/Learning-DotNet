@@ -3,6 +3,7 @@ using Core.Repositories;
 using Core.Repositories.Interfaces;
 using Core.Services;
 using Core.Services.Interfaces;
+using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -46,7 +47,9 @@ app.UseRouting();
 app.UseAuthorization();
 
 app.MapStaticAssets();
+
 app.UseSession();
+
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}")

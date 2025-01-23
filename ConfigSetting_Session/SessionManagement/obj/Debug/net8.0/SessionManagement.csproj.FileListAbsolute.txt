@@ -1,0 +1,9 @@
+D:\Learning C#\Learning-DotNet\ConfigSetting_Session\SessionManagement\obj\Debug\net8.0\SessionManagement.csproj.AssemblyReference.cache
+D:\Learning C#\Learning-DotNet\ConfigSetting_Session\SessionManagement\obj\Debug\net8.0\SessionManagement.GeneratedMSBuildEditorConfig.editorconfig
+D:\Learning C#\Learning-DotNet\ConfigSetting_Session\SessionManagement\obj\Debug\net8.0\SessionManagement.AssemblyInfoInputs.cache
+D:\Learning C#\Learning-DotNet\ConfigSetting_Session\SessionManagement\obj\Debug\net8.0\SessionManagement.AssemblyInfo.cs
+D:\Learning C#\Learning-DotNet\ConfigSetting_Session\SessionManagement\obj\Debug\net8.0\SessionManagement.csproj.CoreCompileInputs.cache
+D:\Learning C#\Learning-DotNet\ConfigSetting_Session\SessionManagement\obj\Debug\net8.0\SessionManagement.MvcApplicationPartsAssemblyInfo.cache
+D:\Learning C#\Learning-DotNet\ConfigSetting_Session\SessionManagement\obj\Debug\net8.0\SessionManagement.RazorAssemblyInfo.cache
+D:\Learning C#\Learning-DotNet\ConfigSetting_Session\SessionManagement\obj\Debug\net8.0\SessionManagement.RazorAssemblyInfo.cs
+D:\Learning C#\Learning-DotNet\ConfigSetting_Session\SessionManagement\obj\Debug\net8.0\SessionManagement.sourcelink.json

@@ -10,6 +10,14 @@
     <table>
         <tr>
             <td>
+                @Html.LabelFor(model => model.theFlower.ID, new { htmlattributes = new { @class = "label label-info" } })
+            </td>
+            <td>
+                @Html.EditorFor(model => model.theFlower.ID, new { htmlattributes = new { @class = "form-control" } })
+            </td>
+        </tr>
+        <tr>
+            <td>
                 @Html.LabelFor(model => model.theFlower.Name, new { htmlattributes = new { @class = "label label-info" } })
             </td>
             <td>

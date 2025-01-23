@@ -49,9 +49,12 @@ namespace SessionManagement.Controllers
         public IActionResult  Remove(int  id){  
             Cart theCart= SessionHelper.GetObjectFromJson<Cart>(HttpContext.Session, "cart");  
             var found = theCart.Items.Find(x => x.theFlower.ID == id);
-            if(found != null) theCart.Items.Remove(found);
+            if(found != null) 
+            {
+                theCart.Items.Remove(found);
+            }
             SessionHelper.SetObjectAsJson(HttpContext.Session, "cart", theCart);        
-            return RedirectToAction("Index","ShoppingCart");
+            return RedirectToAction("Index");
         }          
     }
 }
