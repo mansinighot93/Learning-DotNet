@@ -8,7 +8,7 @@ namespace Core.Repositories
     {
         public DbSet<Flower> Flowers{get;set;}
         public DbSet<Fruit> Fruits {get;set;}
-        public DbSet<Order> Order {get;set;}
+        public DbSet<Order> Orders {get;set;}
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             string conString = "server=localhost;database=learningapp;user=root;password='password'";

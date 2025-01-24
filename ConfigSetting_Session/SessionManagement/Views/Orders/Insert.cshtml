@@ -1,0 +1,33 @@
+@using Core.Models
+@{
+    ViewBag.Title = "Insert";
+}
+
+
+<form action="/orders/insert" method="POST">
+    <table style="font-family:Arial">
+
+        <tr>
+            <td><b>Order ID:</b><td>
+            <td><input type="text" name="id"/> </td>
+        </tr>
+
+        <tr>
+            <td><b>Order Date:</b><td>
+            <td><input type="date" name="date"/> </td>
+        </tr>
+
+        <tr>
+            <td><b>Order Status:</b><td>
+            <td><input type="text" name="status"/> </td>
+        </tr>
+
+        <tr>
+            <td><b>Total Amount:</b><td>
+            <td><input type="number" name="amount"/> </td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="Insert Order"/> </td>
+        </tr>
+    </table>
+</form>

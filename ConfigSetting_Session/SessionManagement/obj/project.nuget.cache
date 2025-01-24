@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aC8fjBkAiZ0=",
+  "dgSpecHash": "SNtYB8pHL8Y=",
   "success": true,
-  "projectFilePath": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\SessionManagement.csproj",
+  "projectFilePath": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionMAnagement\\SessionManagement.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\manasi\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\manasi\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",

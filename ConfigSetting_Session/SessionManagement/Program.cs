@@ -16,6 +16,8 @@ builder.Services.AddTransient<IFlowerRepository, FlowerRepository>();
 builder.Services.AddTransient<IFlowerService, FlowerService>();
 builder.Services.AddTransient<IFruitService, FruitService>();
 builder.Services.AddTransient<IFinancialsService, FinancialsService>();
+builder.Services.AddTransient<IOrderRepository,OrderRepository>();
+builder.Services.AddTransient<IOrderService,OrderService>();
 
 //register distributed memory for storing session
 builder.Services.AddDistributedMemoryCache();

@@ -1,0 +1,30 @@
+@model IEnumerable<Core.Models.Order>
+
+@{ ViewData["Title"] = "Index";}
+<h1>Today's Customer Orders...</h1>
+<hr/>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.Id)</th>
+            <th>@Html.DisplayNameFor(model => model.Status)</th>
+            <th>@Html.DisplayNameFor(model => model.OrderDate)</th>
+            <th>@Html.DisplayNameFor(model => model.TotalAmount)</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.Id)</td>
+                <td>@Html.DisplayFor(modelItem => item.Status)</td>
+                <td>@Html.DisplayFor(modelItem => item.OrderDate)</td>
+                <td>@Html.DisplayFor(modelItem => item.TotalAmount)</td>
+            </tr>
+        }
+    </tbody>
+</table>
+<form method="post" action="/ShoppingCart/BuyNow">
+    <button type="submit">Buy Now</button>
+</form>

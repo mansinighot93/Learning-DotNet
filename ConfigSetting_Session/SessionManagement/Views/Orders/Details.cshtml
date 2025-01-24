@@ -1,0 +1,33 @@
+@using Core.Models
+<h2>Order Details</h2>
+@{
+    Order theOrder = ViewData["order"] as Order;
+}
+
+<table>
+    <tr>
+        <td><b>Order ID:</b></td>
+        <td>@theOrder.Id</td>
+    </tr>
+    <tr>
+        <td><b>Order Date:</b></td>
+        <td>@theOrder.OrderDate</td>
+    </tr>
+    <tr>
+        <td><b>Order Status:</b></td>
+        <td>@theOrder.Status</td>
+    </tr>
+    <tr>
+        <td><b>Total Amount:</b></td>
+        <td>@theOrder.TotalAmount</td>
+    </tr>
+
+    <tr>
+        <td>
+            @Html.ActionLink("Update", "Update", "Orders", new { id = theOrder.Id }, "")
+        </td>
+         <td>
+            @Html.ActionLink("Delete", "Delete", "Orders", new { id = theOrder.Id }, "")
+        </td>
+    </tr>
+</table>
