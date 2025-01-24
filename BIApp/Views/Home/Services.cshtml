@@ -1,0 +1,12 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Services</h1>
+</div>
+
+@{
+    string vision = TempData["vision"] as string;
+    @vision
+}

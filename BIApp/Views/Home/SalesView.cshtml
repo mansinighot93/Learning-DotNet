@@ -1,0 +1,17 @@
+@using BIApp.Models;
+@model SalesRepository
+@{
+    ViewBag.Title="Sales View";
+}
+
+<h2>Marketing Dashboard</h2>
+
+<h3>Customers</h3>
+<div>
+    @Html.Partial("CustomerView",Model.customers);
+</div>
+
+<h3>Products</h3>
+<div>
+    @Html.Partial("ProductView",Model.products);
+</div>

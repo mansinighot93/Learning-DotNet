@@ -1,0 +1,23 @@
+@model IEnumerable<Customer>
+@using BIApp.Models;
+
+@if(Model != null)
+{
+    <div>
+        <table cellspacing ="0" width accesskey="80%">
+            <thead>
+                <tr><th> Name</th><th>Location</th><th>Age</th></tr>
+            </thead>
+            <tbody>
+                @foreach(var item in Model)
+                {
+                    <tr>
+                        <td align="left">@item.Name</td>
+                        <td align="left">@item.Location</td>
+                        <td align="left">@item.Age</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}
