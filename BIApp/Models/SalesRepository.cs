@@ -9,7 +9,8 @@ namespace BIApp.Models
         public List<Customer> customers = new List<Customer>();
         public SalesRepository()
         {
-
+            products = FillProducts();
+            customers = FillCustomers();   
         }
         private List<Product> FillProducts()
         {
