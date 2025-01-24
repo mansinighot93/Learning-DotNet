@@ -10,8 +10,7 @@ namespace Core.Services
         private readonly IFruitRepository _fruitRepo;
         private readonly IFlowerRepository _flowerRepo;
 
-        public FinancialsService(IFruitRepository fruitRepo,
-                                 IFlowerRepository flowerRepo)
+        public FinancialsService(IFruitRepository fruitRepo,IFlowerRepository flowerRepo)
         {
             _fruitRepo = fruitRepo;
             _flowerRepo = flowerRepo;

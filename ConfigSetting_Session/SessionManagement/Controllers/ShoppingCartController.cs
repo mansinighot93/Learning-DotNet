@@ -4,11 +4,13 @@ using  Core.Models;
 using Microsoft.AspNetCore.Http;
 using Core.Services.Interfaces;
 using SessionManagement.Helpers;
+using Core.Services;
 
 namespace SessionManagement.Controllers
 {
    public class ShoppingCartController : Controller
     {  
+        private const string CartSessionKey = "cart";
         private readonly IFlowerService _flowerService;
         
         public ShoppingCartController(IFlowerService flowerService ){        
@@ -55,6 +57,26 @@ namespace SessionManagement.Controllers
             }
             SessionHelper.SetObjectAsJson(HttpContext.Session, "cart", theCart);        
             return RedirectToAction("Index");
-        }          
+        }   
+        [HttpPost]
+        public IActionResult BuyNow(Item newItem)
+        {
+            
+            ViewData["order"] = "Invoking Order data";
+            ViewBag.key= "Display Order Details";
+            return View();
+            // Cart theCart= SessionHelper.GetObjectFromJson<Cart>(HttpContext.Session, "cart");
+            // if (theCart == null)
+            // {
+            //     theCart = new Cart();
+            //     theCart.Items = new List<Item>(); // Ensure Items is initialized
+            // }
+            // theCart.Items.Add(newItem);
+            // Console.WriteLine("Out Buynow");
+            // //HttpContext.Session.Remove("cart");
+            //return RedirectToAction("Index", "ShoppingCart");
+            
+        }
+
     }
 }

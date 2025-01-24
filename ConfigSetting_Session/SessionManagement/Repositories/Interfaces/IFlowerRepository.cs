@@ -1,4 +1,5 @@
 ﻿using Core.Models;
+using SessionManagement.Models;
 using System.Collections.Generic;
 
 namespace Core.Repositories.Interfaces
@@ -8,5 +9,6 @@ namespace Core.Repositories.Interfaces
         List<Flower> GetAll();
         Flower GetById(int id);
         List<Flower> GetAllSold();
+        
     }
 }
