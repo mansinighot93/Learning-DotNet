@@ -1,0 +1,12 @@
+D:\Learning C#\Learning-DotNet\ThreadTask\RepositorySolution\Core\bin\Debug\net9.0\Core.deps.json
+D:\Learning C#\Learning-DotNet\ThreadTask\RepositorySolution\Core\bin\Debug\net9.0\Core.dll
+D:\Learning C#\Learning-DotNet\ThreadTask\RepositorySolution\Core\bin\Debug\net9.0\Core.pdb
+D:\Learning C#\Learning-DotNet\ThreadTask\RepositorySolution\Core\obj\Debug\net9.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Learning C#\Learning-DotNet\ThreadTask\RepositorySolution\Core\obj\Debug\net9.0\Core.AssemblyInfoInputs.cache
+D:\Learning C#\Learning-DotNet\ThreadTask\RepositorySolution\Core\obj\Debug\net9.0\Core.AssemblyInfo.cs
+D:\Learning C#\Learning-DotNet\ThreadTask\RepositorySolution\Core\obj\Debug\net9.0\Core.csproj.CoreCompileInputs.cache
+D:\Learning C#\Learning-DotNet\ThreadTask\RepositorySolution\Core\obj\Debug\net9.0\Core.sourcelink.json
+D:\Learning C#\Learning-DotNet\ThreadTask\RepositorySolution\Core\obj\Debug\net9.0\Core.dll
+D:\Learning C#\Learning-DotNet\ThreadTask\RepositorySolution\Core\obj\Debug\net9.0\refint\Core.dll
+D:\Learning C#\Learning-DotNet\ThreadTask\RepositorySolution\Core\obj\Debug\net9.0\Core.pdb
+D:\Learning C#\Learning-DotNet\ThreadTask\RepositorySolution\Core\obj\Debug\net9.0\ref\Core.dll
