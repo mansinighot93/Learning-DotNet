@@ -1,6 +1,7 @@
 using Core.Models;
 using Microsoft.EntityFrameworkCore;
 using Pomelo.EntityFrameworkCore.MySql.Infrastructure;
+using SessionManagement.Models;
 
 namespace Core.Repositories
 {
@@ -9,6 +10,8 @@ namespace Core.Repositories
         public DbSet<Flower> Flowers{get;set;}
         public DbSet<Fruit> Fruits {get;set;}
         public DbSet<Order> Orders {get;set;}
+        public DbSet<Login> Login {get;set;}
+        public DbSet<Register> Register {get;set;}
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             string conString = "server=localhost;database=learningapp;user=root;password='password'";
@@ -36,6 +39,19 @@ namespace Core.Repositories
                 entity.Property(e => e.OrderDate);
                 entity.Property(e => e.Status);
                 entity.Property(e => e.TotalAmount);
+            });
+            modelBuilder.Entity<Login>(entity => {
+                entity.HasKey(e => e.Id);
+                entity.Property(e => e.Username);
+                entity.Property(e => e.Password);
+            });
+            modelBuilder.Entity<Register>(entity => {
+                entity.HasKey(e => e.Id);
+                entity.Property(e => e.Name);
+                entity.Property(e => e.Email);
+                entity.Property(e => e.Location);
+                entity.Property(e => e.ContactNumber);
+                entity.Property(e => e.Password);
             });
         }
     }

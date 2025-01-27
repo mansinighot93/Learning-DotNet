@@ -22,7 +22,7 @@ namespace SessionManagement.Controllers
             if (theCart == null)
             {
                 theCart = new Cart();
-                theCart.Items = new List<Item>(); // Ensure Items is initialized
+                theCart.Items = new List<Item>();
             }
  
             return View(theCart);

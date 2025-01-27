@@ -18,13 +18,15 @@ builder.Services.AddTransient<IFruitService, FruitService>();
 builder.Services.AddTransient<IFinancialsService, FinancialsService>();
 builder.Services.AddTransient<IOrderRepository,OrderRepository>();
 builder.Services.AddTransient<IOrderService,OrderService>();
+builder.Services.AddTransient<IAuthService, AuthService>();
+builder.Services.AddTransient<IAuthRepository, AuthRepository>();
 
 //register distributed memory for storing session
 builder.Services.AddDistributedMemoryCache();
 
 //setting session state environment at startup level
 builder.Services.AddSession(option=>{
-    option.IdleTimeout = TimeSpan.FromSeconds(10);
+    option.IdleTimeout = TimeSpan.FromSeconds(30);
     option.Cookie.HttpOnly = true;
     option.Cookie.IsEssential = true;
 });

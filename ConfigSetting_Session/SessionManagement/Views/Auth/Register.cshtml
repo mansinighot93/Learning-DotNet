@@ -1,0 +1,45 @@
+﻿@model IEnumerable<Core.Models.Flower>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<h1>Register Page</h1>
+<hr />
+<form action="/auth/register" method="POST">
+<table style="font-family:Arial">
+
+        <tr>
+            <td><b>Customer ID:</b><td>
+            <td><input type="text" name="id"/> </td>
+        </tr>
+
+        <tr>
+            <td><b>Customer Name:</b><td>
+            <td><input type="text" name="name"/> </td>
+        </tr>
+
+        <tr>
+            <td><b>Contact Number:</b><td>
+            <td><input type="text" name="contactNumber"/> </td>
+        </tr>
+
+        <tr>
+            <td><b>Email:</b><td>
+            <td><input type="text" name="email"/> </td>
+        </tr>
+
+        <tr>
+            <td><b>Location:</b><td>
+            <td><input type="text" name="location"/> </td>
+        </tr>
+    <tr>
+        <td><b>Password:</b>
+        <td>
+        <td><input type="password" name="password" /> </td>
+    </tr>
+
+        <tr>
+            <td><input type="submit" value="Register"/> </td>
+        </tr>
+    </table>
+</form>
