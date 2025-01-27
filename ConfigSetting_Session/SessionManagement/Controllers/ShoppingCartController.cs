@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Http;
 using Core.Services.Interfaces;
 using SessionManagement.Helpers;
 using Core.Services;
+using Microsoft.AspNetCore.Http.Features;
 
 namespace SessionManagement.Controllers
 {
@@ -59,23 +60,19 @@ namespace SessionManagement.Controllers
             return RedirectToAction("Index");
         }   
         [HttpPost]
-        public IActionResult BuyNow(Item newItem)
+        public IActionResult BuyNow()
         {
-            
-            ViewData["order"] = "Invoking Order data";
-            ViewBag.key= "Display Order Details";
-            return View();
-            // Cart theCart= SessionHelper.GetObjectFromJson<Cart>(HttpContext.Session, "cart");
-            // if (theCart == null)
-            // {
-            //     theCart = new Cart();
-            //     theCart.Items = new List<Item>(); // Ensure Items is initialized
-            // }
-            // theCart.Items.Add(newItem);
-            // Console.WriteLine("Out Buynow");
-            // //HttpContext.Session.Remove("cart");
-            //return RedirectToAction("Index", "ShoppingCart");
-            
+            Cart theCart = SessionHelper.GetObjectFromJson<Cart>(HttpContext.Session, "cart");
+            if (theCart == null || theCart.Items == null || !theCart.Items.Any())
+            {
+                return RedirectToAction("Index", "ShoppingCart");
+            }
+            SessionHelper.SetObjectAsJson(HttpContext.Session, "buyNowCart", theCart);
+
+            //ViewBag.TotalPrice = theCart.Items.Sum(item => item.theFlower.SalePrice * item.Quantity);
+
+            return View(theCart);
+
         }
 
     }

@@ -1,39 +1,34 @@
 @using Core.Models;
+@model Cart
 
+<h2>Buy Now</h2>
 
-<div>
-    <p>@ViewData["order"]</p>
-</div>
-<div>
-    <p>@ViewBag.key</p>
-</div>
-@*
-<h2>Order Details</h2>
-@{
-    Order theOrder = ViewData["order"] as Order;
+@if(Model != null && Model.Items != null && Model.Items.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Flower Name</th>
+                <th>Quantity</th>
+                <th>Amount</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Items)
+            {
+                <tr>
+                    <td>@item.theFlower.Name</td>
+                    <td>@item.Quantity</td>
+                    <td>@(item.theFlower.SalePrice * item.Quantity)</td>
+                </tr>
+            }
+        </tbody>
+    </table>
 }
+<h3>Total Price: @Model.TotalPrice</h3>
  
-<table>
-    <tr>
-        <td><b>Order ID:</b></td>
-        <td>@theOrder.Id</td>
-    </tr>
-    <tr>
-        <td><b>Order Date:</b></td>
-        <td>@theOrder.OrderDate</td>
-    </tr>
-    <tr>
-        <td><b>Order Status:</b></td>
-        <td>@theOrder.Status</td>
-    </tr>
-    <tr>
-        <td><b>Total Amount:</b></td>
-        <td>@theOrder.TotalAmount</td>
-    </tr> 
+@*<h3>Total Price: @ViewBag.TotalPrice</h3>*@
 
-    
-         <td>
-            @Html.ActionLink("Delete", "Delete", "Orders", new { id = theOrder.Id }, "")
-        </td>
-</table>
-*@
+@* <form asp-action="ProcessPayment" method="post"> *@
+@*     <button type="submit">Proceed to Payment</button> *@
+@* </form> *@
