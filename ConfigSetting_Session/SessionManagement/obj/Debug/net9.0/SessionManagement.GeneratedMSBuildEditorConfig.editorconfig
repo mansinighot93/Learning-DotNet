@@ -9,85 +9,85 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SessionManagement
 build_property.RootNamespace = SessionManagement
-build_property.ProjectDir = D:\Learning C#\Learning-DotNet\ConfigSetting_Session\SessionManagement\
+build_property.ProjectDir = d:\Learning C#\Learning-DotNet\ConfigSetting_Session\SessionManagement\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Learning C#\Learning-DotNet\ConfigSetting_Session\SessionManagement
+build_property.MSBuildProjectDirectory = d:\Learning C#\Learning-DotNet\ConfigSetting_Session\SessionManagement
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[D:/Learning C\#/Learning-DotNet/ConfigSetting_Session/SessionManagement/Views/Auth/Login.cshtml]
+[d:/Learning C\#/Learning-DotNet/ConfigSetting_Session/SessionManagement/Views/Auth/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Learning C\#/Learning-DotNet/ConfigSetting_Session/SessionManagement/Views/Auth/Register.cshtml]
+[d:/Learning C\#/Learning-DotNet/ConfigSetting_Session/SessionManagement/Views/Auth/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Learning C\#/Learning-DotNet/ConfigSetting_Session/SessionManagement/Views/Auth/Success.cshtml]
+[d:/Learning C\#/Learning-DotNet/ConfigSetting_Session/SessionManagement/Views/Auth/Success.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxTdWNjZXNzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Learning C\#/Learning-DotNet/ConfigSetting_Session/SessionManagement/Views/Flowers/Index.cshtml]
+[d:/Learning C\#/Learning-DotNet/ConfigSetting_Session/SessionManagement/Views/Flowers/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmxvd2Vyc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Learning C\#/Learning-DotNet/ConfigSetting_Session/SessionManagement/Views/Home/Index.cshtml]
+[d:/Learning C\#/Learning-DotNet/ConfigSetting_Session/SessionManagement/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Learning C\#/Learning-DotNet/ConfigSetting_Session/SessionManagement/Views/Home/Privacy.cshtml]
+[d:/Learning C\#/Learning-DotNet/ConfigSetting_Session/SessionManagement/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Learning C\#/Learning-DotNet/ConfigSetting_Session/SessionManagement/Views/Orders/Details.cshtml]
+[d:/Learning C\#/Learning-DotNet/ConfigSetting_Session/SessionManagement/Views/Orders/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Learning C\#/Learning-DotNet/ConfigSetting_Session/SessionManagement/Views/Orders/Index.cshtml]
+[d:/Learning C\#/Learning-DotNet/ConfigSetting_Session/SessionManagement/Views/Orders/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Learning C\#/Learning-DotNet/ConfigSetting_Session/SessionManagement/Views/Orders/Insert.cshtml]
+[d:/Learning C\#/Learning-DotNet/ConfigSetting_Session/SessionManagement/Views/Orders/Insert.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXEluc2VydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Learning C\#/Learning-DotNet/ConfigSetting_Session/SessionManagement/Views/Orders/Update.cshtml]
+[d:/Learning C\#/Learning-DotNet/ConfigSetting_Session/SessionManagement/Views/Orders/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXFVwZGF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Learning C\#/Learning-DotNet/ConfigSetting_Session/SessionManagement/Views/Shared/Error.cshtml]
+[d:/Learning C\#/Learning-DotNet/ConfigSetting_Session/SessionManagement/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Learning C\#/Learning-DotNet/ConfigSetting_Session/SessionManagement/Views/Shared/_ValidationScriptsPartial.cshtml]
+[d:/Learning C\#/Learning-DotNet/ConfigSetting_Session/SessionManagement/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Learning C\#/Learning-DotNet/ConfigSetting_Session/SessionManagement/Views/ShoppingCart/Add.cshtml]
+[d:/Learning C\#/Learning-DotNet/ConfigSetting_Session/SessionManagement/Views/ShoppingCart/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcHBpbmdDYXJ0XEFkZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Learning C\#/Learning-DotNet/ConfigSetting_Session/SessionManagement/Views/ShoppingCart/BuyNow.cshtml]
+[d:/Learning C\#/Learning-DotNet/ConfigSetting_Session/SessionManagement/Views/ShoppingCart/BuyNow.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcHBpbmdDYXJ0XEJ1eU5vdy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Learning C\#/Learning-DotNet/ConfigSetting_Session/SessionManagement/Views/ShoppingCart/Index.cshtml]
+[d:/Learning C\#/Learning-DotNet/ConfigSetting_Session/SessionManagement/Views/ShoppingCart/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcHBpbmdDYXJ0XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Learning C\#/Learning-DotNet/ConfigSetting_Session/SessionManagement/Views/_ViewImports.cshtml]
+[d:/Learning C\#/Learning-DotNet/ConfigSetting_Session/SessionManagement/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Learning C\#/Learning-DotNet/ConfigSetting_Session/SessionManagement/Views/_ViewStart.cshtml]
+[d:/Learning C\#/Learning-DotNet/ConfigSetting_Session/SessionManagement/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Learning C\#/Learning-DotNet/ConfigSetting_Session/SessionManagement/Views/Shared/_Layout.cshtml]
+[d:/Learning C\#/Learning-DotNet/ConfigSetting_Session/SessionManagement/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-6kg3u246fn

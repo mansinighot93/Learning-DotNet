@@ -1,6 +1,7 @@
 ﻿using Core.Models;
 using Core.Repositories.Interfaces;
 using EStoreWebApp;
+using Microsoft.EntityFrameworkCore;
 using SessionManagement.Models;
 using System.Collections.Generic;
 

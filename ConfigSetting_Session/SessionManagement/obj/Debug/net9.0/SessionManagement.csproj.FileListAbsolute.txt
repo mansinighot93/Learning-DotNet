@@ -171,4 +171,3 @@ D:\Learning C#\Learning-DotNet\ConfigSetting_Session\SessionManagement\bin\Debug
 D:\Learning C#\Learning-DotNet\ConfigSetting_Session\SessionManagement\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\Learning C#\Learning-DotNet\ConfigSetting_Session\SessionManagement\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\Learning C#\Learning-DotNet\ConfigSetting_Session\SessionManagement\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Learning C#\Learning-DotNet\ConfigSetting_Session\SessionManagement\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt

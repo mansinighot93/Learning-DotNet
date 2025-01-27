@@ -36,12 +36,12 @@ public class AuthController : Controller
         return View();
     }
     [HttpPost]
-    public IActionResult Register(int id, string fname, string location, string email, string password, long contactnumber)
+    public IActionResult Register(int id, string name, string location, string email, string password, long contactnumber)
     {
         Register register = new Register
         {
             Id = id,
-            Name = fname,
+            Name = name,
             Location = location,
             Email = email,
             Password = password,
