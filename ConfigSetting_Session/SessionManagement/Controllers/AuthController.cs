@@ -38,7 +38,7 @@ public class AuthController : Controller
     [HttpPost]
     public IActionResult Register(int id, string name, string location, string email, string password, long contactnumber)
     {
-        Register register = new Register
+        User register = new User
         {
             Id = id,
             Name = name,
@@ -47,7 +47,7 @@ public class AuthController : Controller
             Password = password,
             ContactNumber = contactnumber
         };
-        _authService.Insert(register);
+        _authService.Register(register);
         return RedirectToAction("Success");
     }
     public IActionResult Success()

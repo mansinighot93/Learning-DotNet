@@ -7,7 +7,7 @@ namespace Core.Repositories.Interfaces
     public interface IAuthRepository
     {
         public bool Validate(string username,string password);
-        public void Insert(Register register);
+        public void Register(User user);
 
     }
 }

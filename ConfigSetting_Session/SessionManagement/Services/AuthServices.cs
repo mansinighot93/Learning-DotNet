@@ -14,7 +14,7 @@ namespace Core.Services
             _authRepo = authRepo;
         }
         public bool Validate(string username,string password) => _authRepo.Validate(username,password);
-        public void Insert(Register register) => _authRepo.Insert(register);
+        public void Register(User user) => _authRepo.Register(user);
 
     }
 }

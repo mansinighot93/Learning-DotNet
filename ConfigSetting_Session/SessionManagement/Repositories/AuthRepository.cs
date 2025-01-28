@@ -13,17 +13,17 @@ namespace Core.Repositories
         {
             using (var context = new RepoCollectionContext())
             {
-                var user = context.Login.FirstOrDefault(u => u.Username == username && u.Password == password);
+                var user = context.Users.FirstOrDefault(u => u.Name == username && u.Password == password);
                 return user != null && user.Password == password; 
             }
         }
-        public void Insert(Register register)
+        public void Register(User user)
         {
             using (var context = new RepoCollectionContext())
             {
                 try
                 {
-                    context.Register.Add(register);
+                    context.Users.Add(user);
                     context.SaveChanges();
                 }
                 catch (Exception ex)
