@@ -9,12 +9,12 @@ namespace Core.Repositories
 {
     public class AuthRepository : IAuthRepository
     {
-        public bool Validate(string username, string password)
+        public User Validate(string username, string password)
         {
             using (var context = new RepoCollectionContext())
             {
                 var user = context.Users.FirstOrDefault(u => u.Email == username && u.Password == password);
-                return user != null; 
+                return user; 
             }
         }
         public void Register(User user)

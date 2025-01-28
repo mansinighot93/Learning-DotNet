@@ -2,6 +2,18 @@
 @{
     ViewBag.Title = "Insert";
 }
+@{
+    ViewData["Title"] = "Error";
+}
+
+<h2>Error</h2>
+
+@if (!string.IsNullOrEmpty(ViewBag.ErrorMessage))
+{
+    <div class="alert alert-danger">
+        @ViewBag.ErrorMessage
+    </div>
+}
 
 
 <form action="/orders/insert" method="POST">
@@ -10,6 +22,11 @@
         <tr>
             <td><b>Order ID:</b><td>
             <td><input type="text" name="id"/> </td>
+        </tr>
+        <tr>
+            <td><b>User ID:</b>
+            <td>
+            <td><input type="text" name="userId" /> </td>
         </tr>
 
         <tr>

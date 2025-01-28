@@ -27,7 +27,7 @@ namespace Core.Repositories
             using (var context = new RepoCollectionContext())
             {
                 context.Orders.Add(order);
-                
+                context.SaveChanges();
             }
         }
     }

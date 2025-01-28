@@ -91,7 +91,8 @@ namespace SessionManagement.Controllers
                 var user = context.Users.FirstOrDefault(u => u.Id == userId);
                 if (user == null)
                 {
-                    return NotFound("User not found");
+                    ViewBag.ErrorMessage = "User not found.";
+                    return View("Login","auth"); 
                 }
 
                 foreach (var order in orders)
