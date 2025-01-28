@@ -1,4 +1,5 @@
-﻿namespace SessionManagement.Models
+﻿
+namespace Core.Models
 {
     public class User
     {
@@ -8,6 +9,7 @@
         public string Email { get; set; }
         public string Password { get; set; }
         public long ContactNumber { get; set; }
+        public virtual ICollection<Order> Orders { get; set; }
 
     }
 }

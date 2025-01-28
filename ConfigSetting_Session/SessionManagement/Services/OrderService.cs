@@ -14,6 +14,8 @@ namespace Core.Services
         }
         public List<Order> GetAll() => _orderRepo.GetAll();
         public Order GetById(int id)=>_orderRepo.GetById(id);
+        public void Insert(Order order) => _orderRepo.Insert(order);
+
     
     }
 }

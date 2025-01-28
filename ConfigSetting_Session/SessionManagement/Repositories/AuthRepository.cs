@@ -13,8 +13,8 @@ namespace Core.Repositories
         {
             using (var context = new RepoCollectionContext())
             {
-                var user = context.Users.FirstOrDefault(u => u.Name == username && u.Password == password);
-                return user != null && user.Password == password; 
+                var user = context.Users.FirstOrDefault(u => u.Email == username && u.Password == password);
+                return user != null; 
             }
         }
         public void Register(User user)

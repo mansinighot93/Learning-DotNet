@@ -8,7 +8,7 @@ namespace Core.Repositories.Interfaces
     {
         List<Order> GetAll();
         Order GetById(int id);
-        
+        public void Insert(Order order);
         
     }
 }

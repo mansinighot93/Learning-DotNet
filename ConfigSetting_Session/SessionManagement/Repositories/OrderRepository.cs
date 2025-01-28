@@ -22,7 +22,13 @@ namespace Core.Repositories
                 return order;
             }
         }
-        
-
+        public void Insert(Order order)
+        {
+            using (var context = new RepoCollectionContext())
+            {
+                context.Orders.Add(order);
+                
+            }
+        }
     }
 }

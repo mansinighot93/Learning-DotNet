@@ -33,13 +33,21 @@ namespace Core.Repositories
                 entity.Property(e => e.MovieName);
                 entity.Property(e => e.Quantity);
             });
-            modelBuilder.Entity<Order>(entity => {
+            modelBuilder.Entity<Order>(entity =>
+            {
                 entity.HasKey(e => e.Id);
                 entity.Property(e => e.OrderDate);
                 entity.Property(e => e.Status);
                 entity.Property(e => e.TotalAmount);
+                entity.HasOne(e => e.User).WithMany(o => o.Orders);
             });
-            
+
+            modelBuilder.Entity<Order>()
+            .HasOne(o => o.User) 
+            .WithMany(u => u.Orders) 
+            .HasForeignKey(o => o.UserID) 
+            .OnDelete(DeleteBehavior.Cascade);
+
             modelBuilder.Entity<User>(entity => {
                 entity.HasKey(e => e.Id);
                 entity.Property(e => e.Name).IsRequired();

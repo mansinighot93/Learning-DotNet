@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Core.Services.Interfaces;
+using Core.Models;
 
 using SessionManagement.Models;
 public class AuthController : Controller
