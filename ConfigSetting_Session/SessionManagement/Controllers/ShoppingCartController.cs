@@ -7,6 +7,7 @@ using SessionManagement.Helpers;
 using Core.Services;
 using Microsoft.AspNetCore.Http.Features;
 using Microsoft.EntityFrameworkCore;
+using Core.Repositories;
 
 namespace SessionManagement.Controllers
 {
@@ -81,24 +82,27 @@ namespace SessionManagement.Controllers
 
             return View(theCart);
         }
-        [HttpPost]
-        public IActionResult Payment()
-        {
-            Cart theCart = SessionHelper.GetObjectFromJson<Cart>(HttpContext.Session, "cart");
-            if (theCart == null || theCart.Items == null || !theCart.Items.Any())
-            {
-                return RedirectToAction("Index", "ShoppingCart");
-            }
 
-            var order = new Order
+        [HttpPost]
+        public IActionResult Payment(int userId, List<Order> orders)
+        {
+            using (var context = new RepoCollectionContext())
             {
-                OrderDate = DateTime.Now,
-                Status = "Paid",
-                TotalAmount = (double)theCart.Items.Sum(item => item.theFlower.SalePrice * item.Quantity)
-               
-            };
-            _orderService.Insert(order);
-            return RedirectToAction("OrderConfirmation", new { id = order.Id });
+                var user = context.Users.FirstOrDefault(u => u.Id == userId);
+                if (user == null)
+                {
+                    return NotFound("User not found");
+                }
+
+                foreach (var order in orders)
+                {
+                    order.UserID = userId;
+                    context.Orders.Add(order);
+                }
+
+                context.SaveChanges();
+            }
+            return RedirectToAction("OrderConfirmation");
         }
 
         [HttpGet]
