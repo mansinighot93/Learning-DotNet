@@ -8,6 +8,7 @@ namespace Core.Repositories.Interfaces
     {
         public User Validate(string username,string password);
         public void Register(User user);
+        public User ForgotPassword(string username, string newPassword, string confirmPassword);
 
     }
 }

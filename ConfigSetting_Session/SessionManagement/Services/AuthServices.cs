@@ -16,5 +16,7 @@ namespace Core.Services
         public User Validate(string username,string password) => _authRepo.Validate(username,password);
         public void Register(User user) => _authRepo.Register(user);
 
+        public User ForgotPassword(string username,string newPassword,string confirmPassword) => _authRepo.ForgotPassword(username,newPassword,confirmPassword);
+
     }
 }

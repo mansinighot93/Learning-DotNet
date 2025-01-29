@@ -52,6 +52,24 @@ public class AuthController : Controller
         _authService.Register(register);
         return RedirectToAction("Success");
     }
+    [HttpGet]
+    public IActionResult ForgotPassword()
+    {
+        return View();
+    }
+    [HttpPost]
+    public IActionResult ForgotPassword(string username,string newPassword,string confirmPassword)
+    {
+        var user = _authService.ForgotPassword(username, newPassword, confirmPassword);
+        if (user != null)
+        {
+            HttpContext.Session.SetString("UserId", user.ToString());
+            return RedirectToAction("Login", "auth");
+        }
+
+        ViewBag.Message = "Failed to update password. Please check your inputs.";
+        return View();
+    }
     public IActionResult Success()
     {
         return View();

@@ -32,5 +32,27 @@ namespace Core.Repositories
                 }
             }
         }
+        public User ForgotPassword(string username, string newPassword, string confirmPassword)
+        {
+            if (newPassword != confirmPassword)
+            {
+                return null;
+            }
+
+            using (var context = new RepoCollectionContext())
+            {
+                var user = context.Users.FirstOrDefault(u => u.Email == username);
+
+                if (user == null)
+                {
+                    return null;
+                }
+
+                user.Password = newPassword;
+                context.SaveChanges(); 
+                return user; 
+            }
+        }
     }
 }
+
