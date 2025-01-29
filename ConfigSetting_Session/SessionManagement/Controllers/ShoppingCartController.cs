@@ -74,7 +74,7 @@ namespace SessionManagement.Controllers
             Cart theCart = SessionHelper.GetObjectFromJson<Cart>(HttpContext.Session, "cart");
             if (theCart == null || theCart.Items == null || !theCart.Items.Any())
             {
-                return RedirectToAction("Index", "ShoppingCart");
+                return RedirectToAction("Index", "home");
             }
             SessionHelper.SetObjectAsJson(HttpContext.Session, "buyNowCart", theCart);
 
@@ -92,7 +92,7 @@ namespace SessionManagement.Controllers
                 if (user == null)
                 {
                     //ViewBag.ErrorMessage = "User not found.";
-                    return View("Login","auth"); 
+                    return RedirectToAction("Login","auth"); 
                 }
 
                 foreach (var order in orders)
