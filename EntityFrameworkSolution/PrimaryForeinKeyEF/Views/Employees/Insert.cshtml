@@ -1,0 +1,25 @@
+@using Core.Models
+@{
+    ViewBag.Title = "Insert";
+}
+<h2>Insert Employee Data</h2>
+<hr/>
+<form action="/employees/insert" method="POST">
+    <table>
+        <tr>
+            <td><b>Employee Name:</b><td>
+            <td><input type="text" name="name"/> </td>
+        </tr>
+        <tr>
+            <td><b>Employee Position:</b><td>
+            <td><input type="text" name="position"/> </td>
+        </tr>
+        <tr>
+            <td><b>Department ID:</b><td>
+            <td><input type="text" name="departmentId"/> </td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="Insert"/> </td>
+        </tr>
+    </table>
+</form>

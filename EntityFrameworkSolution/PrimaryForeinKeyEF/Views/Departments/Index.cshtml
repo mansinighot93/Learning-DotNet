@@ -1,0 +1,24 @@
+@model IEnumerable<Core.Models.Department>
+
+@{ ViewData["Title"] = "Index";}
+<h1>Department</h1>
+<hr/>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.Name)</th>
+            
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var dept in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => dept.Name)</td>
+                
+            </tr>
+        }
+    </tbody>
+</table>

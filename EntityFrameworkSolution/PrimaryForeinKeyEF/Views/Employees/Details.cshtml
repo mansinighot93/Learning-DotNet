@@ -1,0 +1,25 @@
+@using Core.Models
+<h2>Employee Details</h2>
+@{
+    Employee theEmp = ViewData["employee"] as Employee;
+}
+
+<table>
+    <tr>
+        <td><b>Employee ID:</b></td>
+        <td>@theEmp.EmployeeId</td>
+    </tr>
+    <tr>
+        <td><b>Employee Name:</b></td>
+        <td>@theEmp.Name</td>
+    </tr>
+    <tr>
+        <td><b>Employee Position:</b></td>
+        <td>@theEmp.Position</td>
+    </tr>
+    <tr>
+        <td><b>Department ID:</b></td>
+        <td>@theEmp.DepartmentId</td>
+    </tr>
+</table>
+<a href="/employees/update/@theEmp.EmployeeId">Update</a> || <a href="/employees/delete/@theEmp.EmployeeId">Delete</a>

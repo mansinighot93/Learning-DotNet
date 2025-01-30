@@ -1,0 +1,49 @@
+@using Core.Models
+@model Employee
+@{
+    ViewBag.Title = "Update";
+}
+
+@using(Html.BeginForm())
+{
+    <table>
+        <tr>
+            <td>
+                @Html.LabelFor(model => model.EmployeeId,new {htmlattributes = new {@class = "label label-info"}})
+            </td>
+            <td>
+                @Html.EditorFor(model => model.EmployeeId,new {htmlattributes = new {@class = "form-control"}})
+            </td>
+        </tr>
+        <tr>
+            <td>
+                @Html.LabelFor(model => model.Name,new {htmlattributes = new {@class = "label label-info"}})
+            </td>
+            <td>
+                @Html.EditorFor(model => model.Name,new {htmlattributes = new {@class = "form-control"}})
+            </td>
+        </tr>
+        <tr>
+            <td>
+                @Html.LabelFor(model => model.Position,new {htmlattributes = new {@class = "label label-info"}})
+            </td>
+            <td>
+                @Html.EditorFor(model => model.Position,new {htmlattributes = new {@class = "form-control"}})
+            </td>
+        </tr>
+        <tr>
+            <td>
+                @Html.LabelFor(model => model.DepartmentId,new {htmlattributes = new {@class = "label label-info"}})
+            </td>
+            <td>
+                @Html.EditorFor(model => model.DepartmentId,new {htmlattributes = new {@class = "form-control"}})
+            </td>
+        </tr>
+        <br/><br/>
+        <tr>
+        <td>
+            <input type="submit" value="Update Information"/>
+            </td>
+        </tr>
+    </table>
+}

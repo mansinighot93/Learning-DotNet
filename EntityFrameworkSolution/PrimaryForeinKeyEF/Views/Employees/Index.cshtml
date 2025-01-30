@@ -1,0 +1,24 @@
+@using Core.Models
+@{
+    ViewData["Title"] = "Customers Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Customer Catalog</h1>
+</div>
+
+<h1>Customer List </h1>
+<hr/>
+<a href="/employees/insert/">Insert Employee Details</a>
+<hr/>
+<div>
+    @foreach (Employee  emp in ViewData["employees"] as List<Employee>)
+    {
+        <table>
+            <tr>
+                <td>@emp.Name | | <a href="/employees/details/@emp.EmployeeId">Details</a></td>
+            </tr>
+        </table>
+    }
+</div>
+
