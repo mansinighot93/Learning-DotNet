@@ -13,7 +13,7 @@ namespace Core.Repositories
         public DbSet<User> Users {get;set;}
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            string conString = "server=localhost;database=learningapp;user=root;password='password'";
+            string conString = "server=localhost;database=onlineshopping;user=root;password='password'";
             optionsBuilder.UseMySql(
                 conString,
             ServerVersion.AutoDetect(conString));
