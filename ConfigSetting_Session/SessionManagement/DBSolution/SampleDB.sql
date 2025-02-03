@@ -29,6 +29,8 @@ INSERT INTO Flowers (Name, SalePrice, UnitPrice, Quantity) VALUES
 ('Tulip', 1.20, 0.80, 200),
 ('Orchid', 5.00, 3.80, 50);
 
+INSERT INTO Flowers (Name, SalePrice, UnitPrice, Quantity) VALUES 
+('Gerbera', 6.80, 9.00, 90);
 
 -- Insert data into the Fruit table
 INSERT INTO Fruits (MovieName, Quantity) VALUES 

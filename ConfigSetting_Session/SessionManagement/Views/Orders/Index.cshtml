@@ -8,6 +8,7 @@
     <thead>
         <tr>
             <th>@Html.DisplayNameFor(model => model.Id)</th>
+            <th>@Html.DisplayNameFor(model => model.UserID)</th>
             <th>@Html.DisplayNameFor(model => model.Status)</th>
             <th>@Html.DisplayNameFor(model => model.OrderDate)</th>
             <th>@Html.DisplayNameFor(model => model.TotalAmount)</th>
@@ -18,6 +19,7 @@
         {
             <tr>
                 <td>@Html.DisplayFor(modelItem => item.Id)</td>
+                <th>@Html.DisplayFor(modelItem => item.UserID)</th>
                 <td>@Html.DisplayFor(modelItem => item.Status)</td>
                 <td>@Html.DisplayFor(modelItem => item.OrderDate)</td>
                 <td>@Html.DisplayFor(modelItem => item.TotalAmount)</td>

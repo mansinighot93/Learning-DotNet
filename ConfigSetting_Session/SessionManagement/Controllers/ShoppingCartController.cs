@@ -81,36 +81,60 @@ namespace SessionManagement.Controllers
             //ViewBag.TotalPrice = theCart.Items.Sum(item => item.theFlower.SalePrice * item.Quantity);
 
             return View(theCart);
+            
         }
-
-        [HttpPost]
-        public IActionResult Payment(int userId, List<Order> orders)
+        
+        public IActionResult PlaceOrder()
         {
+            Cart theCart = SessionHelper.GetObjectFromJson<Cart>(HttpContext.Session, "cart");
+            int? userId = HttpContext.Session.GetInt32("UserID");
+
+            if (theCart == null || theCart.Items == null || !theCart.Items.Any())
+            {
+                return RedirectToAction("Index", "Home");
+            }
+
+            if (userId == null)
+            {
+                return RedirectToAction("Login", "auth"); 
+            }
+            SessionHelper.SetObjectAsJson(HttpContext.Session, "buyNowCart", theCart);
+
             using (var context = new RepoCollectionContext())
             {
-                var user = context.Users.FirstOrDefault(u => u.Id == userId);
-                if (user == null)
+                Order newOrder = new Order
                 {
-                    //ViewBag.ErrorMessage = "User not found.";
-                    return RedirectToAction("Login","auth"); 
-                }
+                    OrderDate = DateTime.Now,
+                    Status = "paid",
+                    TotalAmount = (double)theCart.Items.Sum(item => item.theFlower.SalePrice * item.Quantity),
+                    UserID = userId.Value
+                };
 
-                foreach (var order in orders)
-                {
-                    order.UserID = userId;
-                    context.Orders.Add(order);
-                }
-
+                context.Orders.Add(newOrder);
                 context.SaveChanges();
+
+                SessionHelper.SetObjectAsJson(HttpContext.Session, "cart", null);
+                SessionHelper.SetObjectAsJson(HttpContext.Session, "buyNowCart", null); 
+
+                return RedirectToAction("OrderConfirmation", new { id = newOrder.Id });
             }
-            return RedirectToAction("OrderConfirmation");
+
         }
 
         [HttpGet]
+        public IActionResult OrderConfirmation()
+        {
+            return PlaceOrder();
+        }
+
+        [HttpPost]
         public IActionResult OrderConfirmation(int id)
         {
-            //var order = _orderService.GetById(id);
-            return View();
+            using (var context = new RepoCollectionContext())
+            {
+                var order = context.Orders.Include(o => o.User).FirstOrDefault(o => o.Id == id);
+                return View(order);
+            };
         }
     }
 }

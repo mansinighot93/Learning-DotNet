@@ -3,84 +3,147 @@
   "WorkspaceRootPath": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|d:\\learning c#\\learning-dotnet\\configsetting_session\\sessionmanagement\\repositories\\repocollectioncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|solutionrelative:repositories\\repocollectioncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|d:\\learning c#\\learning-dotnet\\configsetting_session\\sessionmanagement\\views\\auth\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|solutionrelative:views\\auth\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|d:\\learning c#\\learning-dotnet\\configsetting_session\\sessionmanagement\\services\\authservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|solutionrelative:services\\authservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|d:\\learning c#\\learning-dotnet\\configsetting_session\\sessionmanagement\\repositories\\interfaces\\iauthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|solutionrelative:repositories\\interfaces\\iauthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|d:\\learning c#\\learning-dotnet\\configsetting_session\\sessionmanagement\\repositories\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|solutionrelative:repositories\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|d:\\learning c#\\learning-dotnet\\configsetting_session\\sessionmanagement\\controllers\\shoppingcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|solutionrelative:controllers\\shoppingcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|d:\\learning c#\\learning-dotnet\\configsetting_session\\sessionmanagement\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|d:\\learning c#\\learning-dotnet\\configsetting_session\\sessionmanagement\\controllers\\shoppingcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|solutionrelative:controllers\\shoppingcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|d:\\learning c#\\learning-dotnet\\configsetting_session\\sessionmanagement\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|solutionrelative:controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|d:\\learning c#\\learning-dotnet\\configsetting_session\\sessionmanagement\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|solutionrelative:repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|d:\\learning c#\\learning-dotnet\\configsetting_session\\sessionmanagement\\services\\interfaces\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|solutionrelative:services\\interfaces\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|d:\\learning c#\\learning-dotnet\\configsetting_session\\sessionmanagement\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|solutionrelative:services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|d:\\learning c#\\learning-dotnet\\configsetting_session\\sessionmanagement\\repositories\\flowerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|solutionrelative:repositories\\flowerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|d:\\learning c#\\learning-dotnet\\configsetting_session\\sessionmanagement\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|solutionrelative:views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|d:\\learning c#\\learning-dotnet\\configsetting_session\\sessionmanagement\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|solutionrelative:models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|d:\\learning c#\\learning-dotnet\\configsetting_session\\sessionmanagement\\models\\flower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|solutionrelative:models\\flower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|d:\\learning c#\\learning-dotnet\\configsetting_session\\sessionmanagement\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|solutionrelative:models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|d:\\learning c#\\learning-dotnet\\configsetting_session\\sessionmanagement\\views\\shoppingcart\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|solutionrelative:views\\shoppingcart\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|d:\\learning c#\\learning-dotnet\\configsetting_session\\sessionmanagement\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|solutionrelative:views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|d:\\learning c#\\learning-dotnet\\configsetting_session\\sessionmanagement\\views\\shoppingcart\\buynow.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|solutionrelative:views\\shoppingcart\\buynow.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|d:\\learning c#\\learning-dotnet\\configsetting_session\\sessionmanagement\\repositories\\repocollectioncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|solutionrelative:repositories\\repocollectioncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|d:\\learning c#\\learning-dotnet\\configsetting_session\\sessionmanagement\\views\\shoppingcart\\orderconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|solutionrelative:views\\shoppingcart\\orderconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|d:\\learning c#\\learning-dotnet\\configsetting_session\\sessionmanagement\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|solutionrelative:repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|d:\\learning c#\\learning-dotnet\\configsetting_session\\sessionmanagement\\repositories\\flowerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|solutionrelative:repositories\\flowerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|d:\\learning c#\\learning-dotnet\\configsetting_session\\sessionmanagement\\repositories\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|solutionrelative:repositories\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|d:\\learning c#\\learning-dotnet\\configsetting_session\\sessionmanagement\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|solutionrelative:views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|d:\\learning c#\\learning-dotnet\\configsetting_session\\sessionmanagement\\views\\orders\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|solutionrelative:views\\orders\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|d:\\learning c#\\learning-dotnet\\configsetting_session\\sessionmanagement\\views\\orders\\insert.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|solutionrelative:views\\orders\\insert.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|d:\\learning c#\\learning-dotnet\\configsetting_session\\sessionmanagement\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|solutionrelative:controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|d:\\learning c#\\learning-dotnet\\configsetting_session\\sessionmanagement\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|d:\\learning c#\\learning-dotnet\\configsetting_session\\sessionmanagement\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|solutionrelative:services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|d:\\learning c#\\learning-dotnet\\configsetting_session\\sessionmanagement\\services\\interfaces\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|solutionrelative:services\\interfaces\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|d:\\learning c#\\learning-dotnet\\configsetting_session\\sessionmanagement\\repositories\\interfaces\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|solutionrelative:repositories\\interfaces\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|d:\\learning c#\\learning-dotnet\\configsetting_session\\sessionmanagement\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D2AD9C-4751-4EE8-9185-571FC8D9B8CC}|..\\..\\EntityFrameworkSolution\\PrimaryForeinKeyEF\\PrimaryForeinKeyEF.csproj|d:\\learning c#\\learning-dotnet\\entityframeworksolution\\primaryforeinkeyef\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D2AD9C-4751-4EE8-9185-571FC8D9B8CC}|..\\..\\EntityFrameworkSolution\\PrimaryForeinKeyEF\\PrimaryForeinKeyEF.csproj|d:\\learning c#\\learning-dotnet\\entityframeworksolution\\primaryforeinkeyef\\context\\collectioncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D2AD9C-4751-4EE8-9185-571FC8D9B8CC}|..\\..\\EntityFrameworkSolution\\PrimaryForeinKeyEF\\PrimaryForeinKeyEF.csproj|d:\\learning c#\\learning-dotnet\\entityframeworksolution\\primaryforeinkeyef\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D2AD9C-4751-4EE8-9185-571FC8D9B8CC}|..\\..\\EntityFrameworkSolution\\PrimaryForeinKeyEF\\PrimaryForeinKeyEF.csproj|d:\\learning c#\\learning-dotnet\\entityframeworksolution\\primaryforeinkeyef\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D2AD9C-4751-4EE8-9185-571FC8D9B8CC}|..\\..\\EntityFrameworkSolution\\PrimaryForeinKeyEF\\PrimaryForeinKeyEF.csproj|d:\\learning c#\\learning-dotnet\\entityframeworksolution\\primaryforeinkeyef\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|d:\\learning c#\\learning-dotnet\\configsetting_session\\sessionmanagement\\views\\auth\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|solutionrelative:views\\auth\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|d:\\learning c#\\learning-dotnet\\configsetting_session\\sessionmanagement\\efdbmanager\\dbmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|solutionrelative:efdbmanager\\dbmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|d:\\learning c#\\learning-dotnet\\configsetting_session\\sessionmanagement\\efdbmanager\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|solutionrelative:efdbmanager\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|d:\\learning c#\\learning-dotnet\\configsetting_session\\sessionmanagement\\views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|solutionrelative:views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|d:\\learning c#\\learning-dotnet\\configsetting_session\\sessionmanagement\\views\\shoppingcart\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|solutionrelative:views\\shoppingcart\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|d:\\learning c#\\learning-dotnet\\configsetting_session\\sessionmanagement\\controllers\\flowerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|solutionrelative:controllers\\flowerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|d:\\learning c#\\learning-dotnet\\configsetting_session\\sessionmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|d:\\learning c#\\learning-dotnet\\configsetting_session\\sessionmanagement\\efdbmanager\\idbmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|solutionrelative:efdbmanager\\idbmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|d:\\learning c#\\learning-dotnet\\configsetting_session\\sessionmanagement\\services\\authservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|solutionrelative:services\\authservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|d:\\learning c#\\learning-dotnet\\configsetting_session\\sessionmanagement\\services\\interfaces\\iauthservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|solutionrelative:services\\interfaces\\iauthservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|d:\\learning c#\\learning-dotnet\\configsetting_session\\sessionmanagement\\repositories\\interfaces\\iauthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|solutionrelative:repositories\\interfaces\\iauthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|d:\\learning c#\\learning-dotnet\\configsetting_session\\sessionmanagement\\models\\flower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|solutionrelative:models\\flower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|d:\\learning c#\\learning-dotnet\\configsetting_session\\sessionmanagement\\efdbmanager\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|solutionrelative:efdbmanager\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|d:\\learning c#\\learning-dotnet\\configsetting_session\\sessionmanagement\\efdbmanager\\collectioncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -89,10 +152,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|d:\\learning c#\\learning-dotnet\\configsetting_session\\sessionmanagement\\views\\shoppingcart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|solutionrelative:views\\shoppingcart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|d:\\learning c#\\learning-dotnet\\configsetting_session\\sessionmanagement\\views\\shoppingcart\\buynow.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|solutionrelative:views\\shoppingcart\\buynow.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|d:\\learning c#\\learning-dotnet\\configsetting_session\\sessionmanagement\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -111,72 +170,35 @@
       "RelativeMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|solutionrelative:views\\auth\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|d:\\learning c#\\learning-dotnet\\configsetting_session\\sessionmanagement\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|solutionrelative:views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|d:\\learning c#\\learning-dotnet\\configsetting_session\\sessionmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|d:\\learning c#\\learning-dotnet\\configsetting_session\\sessionmanagement\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|d:\\learning c#\\learning-dotnet\\configsetting_session\\sessionmanagement\\services\\interfaces\\iauthservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|solutionrelative:services\\interfaces\\iauthservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|d:\\learning c#\\learning-dotnet\\configsetting_session\\sessionmanagement\\views\\orders\\insert.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|solutionrelative:views\\orders\\insert.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|d:\\learning c#\\learning-dotnet\\configsetting_session\\sessionmanagement\\repositories\\interfaces\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|solutionrelative:repositories\\interfaces\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|d:\\learning c#\\learning-dotnet\\configsetting_session\\sessionmanagement\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|d:\\learning c#\\learning-dotnet\\configsetting_session\\sessionmanagement\\views\\shoppingcart\\orderconfirmation.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|solutionrelative:views\\shoppingcart\\orderconfirmation.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|d:\\learning c#\\learning-dotnet\\configsetting_session\\sessionmanagement\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|solutionrelative:models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|d:\\learning c#\\learning-dotnet\\configsetting_session\\sessionmanagement\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|d:\\learning c#\\learning-dotnet\\configsetting_session\\sessionmanagement\\views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|solutionrelative:views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 182,
+      "VerticalTabListWidth": 111,
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 45,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "RepoCollectionContext.cs",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Repositories\\RepoCollectionContext.cs",
               "RelativeDocumentMoniker": "Repositories\\RepoCollectionContext.cs",
               "ToolTip": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Repositories\\RepoCollectionContext.cs",
               "RelativeToolTip": "Repositories\\RepoCollectionContext.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAABIAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAiwAwAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-27T09:25:28.793Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -188,7 +210,94 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Views\\Orders\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Orders\\Details.cshtml",
+              "ToolTip": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Views\\Orders\\Details.cshtml",
+              "RelativeToolTip": "Views\\Orders\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-03T09:43:19.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Department.cs",
+              "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\EntityFrameworkSolution\\PrimaryForeinKeyEF\\Models\\Department.cs",
+              "RelativeDocumentMoniker": "..\\..\\EntityFrameworkSolution\\PrimaryForeinKeyEF\\Models\\Department.cs",
+              "ToolTip": "D:\\Learning C#\\Learning-DotNet\\EntityFrameworkSolution\\PrimaryForeinKeyEF\\Models\\Department.cs",
+              "RelativeToolTip": "..\\..\\EntityFrameworkSolution\\PrimaryForeinKeyEF\\Models\\Department.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T09:20:10.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CollectionContext.cs",
+              "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\EntityFrameworkSolution\\PrimaryForeinKeyEF\\Context\\CollectionContext.cs",
+              "RelativeDocumentMoniker": "..\\..\\EntityFrameworkSolution\\PrimaryForeinKeyEF\\Context\\CollectionContext.cs",
+              "ToolTip": "D:\\Learning C#\\Learning-DotNet\\EntityFrameworkSolution\\PrimaryForeinKeyEF\\Context\\CollectionContext.cs",
+              "RelativeToolTip": "..\\..\\EntityFrameworkSolution\\PrimaryForeinKeyEF\\Context\\CollectionContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T09:04:25.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\EntityFrameworkSolution\\PrimaryForeinKeyEF\\Services\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "..\\..\\EntityFrameworkSolution\\PrimaryForeinKeyEF\\Services\\EmployeeService.cs",
+              "ToolTip": "D:\\Learning C#\\Learning-DotNet\\EntityFrameworkSolution\\PrimaryForeinKeyEF\\Services\\EmployeeService.cs",
+              "RelativeToolTip": "..\\..\\EntityFrameworkSolution\\PrimaryForeinKeyEF\\Services\\EmployeeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T12:34:20.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\EntityFrameworkSolution\\PrimaryForeinKeyEF\\Controllers\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "..\\..\\EntityFrameworkSolution\\PrimaryForeinKeyEF\\Controllers\\EmployeesController.cs",
+              "ToolTip": "D:\\Learning C#\\Learning-DotNet\\EntityFrameworkSolution\\PrimaryForeinKeyEF\\Controllers\\EmployeesController.cs",
+              "RelativeToolTip": "..\\..\\EntityFrameworkSolution\\PrimaryForeinKeyEF\\Controllers\\EmployeesController.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAuwDsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T12:28:20.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\EntityFrameworkSolution\\PrimaryForeinKeyEF\\Repositories\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\EntityFrameworkSolution\\PrimaryForeinKeyEF\\Repositories\\EmployeeRepository.cs",
+              "ToolTip": "D:\\Learning C#\\Learning-DotNet\\EntityFrameworkSolution\\PrimaryForeinKeyEF\\Repositories\\EmployeeRepository.cs",
+              "RelativeToolTip": "..\\..\\EntityFrameworkSolution\\PrimaryForeinKeyEF\\Repositories\\EmployeeRepository.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAkwCoAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T12:28:20.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "FlowersController.cs",
+              "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Controllers\\FlowersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FlowersController.cs",
+              "ToolTip": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Controllers\\FlowersController.cs",
+              "RelativeToolTip": "Controllers\\FlowersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T10:20:52.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "IOrderService.cs",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Services\\Interfaces\\IOrderService.cs",
               "RelativeDocumentMoniker": "Services\\Interfaces\\IOrderService.cs",
@@ -200,7 +309,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 36,
               "Title": "Product.cs",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\EFDBManager\\Product.cs",
               "RelativeDocumentMoniker": "EFDBManager\\Product.cs",
@@ -212,19 +321,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 31,
               "Title": "IDBManager.cs",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\EFDBManager\\IDBManager.cs",
               "RelativeDocumentMoniker": "EFDBManager\\IDBManager.cs",
               "ToolTip": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\EFDBManager\\IDBManager.cs",
               "RelativeToolTip": "EFDBManager\\IDBManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-29T15:04:48.403Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 37,
               "Title": "CollectionContext.cs",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\EFDBManager\\CollectionContext.cs",
               "RelativeDocumentMoniker": "EFDBManager\\CollectionContext.cs",
@@ -236,31 +345,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 9,
               "Title": "FlowerRepository.cs",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Repositories\\FlowerRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\FlowerRepository.cs",
               "ToolTip": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Repositories\\FlowerRepository.cs",
               "RelativeToolTip": "Repositories\\FlowerRepository.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-29T14:49:36.582Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 14,
               "Title": "OrdersController.cs",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Controllers\\OrdersController.cs",
               "RelativeDocumentMoniker": "Controllers\\OrdersController.cs",
               "ToolTip": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Controllers\\OrdersController.cs",
               "RelativeToolTip": "Controllers\\OrdersController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-29T14:37:20.25Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 39,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
@@ -272,7 +381,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 40,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
@@ -284,7 +393,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 43,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
@@ -296,32 +405,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 25,
               "Title": "ForgotPassword.cshtml",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Views\\Auth\\ForgotPassword.cshtml",
               "RelativeDocumentMoniker": "Views\\Auth\\ForgotPassword.cshtml",
               "ToolTip": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Views\\Auth\\ForgotPassword.cshtml",
               "RelativeToolTip": "Views\\Auth\\ForgotPassword.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-29T05:03:03.25Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-29T05:03:03.25Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 13,
               "Title": "Insert.cshtml",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Views\\Orders\\Insert.cshtml",
               "RelativeDocumentMoniker": "Views\\Orders\\Insert.cshtml",
               "ToolTip": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Views\\Orders\\Insert.cshtml",
               "RelativeToolTip": "Views\\Orders\\Insert.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAADEAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-01-28T15:38:33.853Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 44,
               "Title": "OrderConfirmation.cshtml.cs",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Views\\ShoppingCart\\OrderConfirmation.cshtml.cs",
               "RelativeDocumentMoniker": "Views\\ShoppingCart\\OrderConfirmation.cshtml.cs",
@@ -333,13 +441,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 26,
               "Title": "DBManager.cs",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\EFDBManager\\DBManager.cs",
               "RelativeDocumentMoniker": "EFDBManager\\DBManager.cs",
               "ToolTip": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\EFDBManager\\DBManager.cs",
               "RelativeToolTip": "EFDBManager\\DBManager.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAA1wB4AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-28T07:12:01.504Z"
             },
@@ -351,13 +459,13 @@
               "RelativeDocumentMoniker": "Repositories\\OrderRepository.cs",
               "ToolTip": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Repositories\\OrderRepository.cs",
               "RelativeToolTip": "Repositories\\OrderRepository.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB4AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwB0AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-28T07:11:35.188Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 18,
               "Title": "IOrderRepository.cs",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Repositories\\Interfaces\\IOrderRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\Interfaces\\IOrderRepository.cs",
@@ -369,7 +477,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
               "Title": "OrderService.cs",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Services\\OrderService.cs",
               "RelativeDocumentMoniker": "Services\\OrderService.cs",
@@ -381,43 +489,43 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 7,
               "Title": "OrderConfirmation.cshtml",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Views\\ShoppingCart\\OrderConfirmation.cshtml",
               "RelativeDocumentMoniker": "Views\\ShoppingCart\\OrderConfirmation.cshtml",
               "ToolTip": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Views\\ShoppingCart\\OrderConfirmation.cshtml",
               "RelativeToolTip": "Views\\ShoppingCart\\OrderConfirmation.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-01-28T07:08:08.638Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 15,
               "Title": "Order.cs",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Models\\Order.cs",
               "RelativeDocumentMoniker": "Models\\Order.cs",
               "ToolTip": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Models\\Order.cs",
               "RelativeToolTip": "Models\\Order.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-28T06:23:08.101Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 19,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Models\\User.cs",
               "RelativeDocumentMoniker": "Models\\User.cs",
               "ToolTip": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Models\\User.cs",
               "RelativeToolTip": "Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-28T06:02:22.392Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 41,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
@@ -429,7 +537,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 42,
               "Title": "Success.cshtml",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Views\\Auth\\Success.cshtml",
               "RelativeDocumentMoniker": "Views\\Auth\\Success.cshtml",
@@ -441,95 +549,92 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 32,
               "Title": "AuthServices.cs",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Services\\AuthServices.cs",
               "RelativeDocumentMoniker": "Services\\AuthServices.cs",
               "ToolTip": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Services\\AuthServices.cs",
               "RelativeToolTip": "Services\\AuthServices.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAACgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T10:52:28.752Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-27T10:52:28.752Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 33,
               "Title": "IAuthServices.cs",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Services\\Interfaces\\IAuthServices.cs",
               "RelativeDocumentMoniker": "Services\\Interfaces\\IAuthServices.cs",
               "ToolTip": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Services\\Interfaces\\IAuthServices.cs",
               "RelativeToolTip": "Services\\Interfaces\\IAuthServices.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-27T10:52:07.212Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "AuthRepository.cs",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Repositories\\AuthRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\AuthRepository.cs",
               "ToolTip": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Repositories\\AuthRepository.cs",
               "RelativeToolTip": "Repositories\\AuthRepository.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAYwDMAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwCEAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T10:49:38.758Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-27T10:49:38.758Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 34,
               "Title": "IAuthRepository.cs",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Repositories\\Interfaces\\IAuthRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\Interfaces\\IAuthRepository.cs",
               "ToolTip": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Repositories\\Interfaces\\IAuthRepository.cs",
               "RelativeToolTip": "Repositories\\Interfaces\\IAuthRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T10:49:17.135Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-27T10:49:17.135Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 27,
               "Title": "Register.cshtml",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Views\\Auth\\Register.cshtml",
               "RelativeDocumentMoniker": "Views\\Auth\\Register.cshtml",
               "ToolTip": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Views\\Auth\\Register.cshtml",
               "RelativeToolTip": "Views\\Auth\\Register.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-01-27T09:46:07.079Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 4,
               "Title": "Login.cshtml",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Views\\Auth\\Login.cshtml",
               "RelativeDocumentMoniker": "Views\\Auth\\Login.cshtml",
               "ToolTip": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Views\\Auth\\Login.cshtml",
               "RelativeToolTip": "Views\\Auth\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-01-27T09:45:45.598Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "AuthController.cs",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
               "ToolTip": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Controllers\\AuthController.cs",
               "RelativeToolTip": "Controllers\\AuthController.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAkwEEAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBgAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-27T09:14:15.735Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 3,
               "Title": "Cart.cs",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Models\\Cart.cs",
               "RelativeDocumentMoniker": "Models\\Cart.cs",
@@ -537,35 +642,37 @@
               "RelativeToolTip": "Models\\Cart.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T06:23:36.206Z"
+              "WhenOpened": "2025-01-27T06:23:36.206Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 35,
               "Title": "Flower.cs",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Models\\Flower.cs",
               "RelativeDocumentMoniker": "Models\\Flower.cs",
               "ToolTip": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Models\\Flower.cs",
               "RelativeToolTip": "Models\\Flower.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-27T06:23:18.132Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 2,
               "Title": "Item.cs",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Models\\Item.cs",
               "RelativeDocumentMoniker": "Models\\Item.cs",
               "ToolTip": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Models\\Item.cs",
               "RelativeToolTip": "Models\\Item.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T05:37:20.26Z"
+              "WhenOpened": "2025-01-27T05:37:20.26Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 38,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Views\\ShoppingCart\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\ShoppingCart\\Index.cshtml",
@@ -577,62 +684,62 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 28,
               "Title": "Add.cshtml",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Views\\ShoppingCart\\Add.cshtml",
               "RelativeDocumentMoniker": "Views\\ShoppingCart\\Add.cshtml",
               "ToolTip": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Views\\ShoppingCart\\Add.cshtml",
               "RelativeToolTip": "Views\\ShoppingCart\\Add.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACsAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-01-27T05:35:01.553Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Views\\Orders\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Orders\\Index.cshtml",
               "ToolTip": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Views\\Orders\\Index.cshtml",
               "RelativeToolTip": "Views\\Orders\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-01-27T05:34:33.773Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 5,
               "Title": "BuyNow.cshtml",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Views\\ShoppingCart\\BuyNow.cshtml",
               "RelativeDocumentMoniker": "Views\\ShoppingCart\\BuyNow.cshtml",
               "ToolTip": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Views\\ShoppingCart\\BuyNow.cshtml",
               "RelativeToolTip": "Views\\ShoppingCart\\BuyNow.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAABEAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-01-27T05:25:22.971Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "ShoppingCartController.cs",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Controllers\\ShoppingCartController.cs",
               "RelativeDocumentMoniker": "Controllers\\ShoppingCartController.cs",
               "ToolTip": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Controllers\\ShoppingCartController.cs",
               "RelativeToolTip": "Controllers\\ShoppingCartController.cs",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAAwDoAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAmwHQAAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-27T05:24:35.921Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAAwCwAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-27T05:21:44.077Z"
             }

@@ -8,6 +8,6 @@ namespace Core.Models
         public string Status { get; set; }
         public double TotalAmount { get; set; } 
         public int UserID { get; set; }
-        public virtual User User { get; set; }
+        public User User { get; set; }
     }
 }

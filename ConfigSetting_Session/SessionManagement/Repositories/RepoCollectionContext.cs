@@ -43,10 +43,9 @@ namespace Core.Repositories
             });
 
             modelBuilder.Entity<Order>()
-            .HasOne(o => o.User) 
-            .WithMany(u => u.Orders) 
-            .HasForeignKey(o => o.UserID) 
-            .OnDelete(DeleteBehavior.Cascade);
+            .HasOne(e => e.User)
+            .WithMany(d => d.Orders)
+            .HasForeignKey(e => e.UserID);
 
             modelBuilder.Entity<User>(entity => {
                 entity.HasKey(e => e.Id);

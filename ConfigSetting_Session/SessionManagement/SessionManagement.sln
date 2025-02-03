@@ -5,6 +5,8 @@ VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SessionManagement", "SessionManagement.csproj", "{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimaryForeinKeyEF", "..\..\EntityFrameworkSolution\PrimaryForeinKeyEF\PrimaryForeinKeyEF.csproj", "{41D2AD9C-4751-4EE8-9185-571FC8D9B8CC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41D2AD9C-4751-4EE8-9185-571FC8D9B8CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41D2AD9C-4751-4EE8-9185-571FC8D9B8CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41D2AD9C-4751-4EE8-9185-571FC8D9B8CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41D2AD9C-4751-4EE8-9185-571FC8D9B8CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

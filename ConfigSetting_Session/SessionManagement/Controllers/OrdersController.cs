@@ -17,5 +17,20 @@ public class OrdersController : Controller
             var itemsSold = _orderService.GetAll();
             return View(itemsSold);
         }
-    
+        [HttpGet]
+        public IActionResult Insert()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Insert(Order order)
+        {
+            if (order != null)
+            {
+            _orderService.Insert(order);
+                return RedirectToAction("Index", "Home");
+            }
+            return View(order);
+        }
 }

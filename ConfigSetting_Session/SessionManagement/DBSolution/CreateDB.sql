@@ -70,5 +70,46 @@ CREATE TABLE Users (
 
 SELECT * FROM Users;
 
--- Create the Payments table
+CREATE TABLE Accounts (     
+    AccountId INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    UserId INT NOT NULL,     
+    AccountNumber VARCHAR(20) NOT NULL, 
+    BankName VARCHAR(255),    
+    IFSCCode VARCHAR(20),    
+    Balance DECIMAL(18,2),     
+    FOREIGN KEY (UserId) REFERENCES Users(Id) ON DELETE CASCADE ON UPDATE CASCADE 
+);
+
+CREATE TABLE Transactions (     
+    Id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    ToAccountId INT NOT NULL,
+    FromAccountId INT NOT NULL,
+    Amount DECIMAL(18,2),    
+    TransactionDate TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    
+    -- Foreign key constraint for ToAccountId with CASCADE actions
+    FOREIGN KEY (ToAccountId) REFERENCES Accounts(AccountId) ON DELETE CASCADE ON UPDATE CASCADE,
+    
+    -- Foreign key constraint for FromAccountId with no CASCADE actions
+    FOREIGN KEY (FromAccountId) REFERENCES Accounts(AccountId) ON DELETE NO ACTION ON UPDATE NO ACTION
+);
+
+CREATE TABLE Cards (
+    Id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    AccountId VARCHAR(255) NOT NULL,
+    CardType VARCHAR(100) CHECK(CardType IN ('Credit Card', 'Debit Card')) NOT NULL,
+    CardNumber VARCHAR(500) NOT NULL
+);
+
+CREATE TABLE Payments (
+    Id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    OrderId INT NOT NULL,
+    PaymentDate TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    PaymentAmount DECIMAL(10, 2) NOT NULL,
+    PaymentMode VARCHAR(50) NOT NULL,
+    PaymentStatus VARCHAR(50) NOT NULL DEFAULT 'Pending',
+    FOREIGN KEY (OrderId) REFERENCES Orders(Id) ON UPDATE CASCADE ON DELETE CASCADE
+);
+
+SELECT * FROM Payments;
 
