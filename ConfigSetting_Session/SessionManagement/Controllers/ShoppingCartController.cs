@@ -77,7 +77,6 @@ namespace SessionManagement.Controllers
                 return RedirectToAction("Index", "home");
             }
             SessionHelper.SetObjectAsJson(HttpContext.Session, "buyNowCart", theCart);
-
             //ViewBag.TotalPrice = theCart.Items.Sum(item => item.theFlower.SalePrice * item.Quantity);
 
             return View(theCart);
@@ -130,11 +129,8 @@ namespace SessionManagement.Controllers
         [HttpPost]
         public IActionResult OrderConfirmation(int id)
         {
-            using (var context = new RepoCollectionContext())
-            {
-                var order = context.Orders.Include(o => o.User).FirstOrDefault(o => o.Id == id);
-                return View(order);
-            };
+            
+                return View();
         }
     }
 }
