@@ -1,0 +1,15 @@
+D:\Learning C#\Learning-DotNet\DSA\bin\Debug\net9.0\DSA.exe
+D:\Learning C#\Learning-DotNet\DSA\bin\Debug\net9.0\DSA.deps.json
+D:\Learning C#\Learning-DotNet\DSA\bin\Debug\net9.0\DSA.runtimeconfig.json
+D:\Learning C#\Learning-DotNet\DSA\bin\Debug\net9.0\DSA.dll
+D:\Learning C#\Learning-DotNet\DSA\bin\Debug\net9.0\DSA.pdb
+D:\Learning C#\Learning-DotNet\DSA\obj\Debug\net9.0\DSA.GeneratedMSBuildEditorConfig.editorconfig
+D:\Learning C#\Learning-DotNet\DSA\obj\Debug\net9.0\DSA.AssemblyInfoInputs.cache
+D:\Learning C#\Learning-DotNet\DSA\obj\Debug\net9.0\DSA.AssemblyInfo.cs
+D:\Learning C#\Learning-DotNet\DSA\obj\Debug\net9.0\DSA.csproj.CoreCompileInputs.cache
+D:\Learning C#\Learning-DotNet\DSA\obj\Debug\net9.0\DSA.sourcelink.json
+D:\Learning C#\Learning-DotNet\DSA\obj\Debug\net9.0\DSA.dll
+D:\Learning C#\Learning-DotNet\DSA\obj\Debug\net9.0\refint\DSA.dll
+D:\Learning C#\Learning-DotNet\DSA\obj\Debug\net9.0\DSA.pdb
+D:\Learning C#\Learning-DotNet\DSA\obj\Debug\net9.0\DSA.genruntimeconfig.cache
+D:\Learning C#\Learning-DotNet\DSA\obj\Debug\net9.0\ref\DSA.dll
