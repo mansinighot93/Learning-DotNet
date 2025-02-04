@@ -10,11 +10,12 @@
 //Hash Table is a data structure that stores data in a key-value pair way
 using stackdemo;
 using Queuedemo;
+using SingularLinkedList;
 public class Program
 {
     public static void Main()
     {
-        Stack stack = new Stack();
+        /*Stack stack = new Stack();
         stack.Push(10);
         stack.Push(20);
         stack.Push(30);
@@ -39,6 +40,54 @@ public class Program
 
         queue.Enqueue(120);
         queue.Enqueue(230);
-        queue.Display();
+        queue.Display();*/
+        SinglyLinkedList list = new SinglyLinkedList();
+        int choice, data, oldData, newData;
+
+        do
+        {
+            Console.WriteLine("\nMenu:");
+            Console.WriteLine("1. Insert Node");
+            Console.WriteLine("2. Display List");
+            Console.WriteLine("3. Update Node");
+            Console.WriteLine("4. Delete Node");
+            Console.WriteLine("5. Exit");
+            Console.Write("Enter your choice: ");
+            choice = int.Parse(Console.ReadLine());
+            switch (choice)
+            {
+                case 1:
+                    Console.Write("Enter data to insert: ");
+                    data = int.Parse(Console.ReadLine());
+                    list.Insert(data);
+                    break;
+
+                case 2:
+                    list.Display();
+                    break;
+                    
+                case 3:
+                    Console.Write("Enter data to update: ");
+                    oldData = int.Parse(Console.ReadLine());
+                    Console.Write("Enter new data: ");
+                    newData = int.Parse(Console.ReadLine());
+                    list.Update(oldData, newData);
+                    break;
+
+                case 4:
+                    Console.Write("Enter data to delete: ");
+                    data = int.Parse(Console.ReadLine());
+                    list.Delete(data);
+                    break;
+
+                case 5:
+                    Console.WriteLine("Exiting the program.");
+                    break;
+
+                default:
+                    Console.WriteLine("Invalid choice. Please try again.");
+                    break;
+            }
+        } while (choice != 5);
     }
 }
