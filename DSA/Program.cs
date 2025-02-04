@@ -42,7 +42,8 @@ public class Program
         queue.Enqueue(230);
         queue.Display();*/
         SinglyLinkedList list = new SinglyLinkedList();
-        int choice, data, oldData, newData;
+        int choice, data,oldData, newData;
+        Person person = new Person();
 
         do
         {
@@ -57,9 +58,16 @@ public class Program
             switch (choice)
             {
                 case 1:
-                    Console.Write("Enter data to insert: ");
-                    data = int.Parse(Console.ReadLine());
-                    list.Insert(data);
+                    Console.WriteLine("Enter data to insert: ");
+                    Console.Write("Enter Person ID: ");
+                    person.Id = int.Parse(Console.ReadLine());
+
+                    Console.Write("Enter Person Name: ");
+                    person.Name = Console.ReadLine();
+
+                    Console.Write("Enter Person Age: ");
+                    person.Age = int.Parse(Console.ReadLine());
+                    list.Insert(person);
                     break;
 
                 case 2:

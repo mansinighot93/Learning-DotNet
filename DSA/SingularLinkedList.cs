@@ -1,20 +1,10 @@
 namespace SingularLinkedList{
-    class Node
-    {
-        public int Data;
-        public Node Next;
-        public Node(int data)
-        {
-            Data = data;
-            Next = null;
-        }
-    }
     class SinglyLinkedList
     {
         private Node head;
-        public void Insert(int data)
+        public void Insert(Person person)
         {
-            Node newNode = new Node(data);
+            Node newNode = new Node(person);
             if (head == null)
             {
                 head = newNode;
@@ -41,7 +31,7 @@ namespace SingularLinkedList{
             Console.Write("Linked List: ");
             while (current != null)
             {
-                Console.Write(current.Data + " -> ");
+                Console.Write(current.person + " -> ");
                 current = current.Next;
             }
             Console.WriteLine("null");
