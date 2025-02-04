@@ -11,6 +11,9 @@ namespace Core.Repositories
         public DbSet<Fruit> Fruits {get;set;}
         public DbSet<Order> Orders {get;set;}
         public DbSet<User> Users {get;set;}
+        public DbSet<Account> Accounts {get;set;}
+        public DbSet<Transaction> Transactions {get;set;}
+        public DbSet<Card> Cards {get;set;}
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             string conString = "server=localhost;database=onlineshopping;user=root;password='password'";
@@ -39,13 +42,29 @@ namespace Core.Repositories
                 entity.Property(e => e.OrderDate);
                 entity.Property(e => e.Status);
                 entity.Property(e => e.TotalAmount);
-                entity.HasOne(e => e.User).WithMany(o => o.Orders);
+                entity.HasOne(e => e.Users).WithMany(o => o.Orders);
             });
 
             modelBuilder.Entity<Order>()
-            .HasOne(e => e.User)
+            .HasOne(e => e.Users)
             .WithMany(d => d.Orders)
             .HasForeignKey(e => e.UserID);
+
+            modelBuilder.Entity<Account>()
+            .HasOne(e => e.User)
+            .WithMany(d => d.Accounts)
+            .HasForeignKey(e => e.UserID);
+
+            modelBuilder.Entity<Transaction>()
+            .HasOne(e => e.Accounts)
+            .WithMany(d => d.Transactions)
+            .HasForeignKey(e => e.ToAccountId)
+            .HasForeignKey(e=>e.FromAccountId);
+
+            modelBuilder.Entity<Card>()
+            .HasOne(e => e.Accounts)
+            .WithMany(d => d.Cards)
+            .HasForeignKey(e => e.AccountId);
 
             modelBuilder.Entity<User>(entity => {
                 entity.HasKey(e => e.Id);

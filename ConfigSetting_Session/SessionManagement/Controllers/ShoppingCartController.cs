@@ -129,7 +129,6 @@ namespace SessionManagement.Controllers
         [HttpPost]
         public IActionResult OrderConfirmation(int id)
         {
-            
                 return View();
         }
     }

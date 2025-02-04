@@ -10,6 +10,6 @@ namespace Core.Models
         public string Password { get; set; }
         public long ContactNumber { get; set; }
         public virtual ICollection<Order> Orders { get; set; }
-
+        public ICollection<Account> Accounts { get; set; }
     }
 }
