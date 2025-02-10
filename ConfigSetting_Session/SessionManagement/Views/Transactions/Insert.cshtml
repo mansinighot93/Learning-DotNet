@@ -1,0 +1,33 @@
+﻿@using Core.Models
+@{
+    ViewBag.Title = "Insert";
+}
+<h2>Insert Transaction Data</h2>
+<hr />
+<form action="/transactions/insert" method="POST">
+    <table>
+        <tr>
+            <td><b>From Account ID:</b>
+            <td>
+            <td><input type="text" name="FromAccountId" /> </td>
+        </tr>
+        <tr>
+            <td><b>Date & Time:</b>
+            <td>
+            <td><input type="datetime" name="TransactionTime" /> </td>
+        </tr>
+        <tr>
+            <td><b>To Account ID:</b>
+            <td>
+            <td><input type="text" name="Balance" /> </td>
+        </tr>
+        <tr>
+            <td><b>Amount:</b>
+            <td>
+            <td><input type="text" name="Amount" /> </td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="Insert" /> </td>
+        </tr>
+    </table>
+</form>

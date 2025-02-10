@@ -12,6 +12,24 @@ namespace Core.Models
         public int UserID { get; set; }
         public ICollection<Transaction> Transactions { get; set; }
         public ICollection<Card> Cards { get; set; }
+
+        // Deposit Method
+        public void Deposit(decimal amount)
+        {
+            if (amount > 0)
+                Balance += amount;
+        }
+
+        // Withdraw Method
+        public bool Withdraw(decimal amount)
+        {
+            if (amount > 0 && Balance >= amount)
+            {
+                Balance -= amount;
+                return true;
+            }
+            return false;
+        }
     }
 }
 

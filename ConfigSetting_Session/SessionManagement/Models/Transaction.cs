@@ -10,6 +10,17 @@ namespace Core.Models
         public Account Accounts { get; set; }
         public int ToAccountId {  get; set; }
         public int FromAccountId { get; set; }
+
+        public static Transaction Create(int fromAccountId, int toAccountId, decimal amount)
+        {
+            return new Transaction
+            {
+                Amount = amount,
+                TransactionDate = DateTime.Now,
+                FromAccountId = fromAccountId,
+                ToAccountId = toAccountId
+            };
+        }
     }
 }
 

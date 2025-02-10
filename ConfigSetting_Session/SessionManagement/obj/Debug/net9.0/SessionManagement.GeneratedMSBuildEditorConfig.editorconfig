@@ -28,6 +28,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Learning C\#/Learning-DotNet/ConfigSetting_Session/SessionManagement/Views/Accounts/Insert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcSW5zZXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Learning C\#/Learning-DotNet/ConfigSetting_Session/SessionManagement/Views/Accounts/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Learning C\#/Learning-DotNet/ConfigSetting_Session/SessionManagement/Views/Auth/ForgotPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -50,6 +58,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/Learning C\#/Learning-DotNet/ConfigSetting_Session/SessionManagement/Views/Cards/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyZHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Learning C\#/Learning-DotNet/ConfigSetting_Session/SessionManagement/Views/Cards/Insert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyZHNcSW5zZXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Learning C\#/Learning-DotNet/ConfigSetting_Session/SessionManagement/Views/Cards/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyZHNcVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Learning C\#/Learning-DotNet/ConfigSetting_Session/SessionManagement/Views/Flowers/Index.cshtml]
@@ -102,6 +118,22 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/Learning C\#/Learning-DotNet/ConfigSetting_Session/SessionManagement/Views/ShoppingCart/OrderConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcHBpbmdDYXJ0XE9yZGVyQ29uZmlybWF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Learning C\#/Learning-DotNet/ConfigSetting_Session/SessionManagement/Views/Transactions/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNhY3Rpb25zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Learning C\#/Learning-DotNet/ConfigSetting_Session/SessionManagement/Views/Transactions/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNhY3Rpb25zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Learning C\#/Learning-DotNet/ConfigSetting_Session/SessionManagement/Views/Transactions/Insert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNhY3Rpb25zXEluc2VydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Learning C\#/Learning-DotNet/ConfigSetting_Session/SessionManagement/Views/Transactions/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNhY3Rpb25zXFVwZGF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Learning C\#/Learning-DotNet/ConfigSetting_Session/SessionManagement/Views/_ViewImports.cshtml]

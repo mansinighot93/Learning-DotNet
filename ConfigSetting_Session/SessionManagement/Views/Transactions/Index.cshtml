@@ -1,0 +1,24 @@
+﻿@using Core.Models
+@{
+    ViewData["Title"] = "Transaction Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Transactions Catalog</h1>
+</div>
+
+<h1>Transactions List </h1>
+<hr />
+<a href="/transactions/insert/">Insert Transaction Details</a>
+<hr />
+<div>
+    @foreach (Transaction trans in ViewData["transactions"] as List<Transaction>)
+    {
+        <table>
+            <tr>
+                <td>@trans.Id | | <a href="/transactions/details/@trans.Id">Details</a></td>
+            </tr>
+        </table>
+    }
+</div>
+

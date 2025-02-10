@@ -1,0 +1,30 @@
+﻿@using Core.Models
+<h2>Account Details</h2>
+@{
+    Transaction theAcc = ViewData["transaction"] as Transaction;
+}
+
+<table>
+    <tr>
+        <td><b>Transaction ID:</b></td>
+        <td>@theAcc.Id</td>
+    </tr>
+    <tr>
+        <td><b>Date:</b></td>
+        <td>@theAcc.TransactionDate</td>
+    </tr>
+    <tr>
+        <td><b>From Account Id:</b></td>
+        <td>@theAcc.FromAccountId</td>
+    </tr>
+    <tr>
+        <td><b>To Account ID:</b></td>
+        <td>@theAcc.ToAccountId</td>
+    </tr>
+    <tr>
+        <td><b>Amount:</b></td>
+        <td>@theAcc.Amount</td>
+    </tr>
+    
+</table>
+<a href="/transactions/update/@theAcc.Id">Update</a> || <a href="/transactions/delete/@theAcc.Id">Delete</a>

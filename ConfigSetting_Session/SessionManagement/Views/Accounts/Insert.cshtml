@@ -1,0 +1,38 @@
+﻿@using Core.Models
+@{
+    ViewBag.Title = "Insert";
+}
+<h2>Insert Account Data</h2>
+<hr />
+<form action="/accounts/insert" method="POST">
+    <table>
+        <tr>
+            <td><b>User ID:</b>
+            <td>
+            <td><input type="text" name="UserID" /> </td>
+        </tr>
+        <tr>
+            <td><b>Account Number:</b>
+            <td>
+            <td><input type="text" name="AccountNumber" /> </td>
+        </tr>
+        <tr>
+            <td><b>IFSC Code:</b>
+            <td>
+            <td><input type="text" name="IFSCCode" /> </td>
+        </tr>
+        <tr>
+            <td><b>Bank Name:</b>
+            <td>
+            <td><input type="text" name="BankName" /> </td>
+        </tr>
+        <tr>
+            <td><b>Amount:</b>
+            <td>
+            <td><input type="text" name="Balance" /> </td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="Insert" /> </td>
+        </tr>
+    </table>
+</form>

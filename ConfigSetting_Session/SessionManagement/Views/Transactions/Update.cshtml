@@ -1,0 +1,51 @@
+﻿@using Core.Models
+@model Transaction
+@{
+    ViewBag.Title = "Update";
+}
+
+@using (Html.BeginForm())
+{
+    <table>
+        
+        <tr>
+            <td>
+                @Html.LabelFor(model => model.ToAccountId, new { htmlattributes = new { @class = "label label-info" } })
+            </td>
+            <td>
+                @Html.EditorFor(model => model.ToAccountId, new { htmlattributes = new { @class = "form-control" } })
+            </td>
+        </tr>
+        <tr>
+            <td>
+                @Html.LabelFor(model => model.TransactionDate, new { htmlattributes = new { @class = "label label-info" } })
+            </td>
+            <td>
+                @Html.EditorFor(model => model.TransactionDate, new { htmlattributes = new { @class = "form-control" } })
+            </td>
+        </tr>
+        <tr>
+            <td>
+                @Html.LabelFor(model => model.FromAccountId, new { htmlattributes = new { @class = "label label-info" } })
+            </td>
+            <td>
+                @Html.EditorFor(model => model.FromAccountId, new { htmlattributes = new { @class = "form-control" } })
+            </td>
+        </tr>
+        <tr>
+            <td>
+                @Html.LabelFor(model => model.Amount, new { htmlattributes = new { @class = "label label-info" } })
+            </td>
+            <td>
+                @Html.EditorFor(model => model.Amount, new { htmlattributes = new { @class = "form-control" } })
+            </td>
+        </tr>
+        <br />
+        <br />
+        <tr>
+            <td>
+                <input type="submit" value="Update Information" />
+            </td>
+        </tr>
+    </table>
+}

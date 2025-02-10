@@ -1,0 +1,58 @@
+﻿@using Core.Models
+@model Account
+@{
+    ViewBag.Title = "Update";
+}
+
+@using (Html.BeginForm())
+{
+    <table>
+        <tr>
+            <td>
+                @Html.LabelFor(model => model.UserID, new { htmlattributes = new { @class = "label label-info" } })
+            </td>
+            <td>
+                @Html.EditorFor(model => model.UserID, new { htmlattributes = new { @class = "form-control" } })
+            </td>
+        </tr>
+        <tr>
+            <td>
+                @Html.LabelFor(model => model.AccountNumber, new { htmlattributes = new { @class = "label label-info" } })
+            </td>
+            <td>
+                @Html.EditorFor(model => model.AccountNumber, new { htmlattributes = new { @class = "form-control" } })
+            </td>
+        </tr>
+        <tr>
+            <td>
+                @Html.LabelFor(model => model.BankName, new { htmlattributes = new { @class = "label label-info" } })
+            </td>
+            <td>
+                @Html.EditorFor(model => model.BankName, new { htmlattributes = new { @class = "form-control" } })
+            </td>
+        </tr>
+        <tr>
+            <td>
+                @Html.LabelFor(model => model.IFSCCode, new { htmlattributes = new { @class = "label label-info" } })
+            </td>
+            <td>
+                @Html.EditorFor(model => model.IFSCCode, new { htmlattributes = new { @class = "form-control" } })
+            </td>
+        </tr>
+        <tr>
+            <td>
+                @Html.LabelFor(model => model.Balance, new { htmlattributes = new { @class = "label label-info" } })
+            </td>
+            <td>
+                @Html.EditorFor(model => model.BankName, new { htmlattributes = new { @class = "form-control" } })
+            </td>
+        </tr>
+        <br />
+        <br />
+        <tr>
+            <td>
+                <input type="submit" value="Update Information" />
+            </td>
+        </tr>
+    </table>
+}

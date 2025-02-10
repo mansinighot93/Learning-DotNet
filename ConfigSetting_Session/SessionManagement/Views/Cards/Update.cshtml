@@ -1,0 +1,42 @@
+﻿@using Core.Models
+@model Card
+@{
+    ViewBag.Title = "Update";
+}
+
+@using (Html.BeginForm())
+{
+    <table>
+        <tr>
+            <td>
+                @Html.LabelFor(model => model.CardType, new { htmlattributes = new { @class = "label label-info" } })
+            </td>
+            <td>
+                @Html.EditorFor(model => model.CardType, new { htmlattributes = new { @class = "form-control" } })
+            </td>
+        </tr>
+        <tr>
+            <td>
+                @Html.LabelFor(model => model.CardNumber, new { htmlattributes = new { @class = "label label-info" } })
+            </td>
+            <td>
+                @Html.EditorFor(model => model.CardNumber, new { htmlattributes = new { @class = "form-control" } })
+            </td>
+        </tr>
+        <tr>
+            <td>
+                @Html.LabelFor(model => model.AccountId, new { htmlattributes = new { @class = "label label-info" } })
+            </td>
+            <td>
+                @Html.EditorFor(model => model.AccountId, new { htmlattributes = new { @class = "form-control" } })
+            </td>
+        </tr>
+        <br />
+        <br />
+        <tr>
+            <td>
+                <input type="submit" value="Update Information" />
+            </td>
+        </tr>
+    </table>
+}

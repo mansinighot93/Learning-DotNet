@@ -55,3 +55,13 @@ INSERT INTO Cards (AccountId, CardType, CardNumber) VALUES
 (1, 'Credit Card', '1111-2222-3333-4444'),
 (1, 'Debit Card', '5555-6666-7777-8888'),
 (2, 'Credit Card', '9999-0000-1111-2222');
+
+-- Insert data into the Transactions table
+INSERT INTO Transactions (Amount, TransactionDate, ToAccountId, FromAccountId) VALUES
+(500, NOW(), 1, 1),
+(300, NOW(), 1, 1),
+(200, NOW(), 2, 1);
+
+
+SELECT * FROM Accounts;
+Select * from Transactions;

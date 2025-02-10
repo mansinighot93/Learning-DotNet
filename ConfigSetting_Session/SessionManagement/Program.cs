@@ -24,6 +24,8 @@ builder.Services.AddTransient<IAccountService, AccountService>();
 builder.Services.AddTransient<IAccountRepository, AccountRepository>();
 builder.Services.AddTransient<ICardService, CardService>();
 builder.Services.AddTransient<ICardRepository, CardRepository>();
+builder.Services.AddTransient<ITransactionService, TransactionService>();
+builder.Services.AddTransient<ITransactionsRepository, TransactionsRepository>();
 
 
 

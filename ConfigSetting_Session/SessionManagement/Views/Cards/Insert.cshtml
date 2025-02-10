@@ -1,0 +1,33 @@
+﻿@using Core.Models
+@{
+    ViewBag.Title = "Insert";
+}
+<h2>Insert Card Data</h2>
+<hr />
+<form action="/cards/insert" method="POST">
+    <table>
+        <tr>
+            <td><b>Card Type:</b>
+            <td>
+            <td><input type="text" name="CardType" /> </td>
+        </tr>
+        <tr>
+            <td><b>Card Number:</b>
+            <td>
+            <td><input type="text" name="CardNumber" /> </td>
+        </tr>
+        <tr>
+            <td><b>Amount:</b>
+            <td>
+            <td><input type="text" name="Amount" /> </td>
+        </tr>
+        <tr>
+            <td><b>Account ID:</b>
+            <td>
+            <td><input type="text" name="AccountID" /> </td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="Insert" /> </td>
+        </tr>
+    </table>
+</form>
