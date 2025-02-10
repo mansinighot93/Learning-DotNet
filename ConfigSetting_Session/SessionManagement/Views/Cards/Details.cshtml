@@ -1,0 +1,26 @@
+﻿@using Core.Models
+<h2>Card Details</h2>
+@{
+    Card theCard = ViewData["card"] as Card;
+}
+
+<table>
+    <tr>
+        <td><b>Card ID:</b></td>
+        <td>@theCard.Id</td>
+    </tr>
+    <tr>
+        <td><b>Card Type:</b></td>
+        <td>@theCard.CardType</td>
+    </tr>
+    <tr>
+        <td><b>Card Number:</b></td>
+        <td>@theCard.CardNumber</td>
+    </tr>
+    <tr>
+        <td><b>Account ID:</b></td>
+        <td>@theCard.AccountId</td>
+    </tr>
+    
+</table>
+<a href="/accounts/update/@theCard.AccountId">Update</a> || <a href="/accounts/delete/@theCard.AccountId">Delete</a>

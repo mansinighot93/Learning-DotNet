@@ -1,0 +1,24 @@
+﻿@using Core.Models
+@{
+    ViewData["Title"] = "Accounts Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Accounts Catalog</h1>
+</div>
+
+<h1>Accounts List </h1>
+<hr />
+<a href="/accounts/insert/">Insert Account Details</a>
+<hr />
+<div>
+    @foreach (Account acc in ViewData["accounts"] as List<Account>)
+    {
+        <table>
+            <tr>
+                <td>@acc.AccountNumber | | <a href="/accounts/details/@acc.AccountId">Details</a></td>
+            </tr>
+        </table>
+    }
+</div>
+

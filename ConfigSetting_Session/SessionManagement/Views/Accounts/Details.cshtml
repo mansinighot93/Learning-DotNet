@@ -1,0 +1,29 @@
+﻿@using Core.Models
+<h2>Account Details</h2>
+@{
+    Account theAcc = ViewData["account"] as Account;
+}
+
+<table>
+    <tr>
+        <td><b>Account ID:</b></td>
+        <td>@theAcc.AccountId</td>
+    </tr>
+    <tr>
+        <td><b>Account NUmber:</b></td>
+        <td>@theAcc.AccountNumber</td>
+    </tr>
+    <tr>
+        <td><b>Bank Name:</b></td>
+        <td>@theAcc.BankName</td>
+    </tr>
+    <tr>
+        <td><b>Balance:</b></td>
+        <td>@theAcc.Balance</td>
+    </tr>
+    <tr>
+        <td><b>IFSC Code:</b></td>
+        <td>@theAcc.IFSCCode</td>
+    </tr>
+</table>
+<a href="/accounts/update/@theAcc.AccountId">Update</a> || <a href="/accounts/delete/@theAcc.AccountId">Delete</a>

@@ -44,3 +44,14 @@ INSERT INTO Users (Name, Location, Email, Password, ContactNumber)
 VALUES ('John Doe', 'New York', 'john.doe@example.com', 'password123', 123456),
        ('Jane Smith', 'California', 'jane.smith@example.com', 'securepass', 98765),
        ('Alice Johnson', 'Texas', 'alice.johnson@example.com', 'alicepass', 11122);
+       
+-- Insert data into the Accounts table
+INSERT INTO Accounts (UserId, AccountNumber, BankName, IFSCCode, Balance) VALUES
+(1, 'AB1234567890', 'Bank of America', 'BOFA0000123', 5000.00),
+(2, 'CD9876543210', 'Chase Bank', 'CHAS0000456', 7500.50);
+
+-- Insert data into the Cards table
+INSERT INTO Cards (AccountId, CardType, CardNumber) VALUES
+(1, 'Credit Card', '1111-2222-3333-4444'),
+(1, 'Debit Card', '5555-6666-7777-8888'),
+(2, 'Credit Card', '9999-0000-1111-2222');

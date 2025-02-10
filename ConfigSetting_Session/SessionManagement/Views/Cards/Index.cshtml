@@ -1,0 +1,24 @@
+﻿@using Core.Models
+@{
+    ViewData["Title"] = "Cards Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Cards Catalog</h1>
+</div>
+
+<h1>Cards List </h1>
+<hr />
+<a href="/cards/insert/">Insert card Details</a>
+<hr />
+<div>
+    @foreach (Card card in ViewData["cards"] as List<Card>)
+    {
+        <table>
+            <tr>
+                <td>@card.CardType | | <a href="/cards/details/@card.Id">Details</a></td>
+            </tr>
+        </table>
+    }
+</div>
+

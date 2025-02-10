@@ -80,6 +80,7 @@ CREATE TABLE Accounts (
     FOREIGN KEY (UserId) REFERENCES Users(Id) ON DELETE CASCADE ON UPDATE CASCADE 
 );
 
+
 CREATE TABLE Transactions (     
     Id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
     ToAccountId INT NOT NULL,
@@ -96,9 +97,10 @@ CREATE TABLE Transactions (
 
 CREATE TABLE Cards (
     Id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
-    AccountId VARCHAR(255) NOT NULL,
+    AccountId INT,
     CardType VARCHAR(100) CHECK(CardType IN ('Credit Card', 'Debit Card')) NOT NULL,
-    CardNumber VARCHAR(500) NOT NULL
+    CardNumber VARCHAR(500) NOT NULL,
+    FOREIGN KEY (AccountId) REFERENCES Accounts(AccountId) ON DELETE CASCADE ON UPDATE CASCADE
 );
 
 CREATE TABLE Payments (

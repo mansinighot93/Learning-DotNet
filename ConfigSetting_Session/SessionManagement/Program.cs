@@ -20,6 +20,12 @@ builder.Services.AddTransient<IOrderRepository,OrderRepository>();
 builder.Services.AddTransient<IOrderService,OrderService>();
 builder.Services.AddTransient<IAuthService, AuthService>();
 builder.Services.AddTransient<IAuthRepository, AuthRepository>();
+builder.Services.AddTransient<IAccountService, AccountService>();
+builder.Services.AddTransient<IAccountRepository, AccountRepository>();
+builder.Services.AddTransient<ICardService, CardService>();
+builder.Services.AddTransient<ICardRepository, CardRepository>();
+
+
 
 //register distributed memory for storing session
 builder.Services.AddDistributedMemoryCache();
