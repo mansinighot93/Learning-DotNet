@@ -1,44 +1,45 @@
-using System.Collections.Generic;
 using ProductsWebAPI.Models;
 using ProductsWebAPI.Repositories;
+using ProductsWebAPI.Services;
+using ProductWebApi.Repository;
 
-namespace ProductsWebAPI.Services
+namespace ProductWebApi.Service
 {
     public class ProductService : IProductService
     {
-        private IProductRepository _repo;
-        public ProductService()
+        private readonly IProductRepo _productRepo;
+        public ProductService(IProductRepo repo)
         {
-            ProductRepository repository=new ProductRepository();
-             this._repo = repository;
+            this._productRepo=repo;
+        }
+        public bool Delete(int id)
+        {
+            bool status = _productRepo.Delete(id);
+            return status;
+        }
+
+        public Product GetProductById(int id)
+        {
+            Product p=_productRepo.GetProductById(id);
+            return p;
         }
 
         public List<Product> GetProducts()
         {
-            if (_repo != null)
-            {   
-                return _repo.GetProducts();
-            }
-            return null;
-        }
-        Product IProductService.GetProductById(int id)
-        {
-          return    _repo.GetProductById(id);
+           List<Product> products=_productRepo.GetProducts();
+           return products;
         }
 
-        bool IProductService.Insert(Product product)
+        public bool Insert(Product product)
         {
-            return _repo.Insert(product); 
+            bool status = _productRepo.Insert(product);
+            return status;
         }
 
-        bool IProductService.Update(Product product)
+        public bool Update(Product product)
         {
-            return _repo.Update(product); 
-        }
-
-        bool IProductService.Delete(int id)
-        {
-           return _repo.Delete(id);
+            bool status = _productRepo.Update(product);
+            return status;
         }
     }
 }

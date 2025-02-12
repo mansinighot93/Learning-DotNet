@@ -1,105 +1,120 @@
-using System;
 using Microsoft.AspNetCore.Mvc;
 using ProductsWebAPI.Models;
 using ProductsWebAPI.Services;
 
-namespace ProductsWebAPI.Controllers
+
+namespace ProductWebApi.Controller
 {
     [ApiController]
-    public class ProductsController : ControllerBase{
+    public class ProductController : ControllerBase
+    {
+        private readonly IProductService _srv;
 
-        //Each action method is mapped to HTTP Request type
-        private IProductService _svc;
-        public ProductsController(IProductService svc)
+        public ProductController(IProductService srv)
         {
-            this._svc = svc;
+            this._srv = srv;
         }
 
-        //action method
         [HttpGet]
         [Route("api/products")]
-        public IActionResult GetProducts(){
-            //invoke service method to resturn products
-            // send received data as message to outside world
-            try{
-                    var message=_svc.GetProducts();
-                    if(message==null){
-                        return NotFound();
-                    }
-                return Ok(message);
+        public IActionResult GetProduct()
+        {
+            try
+            {
+                var products = _srv.GetProducts();
+                if (products == null)
+                {
+                    return NotFound("No products found.");
+                }
+                return Ok(products);
             }
-            catch(Exception){
+            catch (Exception e)
+            {
                 return BadRequest();
             }
         }
-   
-        [HttpPost]
-        [Route("api/products")]
-        public IActionResult Insert([FromBody] Product product){
-            try{
 
-                bool status= _svc.Insert(product);
-                if(status == false){
-                    return BadRequest();
+
+        [HttpPost("api/insert")]
+        public IActionResult Insert([FromBody] Product p)
+        {
+            try
+            {
+                bool status=_srv.Insert(p);
+                if(status)
+                {
+                    return Ok("product inserted");
                 }
-                else{
-                    return Ok();
+                return BadRequest();
+            }
+            catch(Exception e)
+            {
+                return BadRequest();
+            }
+        }
+
+
+
+        [HttpPut("api/update")]
+        public IActionResult Update([FromBody] Product p)
+        {
+            try
+            {
+                bool status = _srv.Update(p);
+                if (status)
+                {
+                    return Ok("product updated");
+                }
+                return BadRequest();
+            }
+            catch (Exception e)
+            {
+                return BadRequest();
+            }
+        }
+
+        [HttpDelete("api/delete/{id}")]
+        public IActionResult Delete(int id)
+        {
+            try
+            {
+                bool status=_srv.Delete(id);
+                if(status)
+                {
+                    return Ok("product deleted ");
+                }
+                return BadRequest();
+            }
+            catch(Exception e)
+            {
+                return BadRequest();
+            }
+        }
+
+        [HttpGet("api/getProduct/{id}")]
+        public IActionResult GetProductById(int id)
+        {
+            try
+            {
+                Product p=_srv.GetProductById(id);
+                if(p!=null)
+                {
+                    return Ok(p);
+                }
+                else
+                {
+                    return Ok("Product not found");
                 }
             }
-            catch(Exception e){
+            catch(Exception e)
+            {
                 Console.WriteLine(e.Message);
                 return BadRequest();
-            }
-        }
- 
-        [HttpGet("api/products/{id}")]
-        public IActionResult GetById(int id){
-             try{
 
-                    var  message= _svc.GetProductById(id);
-                    if(message == null){
-                        return BadRequest();
-                     }
-                    else{
-                        return Ok(message);
-                    }
-            }
-            catch(Exception ){
-                return BadRequest();
             }
         }
+    }
 
-         // GET: api/Products/5
-        [HttpDelete("api/products/{id}")]
-        public IActionResult Delete(int id){
-             try{
-                    bool status= _svc.Delete(id);
-                    if(status == false){
-                        return BadRequest();
-                     }
-                    else{
-                        return Ok();
-                    }
-            }
-            catch(Exception ){
-                return BadRequest();
-            }
-        }
 
-        [HttpPut("api/products")]
-        public IActionResult Update(Product product){
-            try{
-                bool status= _svc.Update(product);
-                if(status == false){
-                    return BadRequest();
-                }
-                else{
-                    return Ok();
-                }
-            }
-            catch(Exception ){
-                return BadRequest();
-            }
-        }
-       }
+   
 }

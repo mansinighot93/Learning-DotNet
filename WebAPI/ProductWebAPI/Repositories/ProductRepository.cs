@@ -1,47 +1,46 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
+using Microsoft.AspNetCore.Mvc.RazorPages;
 using ProductsWebAPI.Models;
+using ProductsWebAPI.Repositories;
+using ProductWebApi.Manager;
 
-namespace ProductsWebAPI.Repositories
+
+namespace ProductWebApi.Repository
 {
-    public class ProductRepository : IProductRepository
+    public class ProductRepo : IProductRepo
     {
-        
-        IProductManager _pManager;
-        
-
-        public ProductRepository(){
-            _pManager=new ProductManager();
-        }
-        public List<Product> GetProducts()
+        public bool Delete(int id)
         {
-                return _pManager.GetAll();
+            ProductManager pm = new ProductManager();
+            bool status = pm.Delete(id);
+            return status;
         }
-    
+
         public Product GetProductById(int id)
         {
-             return _pManager.GetById(id);
-            
+            ProductManager pm = new ProductManager();
+            Product p=pm.GetProductById(id);
+            return p;
         }
-        public bool Insert(Product product){
-        return  _pManager.Insert(product);
-        }
-        public bool Update(Product product){
-           
-            return _pManager.Update(product);
-        }
-        
-        public bool Delete(int id){
-            
 
-            return  _pManager.Delete(id);
-            
+        public List<Product> GetProducts()
+        {
+            ProductManager pm=new ProductManager();
+            List<Product> products=pm.GetProducts();
+            return products;
+        }
+
+        public bool Insert(Product product)
+        {
+            ProductManager pm = new ProductManager();
+            bool status=pm.Insert(product);
+            return status;
+        }
+
+        public bool Update(Product product)
+        {
+            ProductManager pm = new ProductManager();
+            bool status = pm.Update(product);
+            return status;
         }
     }
 }

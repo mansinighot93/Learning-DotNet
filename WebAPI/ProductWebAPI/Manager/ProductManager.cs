@@ -1,63 +1,68 @@
-using System.Collections.Generic;
-using System;
-using System.Linq;
-using ProductsWebAPI.Models;
 using Core.Context;
+using ProductsWebAPI.Models;
 
-namespace ProductsWebAPI.Repositories
+
+namespace ProductWebApi.Manager
 {
     public class ProductManager : IProductManager
     {
         public bool Delete(int id)
         {
-            using(var context = new CollectionContext())
-            {
-                context.Products.Remove(context.Products.Find(id));
-                context.SaveChanges();
-            }
-            return true;
+            bool status=false;
+           using(var context=new CollectionContext())
+           {
+            context.Products.Remove(context.Products.Find(id));
+            context.SaveChanges();
+            status=true;
+           }
+           return status;
         }
 
-        public List<Product> GetAll()
+        public Product GetProductById(int id)
         {
-            using (var context = new CollectionContext())
+            using(var context=new CollectionContext())
             {
-             var products = from prod in context.Products select prod;
-             return products.ToList<Product>();
+                Product p=context.Products.Find(id);
+                return p;
             }
         }
 
-        public Product GetById(int id)
+        public List<Product> GetProducts()
         {
-            using (var context = new CollectionContext())
+            using(var context=new CollectionContext())
             {
-             var product = context.Products.Find(id);
-             return product;
+                var product =from p in context.Products select p;
+                return product.ToList();
+
             }
         }
 
         public bool Insert(Product product)
         {
-            using(var context = new CollectionContext())
+            bool status=false;
+            using(var context=new CollectionContext())
             {
                 context.Products.Add(product);
-                context.SaveChanges(); 
+                context.SaveChanges();
+                status=true;
             }
-            return true;
+            return status;
         }
 
         public bool Update(Product product)
         {
-            using(var context = new CollectionContext())
+            bool status = false;
+            using (var context = new CollectionContext())
             {
-                var theProduct = context.Products.Find(product.Id);
-                theProduct.Title =product.Title;
-                theProduct.Quantity=product.Quantity;
-                theProduct.Description=product.Description;
-                theProduct.UnitPrice=product.UnitPrice;
+                var p=context.Products.Find(product.Id);
+                p.Title=product.Title;
+                p.UnitPrice=product.UnitPrice;
+                p.Description=product.Description;
+                p.Quantity=product.Quantity;
                 context.SaveChanges();
+                status=true;
             }
-            return true;
+            return status;
         }
     }
 }

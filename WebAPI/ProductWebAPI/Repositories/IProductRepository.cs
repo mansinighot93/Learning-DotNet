@@ -4,7 +4,7 @@ using ProductsWebAPI.Models;
 
 namespace ProductsWebAPI.Repositories
 {
-    public interface IProductRepository
+    public interface IProductRepo
     {
         List<Product> GetProducts();
          Product GetProductById(int id);
