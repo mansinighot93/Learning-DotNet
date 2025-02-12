@@ -37,7 +37,7 @@ namespace ProductsWebAPI.Controllers
         }
    
         [HttpPost]
-        [Route("api/products")]
+        [Route("api/insert")]
         public IActionResult Insert([FromBody] Product product){
             try
             {
@@ -58,7 +58,7 @@ namespace ProductsWebAPI.Controllers
             }
         }
  
-        [HttpGet("api/products/{id}")]
+        [HttpGet("api/productsbyid/{id}")]
         public IActionResult GetById(int id){
              try{
 
@@ -77,7 +77,7 @@ namespace ProductsWebAPI.Controllers
         }
 
          // GET: api/Products/5
-        [HttpDelete("api/products/{id}")]
+        [HttpDelete("api/delete/{id}")]
         public IActionResult Delete(int id){
              try
              {
@@ -97,7 +97,7 @@ namespace ProductsWebAPI.Controllers
             }
         }
 
-        [HttpPut("api/products")]
+        [HttpPut("api/update")]
         public IActionResult Update(Product product){
             try
             {
