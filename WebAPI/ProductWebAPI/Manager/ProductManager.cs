@@ -32,7 +32,7 @@ namespace ProductWebApi.Manager
             using(var context=new CollectionContext())
             {
                 var product =from p in context.Products select p;
-                return product.ToList();
+                return product.ToList<Product>();
 
             }
         }

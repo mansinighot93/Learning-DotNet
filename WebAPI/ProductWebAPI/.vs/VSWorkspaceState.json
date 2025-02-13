@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Contexts",
+    "\\Controller",
+    "\\Manager",
+    "\\Models",
+    "\\Repositories",
+    "\\Services"
+  ],
+  "SelectedNode": "\\Manager\\ProductManager.cs",
+  "PreviewInSolutionExplorer": false
+}

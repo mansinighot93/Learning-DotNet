@@ -28,7 +28,7 @@ namespace ProductWebApi.Controller
                 }
                 return Ok(products);
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 return BadRequest();
             }
