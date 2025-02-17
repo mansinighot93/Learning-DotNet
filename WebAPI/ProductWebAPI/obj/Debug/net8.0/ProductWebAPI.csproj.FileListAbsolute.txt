@@ -120,4 +120,3 @@ D:\Learning C#\Learning-DotNet\WebAPI\ProductWebAPI\obj\Debug\net8.0\refint\Prod
 D:\Learning C#\Learning-DotNet\WebAPI\ProductWebAPI\obj\Debug\net8.0\ProductWebAPI.pdb
 D:\Learning C#\Learning-DotNet\WebAPI\ProductWebAPI\obj\Debug\net8.0\ProductWebAPI.genruntimeconfig.cache
 D:\Learning C#\Learning-DotNet\WebAPI\ProductWebAPI\obj\Debug\net8.0\ref\ProductWebAPI.dll
-D:\Learning C#\Learning-DotNet\WebAPI\ProductWebAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
