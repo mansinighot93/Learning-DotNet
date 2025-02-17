@@ -13,9 +13,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddTransient<IProductRepo, ProductRepo>();
-
 builder.Services.AddTransient<IProductService, ProductService>();
-
 builder.Services.AddTransient<IProductManager,ProductManager>();
 
 var app = builder.Build();
@@ -27,9 +25,6 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 app.UseHttpsRedirection();
-
 app.UseAuthorization();
-
 app.MapControllers();
-
 app.Run();
