@@ -1,0 +1,15 @@
+D:\Learning C#\Learning-DotNet\FileIO\FileStreamIOApp\bin\Debug\net9.0\FileStreamIOApp.exe
+D:\Learning C#\Learning-DotNet\FileIO\FileStreamIOApp\bin\Debug\net9.0\FileStreamIOApp.deps.json
+D:\Learning C#\Learning-DotNet\FileIO\FileStreamIOApp\bin\Debug\net9.0\FileStreamIOApp.runtimeconfig.json
+D:\Learning C#\Learning-DotNet\FileIO\FileStreamIOApp\bin\Debug\net9.0\FileStreamIOApp.dll
+D:\Learning C#\Learning-DotNet\FileIO\FileStreamIOApp\bin\Debug\net9.0\FileStreamIOApp.pdb
+D:\Learning C#\Learning-DotNet\FileIO\FileStreamIOApp\obj\Debug\net9.0\FileStreamIOApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Learning C#\Learning-DotNet\FileIO\FileStreamIOApp\obj\Debug\net9.0\FileStreamIOApp.AssemblyInfoInputs.cache
+D:\Learning C#\Learning-DotNet\FileIO\FileStreamIOApp\obj\Debug\net9.0\FileStreamIOApp.AssemblyInfo.cs
+D:\Learning C#\Learning-DotNet\FileIO\FileStreamIOApp\obj\Debug\net9.0\FileStreamIOApp.csproj.CoreCompileInputs.cache
+D:\Learning C#\Learning-DotNet\FileIO\FileStreamIOApp\obj\Debug\net9.0\FileStreamIOApp.sourcelink.json
+D:\Learning C#\Learning-DotNet\FileIO\FileStreamIOApp\obj\Debug\net9.0\FileStreamIOApp.dll
+D:\Learning C#\Learning-DotNet\FileIO\FileStreamIOApp\obj\Debug\net9.0\refint\FileStreamIOApp.dll
+D:\Learning C#\Learning-DotNet\FileIO\FileStreamIOApp\obj\Debug\net9.0\FileStreamIOApp.pdb
+D:\Learning C#\Learning-DotNet\FileIO\FileStreamIOApp\obj\Debug\net9.0\FileStreamIOApp.genruntimeconfig.cache
+D:\Learning C#\Learning-DotNet\FileIO\FileStreamIOApp\obj\Debug\net9.0\ref\FileStreamIOApp.dll
