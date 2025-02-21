@@ -1,0 +1,15 @@
+D:\Learning C#\Learning-DotNet\FileIOApp\bin\Debug\net9.0\FileIOApp.exe
+D:\Learning C#\Learning-DotNet\FileIOApp\bin\Debug\net9.0\FileIOApp.deps.json
+D:\Learning C#\Learning-DotNet\FileIOApp\bin\Debug\net9.0\FileIOApp.runtimeconfig.json
+D:\Learning C#\Learning-DotNet\FileIOApp\bin\Debug\net9.0\FileIOApp.dll
+D:\Learning C#\Learning-DotNet\FileIOApp\bin\Debug\net9.0\FileIOApp.pdb
+D:\Learning C#\Learning-DotNet\FileIOApp\obj\Debug\net9.0\FileIOApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Learning C#\Learning-DotNet\FileIOApp\obj\Debug\net9.0\FileIOApp.AssemblyInfoInputs.cache
+D:\Learning C#\Learning-DotNet\FileIOApp\obj\Debug\net9.0\FileIOApp.AssemblyInfo.cs
+D:\Learning C#\Learning-DotNet\FileIOApp\obj\Debug\net9.0\FileIOApp.csproj.CoreCompileInputs.cache
+D:\Learning C#\Learning-DotNet\FileIOApp\obj\Debug\net9.0\FileIOApp.sourcelink.json
+D:\Learning C#\Learning-DotNet\FileIOApp\obj\Debug\net9.0\FileIOApp.dll
+D:\Learning C#\Learning-DotNet\FileIOApp\obj\Debug\net9.0\refint\FileIOApp.dll
+D:\Learning C#\Learning-DotNet\FileIOApp\obj\Debug\net9.0\FileIOApp.pdb
+D:\Learning C#\Learning-DotNet\FileIOApp\obj\Debug\net9.0\FileIOApp.genruntimeconfig.cache
+D:\Learning C#\Learning-DotNet\FileIOApp\obj\Debug\net9.0\ref\FileIOApp.dll
