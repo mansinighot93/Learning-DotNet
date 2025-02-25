@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FileStreamIOApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a6d1c10ab36e3bd896b7e0500e5c7703b7e26a78")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fe62c99db62e0bbc61252434b5a87130505d9cfb")]
 [assembly: System.Reflection.AssemblyProductAttribute("FileStreamIOApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FileStreamIOApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

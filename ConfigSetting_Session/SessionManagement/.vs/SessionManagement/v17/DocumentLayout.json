@@ -3,6 +3,9 @@
   "WorkspaceRootPath": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{41D2AD9C-4751-4EE8-9185-571FC8D9B8CC}|..\\..\\EntityFrameworkSolution\\PrimaryForeinKeyEF\\PrimaryForeinKeyEF.csproj|d:\\learning c#\\learning-dotnet\\entityframeworksolution\\primaryforeinkeyef\\context\\collectioncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|d:\\learning c#\\learning-dotnet\\configsetting_session\\sessionmanagement\\repositories\\transactionsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|solutionrelative:repositories\\transactionsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -260,9 +263,6 @@
       "AbsoluteMoniker": "D:0:0:{41D2AD9C-4751-4EE8-9185-571FC8D9B8CC}|..\\..\\EntityFrameworkSolution\\PrimaryForeinKeyEF\\PrimaryForeinKeyEF.csproj|d:\\learning c#\\learning-dotnet\\entityframeworksolution\\primaryforeinkeyef\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{41D2AD9C-4751-4EE8-9185-571FC8D9B8CC}|..\\..\\EntityFrameworkSolution\\PrimaryForeinKeyEF\\PrimaryForeinKeyEF.csproj|d:\\learning c#\\learning-dotnet\\entityframeworksolution\\primaryforeinkeyef\\context\\collectioncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|d:\\learning c#\\learning-dotnet\\configsetting_session\\sessionmanagement\\views\\auth\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{26D0B4A6-3108-4B56-ADAE-8AA117623E1A}|SessionManagement.csproj|solutionrelative:views\\auth\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -318,19 +318,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 16,
+          "SelectedChildIndex": 37,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Update.cshtml.cs",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Views\\Transactions\\Update.cshtml.cs",
               "RelativeDocumentMoniker": "Views\\Transactions\\Update.cshtml.cs",
@@ -338,12 +330,11 @@
               "RelativeToolTip": "Views\\Transactions\\Update.cshtml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-10T10:56:22.87Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-10T10:56:22.87Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Update.cshtml",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Views\\Transactions\\Update.cshtml",
               "RelativeDocumentMoniker": "Views\\Transactions\\Update.cshtml",
@@ -351,12 +342,11 @@
               "RelativeToolTip": "Views\\Transactions\\Update.cshtml",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAwBcAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-10T10:43:21.654Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-10T10:43:21.654Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "IAccountRepository.cs",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Repositories\\Interfaces\\IAccountRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\Interfaces\\IAccountRepository.cs",
@@ -364,12 +354,11 @@
               "RelativeToolTip": "Repositories\\Interfaces\\IAccountRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T09:47:28.994Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-04T09:47:28.994Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Insert.cshtml",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Views\\Cards\\Insert.cshtml",
               "RelativeDocumentMoniker": "Views\\Cards\\Insert.cshtml",
@@ -377,12 +366,11 @@
               "RelativeToolTip": "Views\\Cards\\Insert.cshtml",
               "ViewState": "AgIAABsAAAAAAAAAAAAAABwAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-10T10:32:35.595Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-10T10:32:35.595Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "RepoCollectionContext.cs",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Repositories\\RepoCollectionContext.cs",
               "RelativeDocumentMoniker": "Repositories\\RepoCollectionContext.cs",
@@ -390,12 +378,11 @@
               "RelativeToolTip": "Repositories\\RepoCollectionContext.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAjwBYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T09:25:28.793Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-27T09:25:28.793Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Insert.cshtml",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Views\\Transactions\\Insert.cshtml",
               "RelativeDocumentMoniker": "Views\\Transactions\\Insert.cshtml",
@@ -403,12 +390,11 @@
               "RelativeToolTip": "Views\\Transactions\\Insert.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-10T10:38:16.818Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-10T10:38:16.818Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Update.cshtml",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Views\\Cards\\Update.cshtml",
               "RelativeDocumentMoniker": "Views\\Cards\\Update.cshtml",
@@ -416,12 +402,11 @@
               "RelativeToolTip": "Views\\Cards\\Update.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-10T10:32:51.091Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-10T10:32:51.091Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Update.cshtml",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\EntityFrameworkSolution\\PrimaryForeinKeyEF\\Views\\Employees\\Update.cshtml",
               "RelativeDocumentMoniker": "..\\..\\EntityFrameworkSolution\\PrimaryForeinKeyEF\\Views\\Employees\\Update.cshtml",
@@ -429,12 +414,11 @@
               "RelativeToolTip": "..\\..\\EntityFrameworkSolution\\PrimaryForeinKeyEF\\Views\\Employees\\Update.cshtml",
               "ViewState": "AgIAAA0AAAAAAAAAAAAIwA8AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-10T10:15:59.969Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-10T10:15:59.969Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Insert.cshtml",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Views\\Accounts\\Insert.cshtml",
               "RelativeDocumentMoniker": "Views\\Accounts\\Insert.cshtml",
@@ -442,12 +426,11 @@
               "RelativeToolTip": "Views\\Accounts\\Insert.cshtml",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-10T10:12:30.583Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-10T10:12:30.583Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Update.cshtml",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Views\\Accounts\\Update.cshtml",
               "RelativeDocumentMoniker": "Views\\Accounts\\Update.cshtml",
@@ -455,12 +438,11 @@
               "RelativeToolTip": "Views\\Accounts\\Update.cshtml",
               "ViewState": "AgIAABYAAAAAAAAAAAAIwBgAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-10T10:12:10.958Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-10T10:12:10.958Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Details.cshtml",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Views\\Transactions\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Transactions\\Details.cshtml",
@@ -468,12 +450,11 @@
               "RelativeToolTip": "Views\\Transactions\\Details.cshtml",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-10T09:36:27.619Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-10T09:36:27.619Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Views\\Transactions\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Transactions\\Index.cshtml",
@@ -481,12 +462,11 @@
               "RelativeToolTip": "Views\\Transactions\\Index.cshtml",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-10T09:36:07.686Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-10T09:36:07.686Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "TransactionService.cs",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Services\\TransactionService.cs",
               "RelativeDocumentMoniker": "Services\\TransactionService.cs",
@@ -494,12 +474,11 @@
               "RelativeToolTip": "Services\\TransactionService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-10T09:23:56.432Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-10T09:23:56.432Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "ITransactionService.cs",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Services\\Interfaces\\ITransactionService.cs",
               "RelativeDocumentMoniker": "Services\\Interfaces\\ITransactionService.cs",
@@ -507,12 +486,11 @@
               "RelativeToolTip": "Services\\Interfaces\\ITransactionService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-10T09:23:35.181Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-10T09:23:35.181Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "TransactionsRepository.cs",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Repositories\\TransactionsRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\TransactionsRepository.cs",
@@ -520,12 +498,11 @@
               "RelativeToolTip": "Repositories\\TransactionsRepository.cs",
               "ViewState": "AgIAAB0AAAAAAAAAAAAewCAAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-10T09:23:00.778Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-10T09:23:00.778Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "ITransactionsRepository.cs",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Repositories\\Interfaces\\ITransactionsRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\Interfaces\\ITransactionsRepository.cs",
@@ -533,12 +510,11 @@
               "RelativeToolTip": "Repositories\\Interfaces\\ITransactionsRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-10T09:22:21.024Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-10T09:22:21.024Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "TransactionsController.cs",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Controllers\\TransactionsController.cs",
               "RelativeDocumentMoniker": "Controllers\\TransactionsController.cs",
@@ -546,12 +522,11 @@
               "RelativeToolTip": "Controllers\\TransactionsController.cs",
               "ViewState": "AgIAADUAAAAAAAAAAAAswEIAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-10T09:13:45.209Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-10T09:13:45.209Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Details.cshtml",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Views\\Cards\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Cards\\Details.cshtml",
@@ -559,12 +534,11 @@
               "RelativeToolTip": "Views\\Cards\\Details.cshtml",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAABUAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-10T05:52:14.584Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-10T05:52:14.584Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "Details.cshtml",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Views\\Accounts\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Accounts\\Details.cshtml",
@@ -572,12 +546,11 @@
               "RelativeToolTip": "Views\\Accounts\\Details.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-10T05:48:09.383Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-10T05:48:09.383Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "Details.cshtml",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\EntityFrameworkSolution\\PrimaryForeinKeyEF\\Views\\Employees\\Details.cshtml",
               "RelativeDocumentMoniker": "..\\..\\EntityFrameworkSolution\\PrimaryForeinKeyEF\\Views\\Employees\\Details.cshtml",
@@ -589,7 +562,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Views\\Accounts\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Accounts\\Index.cshtml",
@@ -597,12 +570,11 @@
               "RelativeToolTip": "Views\\Accounts\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-10T05:44:46.735Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-10T05:44:46.735Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\EntityFrameworkSolution\\PrimaryForeinKeyEF\\Views\\Employees\\Index.cshtml",
               "RelativeDocumentMoniker": "..\\..\\EntityFrameworkSolution\\PrimaryForeinKeyEF\\Views\\Employees\\Index.cshtml",
@@ -614,7 +586,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Views\\Cards\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Cards\\Index.cshtml",
@@ -622,12 +594,11 @@
               "RelativeToolTip": "Views\\Cards\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-10T05:42:18.131Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-10T05:42:18.131Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "CardsController.cs",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Controllers\\CardsController.cs",
               "RelativeDocumentMoniker": "Controllers\\CardsController.cs",
@@ -639,7 +610,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "CardRepository.cs",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Repositories\\CardRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\CardRepository.cs",
@@ -651,7 +622,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "ICardRepository.cs",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Repositories\\Interfaces\\ICardRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\Interfaces\\ICardRepository.cs",
@@ -663,7 +634,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "CardService.cs",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Services\\CardService.cs",
               "RelativeDocumentMoniker": "Services\\CardService.cs",
@@ -675,7 +646,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 46,
               "Title": "ICardService.cs",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Services\\Interfaces\\ICardService.cs",
               "RelativeDocumentMoniker": "Services\\Interfaces\\ICardService.cs",
@@ -687,7 +658,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "AccountService.cs",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Services\\AccountService.cs",
               "RelativeDocumentMoniker": "Services\\AccountService.cs",
@@ -695,12 +666,11 @@
               "RelativeToolTip": "Services\\AccountService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T09:49:55.711Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-04T09:49:55.711Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "AccountRepository.cs",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Repositories\\AccountRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\AccountRepository.cs",
@@ -708,12 +678,11 @@
               "RelativeToolTip": "Repositories\\AccountRepository.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAcwCkAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T09:48:32.134Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-04T09:48:32.134Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "IAccountService.cs",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Services\\Interfaces\\IAccountService.cs",
               "RelativeDocumentMoniker": "Services\\Interfaces\\IAccountService.cs",
@@ -721,12 +690,11 @@
               "RelativeToolTip": "Services\\Interfaces\\IAccountService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T09:46:33.614Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-04T09:46:33.614Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "AccountsController.cs",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Controllers\\AccountsController.cs",
               "RelativeDocumentMoniker": "Controllers\\AccountsController.cs",
@@ -734,12 +702,11 @@
               "RelativeToolTip": "Controllers\\AccountsController.cs",
               "ViewState": "AgIAACMAAAAAAAAAAAAIwC4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T09:44:25.884Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-04T09:44:25.884Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Card.cs",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Models\\Card.cs",
               "RelativeDocumentMoniker": "Models\\Card.cs",
@@ -747,12 +714,11 @@
               "RelativeToolTip": "Models\\Card.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T09:25:41.534Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-04T09:25:41.534Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Transaction.cs",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Models\\Transaction.cs",
               "RelativeDocumentMoniker": "Models\\Transaction.cs",
@@ -760,12 +726,11 @@
               "RelativeToolTip": "Models\\Transaction.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T09:17:41.011Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-04T09:17:41.011Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Account.cs",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Models\\Account.cs",
               "RelativeDocumentMoniker": "Models\\Account.cs",
@@ -773,12 +738,11 @@
               "RelativeToolTip": "Models\\Account.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T09:11:50.138Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-04T09:11:50.138Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 62,
               "Title": "Details.cshtml",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Views\\Orders\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Orders\\Details.cshtml",
@@ -790,7 +754,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 66,
               "Title": "Department.cs",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\EntityFrameworkSolution\\PrimaryForeinKeyEF\\Models\\Department.cs",
               "RelativeDocumentMoniker": "..\\..\\EntityFrameworkSolution\\PrimaryForeinKeyEF\\Models\\Department.cs",
@@ -802,19 +766,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 0,
               "Title": "CollectionContext.cs",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\EntityFrameworkSolution\\PrimaryForeinKeyEF\\Context\\CollectionContext.cs",
               "RelativeDocumentMoniker": "..\\..\\EntityFrameworkSolution\\PrimaryForeinKeyEF\\Context\\CollectionContext.cs",
               "ToolTip": "D:\\Learning C#\\Learning-DotNet\\EntityFrameworkSolution\\PrimaryForeinKeyEF\\Context\\CollectionContext.cs",
               "RelativeToolTip": "..\\..\\EntityFrameworkSolution\\PrimaryForeinKeyEF\\Context\\CollectionContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T09:04:25.973Z"
+              "WhenOpened": "2025-02-03T09:04:25.973Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 44,
               "Title": "EmployeeService.cs",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\EntityFrameworkSolution\\PrimaryForeinKeyEF\\Services\\EmployeeService.cs",
               "RelativeDocumentMoniker": "..\\..\\EntityFrameworkSolution\\PrimaryForeinKeyEF\\Services\\EmployeeService.cs",
@@ -822,12 +787,11 @@
               "RelativeToolTip": "..\\..\\EntityFrameworkSolution\\PrimaryForeinKeyEF\\Services\\EmployeeService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T12:34:20.18Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-30T12:34:20.18Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "EmployeesController.cs",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\EntityFrameworkSolution\\PrimaryForeinKeyEF\\Controllers\\EmployeesController.cs",
               "RelativeDocumentMoniker": "..\\..\\EntityFrameworkSolution\\PrimaryForeinKeyEF\\Controllers\\EmployeesController.cs",
@@ -835,12 +799,11 @@
               "RelativeToolTip": "..\\..\\EntityFrameworkSolution\\PrimaryForeinKeyEF\\Controllers\\EmployeesController.cs",
               "ViewState": "AgIAACwAAAAAAAAAAAAUwCoAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T12:28:20.557Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-30T12:28:20.557Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 43,
               "Title": "EmployeeRepository.cs",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\EntityFrameworkSolution\\PrimaryForeinKeyEF\\Repositories\\EmployeeRepository.cs",
               "RelativeDocumentMoniker": "..\\..\\EntityFrameworkSolution\\PrimaryForeinKeyEF\\Repositories\\EmployeeRepository.cs",
@@ -848,12 +811,11 @@
               "RelativeToolTip": "..\\..\\EntityFrameworkSolution\\PrimaryForeinKeyEF\\Repositories\\EmployeeRepository.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAUwCMAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T12:28:20.62Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-30T12:28:20.62Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 52,
               "Title": "FlowersController.cs",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Controllers\\FlowersController.cs",
               "RelativeDocumentMoniker": "Controllers\\FlowersController.cs",
@@ -865,7 +827,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 47,
               "Title": "IOrderService.cs",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Services\\Interfaces\\IOrderService.cs",
               "RelativeDocumentMoniker": "Services\\Interfaces\\IOrderService.cs",
@@ -913,7 +875,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 60,
               "Title": "FlowerRepository.cs",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Repositories\\FlowerRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\FlowerRepository.cs",
@@ -925,7 +887,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 64,
               "Title": "OrdersController.cs",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Controllers\\OrdersController.cs",
               "RelativeDocumentMoniker": "Controllers\\OrdersController.cs",
@@ -949,7 +911,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 59,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
@@ -985,7 +947,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 63,
               "Title": "Insert.cshtml",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Views\\Orders\\Insert.cshtml",
               "RelativeDocumentMoniker": "Views\\Orders\\Insert.cshtml",
@@ -1021,7 +983,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 42,
               "Title": "OrderRepository.cs",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Repositories\\OrderRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\OrderRepository.cs",
@@ -1033,7 +995,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 65,
               "Title": "IOrderRepository.cs",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Repositories\\Interfaces\\IOrderRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\Interfaces\\IOrderRepository.cs",
@@ -1045,7 +1007,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 45,
               "Title": "OrderService.cs",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Services\\OrderService.cs",
               "RelativeDocumentMoniker": "Services\\OrderService.cs",
@@ -1057,7 +1019,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "OrderConfirmation.cshtml",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Views\\ShoppingCart\\OrderConfirmation.cshtml",
               "RelativeDocumentMoniker": "Views\\ShoppingCart\\OrderConfirmation.cshtml",
@@ -1069,7 +1031,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 53,
               "Title": "Order.cs",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Models\\Order.cs",
               "RelativeDocumentMoniker": "Models\\Order.cs",
@@ -1081,7 +1043,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Models\\User.cs",
               "RelativeDocumentMoniker": "Models\\User.cs",
@@ -1117,7 +1079,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 48,
               "Title": "AuthServices.cs",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Services\\AuthServices.cs",
               "RelativeDocumentMoniker": "Services\\AuthServices.cs",
@@ -1129,7 +1091,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 51,
               "Title": "IAuthServices.cs",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Services\\Interfaces\\IAuthServices.cs",
               "RelativeDocumentMoniker": "Services\\Interfaces\\IAuthServices.cs",
@@ -1141,7 +1103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 49,
               "Title": "AuthRepository.cs",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Repositories\\AuthRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\AuthRepository.cs",
@@ -1153,7 +1115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 50,
               "Title": "IAuthRepository.cs",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Repositories\\Interfaces\\IAuthRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\Interfaces\\IAuthRepository.cs",
@@ -1177,7 +1139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 55,
               "Title": "Login.cshtml",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Views\\Auth\\Login.cshtml",
               "RelativeDocumentMoniker": "Views\\Auth\\Login.cshtml",
@@ -1189,7 +1151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "AuthController.cs",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
@@ -1201,7 +1163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "Cart.cs",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Models\\Cart.cs",
               "RelativeDocumentMoniker": "Models\\Cart.cs",
@@ -1213,7 +1175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 54,
               "Title": "Flower.cs",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Models\\Flower.cs",
               "RelativeDocumentMoniker": "Models\\Flower.cs",
@@ -1225,7 +1187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 58,
               "Title": "Item.cs",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Models\\Item.cs",
               "RelativeDocumentMoniker": "Models\\Item.cs",
@@ -1237,7 +1199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 57,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Views\\ShoppingCart\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\ShoppingCart\\Index.cshtml",
@@ -1261,7 +1223,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 61,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Views\\Orders\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Orders\\Index.cshtml",
@@ -1273,7 +1235,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 56,
               "Title": "BuyNow.cshtml",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Views\\ShoppingCart\\BuyNow.cshtml",
               "RelativeDocumentMoniker": "Views\\ShoppingCart\\BuyNow.cshtml",
@@ -1285,7 +1247,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "ShoppingCartController.cs",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Controllers\\ShoppingCartController.cs",
               "RelativeDocumentMoniker": "Controllers\\ShoppingCartController.cs",
@@ -1297,7 +1259,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Learning C#\\Learning-DotNet\\ConfigSetting_Session\\SessionManagement\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -1305,8 +1267,15 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAABsAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T05:21:44.077Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-27T05:21:44.077Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
             }
           ]
         }

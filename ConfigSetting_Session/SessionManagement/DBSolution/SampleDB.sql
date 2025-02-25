@@ -62,6 +62,5 @@ INSERT INTO Transactions (Amount, TransactionDate, ToAccountId, FromAccountId) V
 (300, NOW(), 1, 1),
 (200, NOW(), 2, 1);
 
-
 SELECT * FROM Accounts;
 Select * from Transactions;

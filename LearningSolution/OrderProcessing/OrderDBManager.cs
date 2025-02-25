@@ -11,7 +11,7 @@ namespace OrderProcessing
     public  static class OrderDBManager
     {
        
-        public static string conString = @"server=localhost;user=root;database=learningapp;password='password'";
+        public static string conString = @"server=localhost;user=root;database=onlineshopping;password='password'";
         public static List<Orders> GetAll() 
         {
             List<Orders> customers = new List<Orders>();

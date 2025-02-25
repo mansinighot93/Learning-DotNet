@@ -8,7 +8,7 @@ namespace Membership
 {
  public static class SecurityManager
     {
-        public static string conString=@"server=localhost;user=root;database=CRM;password='root'";
+        public static string conString=@"server=localhost;user=root;database=onlineshopping;password='root'";
         public static List<User> GetAll()
         {
            List<User> allUsers=new List<User>();

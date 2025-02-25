@@ -54,7 +54,6 @@ namespace ProductWebApi.Controller
         }
 
 
-
         [HttpPut("api/update")]
         public IActionResult Update([FromBody] Product p)
         {

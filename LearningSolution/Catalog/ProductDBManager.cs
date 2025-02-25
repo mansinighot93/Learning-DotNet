@@ -7,7 +7,7 @@ namespace Catalog
 {
     public  static class ProductDBManager
     {
-        public static string conString = @"server=localhost;user=root;database=learningapp;password='password'";
+        public static string conString = @"server=localhost;user=root;database=onlineshopping;password='password'";
         public static List<Product> GetAll() 
         {
             List<Product> products = new List<Product>();

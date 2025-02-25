@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PrimaryForeinKeyEF")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3039f9dd751f2c01ec75be23d6b67ac73d7bc56b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a08acfdf76990ac25ff7d4a32e3a99b9983a60f1")]
 [assembly: System.Reflection.AssemblyProductAttribute("PrimaryForeinKeyEF")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PrimaryForeinKeyEF")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
