@@ -5,6 +5,8 @@ using WebApi.Models;
 using WebApi.Helpers;
 using System.Security.Claims;
 using System.Text;
+using Microsoft.IdentityModel.Tokens;
+using System.IdentityModel.Tokens.Jwt;
 
 namespace WebApi.Services
 {
