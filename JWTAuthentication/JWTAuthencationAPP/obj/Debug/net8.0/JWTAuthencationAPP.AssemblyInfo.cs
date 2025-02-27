@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JWTAuthencationAPP")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+34dd4020ca2eb2786e635913c0346c76acd79390")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ab704abac70054152a8775f4fa76672ebb60a3a1")]
 [assembly: System.Reflection.AssemblyProductAttribute("JWTAuthencationAPP")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JWTAuthencationAPP")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
